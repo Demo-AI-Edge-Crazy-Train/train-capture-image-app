@@ -1,0 +1,899 @@
+1708963300: mosquitto version 2.0.18 starting
+1708963300: Config loaded from /mosquitto/config/mosquitto.conf.
+1708963300: Opening ipv4 listen socket on port 1883.
+1708963300: mosquitto version 2.0.18 running
+1708963356: New connection from 192.168.127.1:57861 on port 1883.
+1708963356: New client connected from 192.168.127.1:57861 as a1630e30-05a1-40f4-ae97-ae87305f1adc (p2, c1, k30).
+1708963356: Client a1630e30-05a1-40f4-ae97-ae87305f1adc disconnected.
+1708963459: New connection from 192.168.127.1:57862 on port 1883.
+1708963459: New client connected from 192.168.127.1:57862 as 6e66a358-53eb-45ad-ac6b-e2edc519ec62 (p2, c1, k30).
+1708963459: Client 6e66a358-53eb-45ad-ac6b-e2edc519ec62 disconnected.
+1708963507: New connection from 192.168.127.1:57863 on port 1883.
+1708963507: New client connected from 192.168.127.1:57863 as da7bd23b-735e-4490-88bb-08cef71527e1 (p2, c1, k30).
+1708963507: Client da7bd23b-735e-4490-88bb-08cef71527e1 disconnected.
+1708963566: New connection from 192.168.127.1:57864 on port 1883.
+1708963566: New client connected from 192.168.127.1:57864 as f62f0577-ca2c-46c1-b2a5-97e8d5c7d4ed (p2, c1, k30).
+1708963604: New connection from 192.168.127.1:57865 on port 1883.
+1708963604: New client connected from 192.168.127.1:57865 as paho369904493110750 (p2, c1, k60).
+1708963610: Client f62f0577-ca2c-46c1-b2a5-97e8d5c7d4ed disconnected.
+1708963611: New connection from 192.168.127.1:57866 on port 1883.
+1708963611: New client connected from 192.168.127.1:57866 as 6932edcf-5c28-4f86-837e-7a99ab213872 (p2, c1, k30).
+1708963611: Client 6932edcf-5c28-4f86-837e-7a99ab213872 disconnected: Broken pipe.
+1708963612: New connection from 192.168.127.1:57867 on port 1883.
+1708963612: New client connected from 192.168.127.1:57867 as fadc44fc-6484-4c85-addc-d44421526167 (p2, c1, k30).
+1708963613: Client fadc44fc-6484-4c85-addc-d44421526167 disconnected.
+1708963614: New connection from 192.168.127.1:57868 on port 1883.
+1708963614: New client connected from 192.168.127.1:57868 as 20ea632b-69e5-4cf0-84a9-e658c2cab385 (p2, c1, k30).
+1708963614: Client 20ea632b-69e5-4cf0-84a9-e658c2cab385 disconnected: Broken pipe.
+1708963615: New connection from 192.168.127.1:57869 on port 1883.
+1708963615: New client connected from 192.168.127.1:57869 as 66421c61-5e9f-41d8-8010-51fdff04f9ab (p2, c1, k30).
+1708963615: Client 66421c61-5e9f-41d8-8010-51fdff04f9ab disconnected.
+1708963616: New connection from 192.168.127.1:57870 on port 1883.
+1708963616: New client connected from 192.168.127.1:57870 as 390f0096-61c2-4355-b0e4-7d9ddd2f26cb (p2, c1, k30).
+1708963617: Client 390f0096-61c2-4355-b0e4-7d9ddd2f26cb disconnected: Broken pipe.
+1708963618: New connection from 192.168.127.1:57871 on port 1883.
+1708963618: New client connected from 192.168.127.1:57871 as 6acab1ec-b522-4cdc-8d3b-db8a41281f2f (p2, c1, k30).
+1708963618: Client 6acab1ec-b522-4cdc-8d3b-db8a41281f2f disconnected: Broken pipe.
+1708963619: New connection from 192.168.127.1:57872 on port 1883.
+1708963619: New client connected from 192.168.127.1:57872 as 4dcf7123-0654-41f7-8649-eb8f28317297 (p2, c1, k30).
+1708963619: Client 4dcf7123-0654-41f7-8649-eb8f28317297 disconnected: Broken pipe.
+1708963620: New connection from 192.168.127.1:57873 on port 1883.
+1708963620: New client connected from 192.168.127.1:57873 as fe509bf8-d65a-45ba-ab46-61b9e184e91f (p2, c1, k30).
+1708963621: Client fe509bf8-d65a-45ba-ab46-61b9e184e91f closed its connection.
+1708963622: New connection from 192.168.127.1:57874 on port 1883.
+1708963622: New client connected from 192.168.127.1:57874 as 597d5b15-8533-42dc-b312-7b683fb6292e (p2, c1, k30).
+1708963622: Client 597d5b15-8533-42dc-b312-7b683fb6292e disconnected: Broken pipe.
+1708963623: New connection from 192.168.127.1:57875 on port 1883.
+1708963623: New client connected from 192.168.127.1:57875 as 453f539d-d2f0-49c8-ab12-7153ab40b47d (p2, c1, k30).
+1708963623: Client 453f539d-d2f0-49c8-ab12-7153ab40b47d disconnected.
+1708963624: New connection from 192.168.127.1:57876 on port 1883.
+1708963624: New client connected from 192.168.127.1:57876 as 76241421-5788-4a0b-b44e-3c2c47e00ead (p2, c1, k30).
+1708963625: Client 76241421-5788-4a0b-b44e-3c2c47e00ead disconnected.
+1708963626: New connection from 192.168.127.1:57877 on port 1883.
+1708963626: New client connected from 192.168.127.1:57877 as 8e7ae1b7-ea35-479a-b771-2e2ad1c897b6 (p2, c1, k30).
+1708963626: Client 8e7ae1b7-ea35-479a-b771-2e2ad1c897b6 disconnected.
+1708963627: New connection from 192.168.127.1:57878 on port 1883.
+1708963627: New client connected from 192.168.127.1:57878 as 722b0f1a-d245-443c-88f8-855a70f195d7 (p2, c1, k30).
+1708963627: Client 722b0f1a-d245-443c-88f8-855a70f195d7 disconnected: Broken pipe.
+1708963628: New connection from 192.168.127.1:57879 on port 1883.
+1708963628: New client connected from 192.168.127.1:57879 as 9924ff14-5da9-40f8-a10b-066f01d19531 (p2, c1, k30).
+1708963629: Client 9924ff14-5da9-40f8-a10b-066f01d19531 disconnected: Broken pipe.
+1708963630: New connection from 192.168.127.1:57880 on port 1883.
+1708963630: New client connected from 192.168.127.1:57880 as 23a47dde-eed2-45b0-9ebe-c7aa4dc88271 (p2, c1, k30).
+1708963630: Client 23a47dde-eed2-45b0-9ebe-c7aa4dc88271 disconnected: Broken pipe.
+1708963631: New connection from 192.168.127.1:57881 on port 1883.
+1708963631: New client connected from 192.168.127.1:57881 as a6c3d2c3-d64e-40be-b3bf-256148329a51 (p2, c1, k30).
+1708963631: Client a6c3d2c3-d64e-40be-b3bf-256148329a51 disconnected: Broken pipe.
+1708963632: New connection from 192.168.127.1:57882 on port 1883.
+1708963632: New client connected from 192.168.127.1:57882 as 58d2ded2-3aad-458c-ac45-2fa12ceecc9a (p2, c1, k30).
+1708963633: Client 58d2ded2-3aad-458c-ac45-2fa12ceecc9a disconnected.
+1708963634: New connection from 192.168.127.1:57883 on port 1883.
+1708963634: New client connected from 192.168.127.1:57883 as 474098ec-6bb5-4f9d-887f-a5f7f8a243f0 (p2, c1, k30).
+1708963634: Client 474098ec-6bb5-4f9d-887f-a5f7f8a243f0 disconnected: Broken pipe.
+1708963635: New connection from 192.168.127.1:57884 on port 1883.
+1708963635: New client connected from 192.168.127.1:57884 as b31e3198-f05c-40b8-9ba3-a4aa0b2da8c8 (p2, c1, k30).
+1708963635: Client b31e3198-f05c-40b8-9ba3-a4aa0b2da8c8 disconnected: Broken pipe.
+1708963636: New connection from 192.168.127.1:57885 on port 1883.
+1708963636: New client connected from 192.168.127.1:57885 as e27c35ec-259a-43d2-a87b-d5309358951f (p2, c1, k30).
+1708963636: Client e27c35ec-259a-43d2-a87b-d5309358951f disconnected.
+1708963637: New connection from 192.168.127.1:57886 on port 1883.
+1708963637: New client connected from 192.168.127.1:57886 as e755de14-62d7-4b2a-9b3d-57db4a5894ca (p2, c1, k30).
+1708963638: Client e755de14-62d7-4b2a-9b3d-57db4a5894ca disconnected.
+1708963639: New connection from 192.168.127.1:57887 on port 1883.
+1708963639: New client connected from 192.168.127.1:57887 as 789caecd-85ee-45d8-aa37-24c48305b47e (p2, c1, k30).
+1708963639: Client 789caecd-85ee-45d8-aa37-24c48305b47e disconnected: Broken pipe.
+1708963640: New connection from 192.168.127.1:57888 on port 1883.
+1708963640: New client connected from 192.168.127.1:57888 as 3c14b618-0d5b-489f-97cc-5715d47081d2 (p2, c1, k30).
+1708963640: Client 3c14b618-0d5b-489f-97cc-5715d47081d2 disconnected.
+1708963641: New connection from 192.168.127.1:57889 on port 1883.
+1708963641: New client connected from 192.168.127.1:57889 as c7ce6f70-d9f8-4f1b-b504-8d07919c114d (p2, c1, k30).
+1708963642: Client c7ce6f70-d9f8-4f1b-b504-8d07919c114d disconnected.
+1708963643: New connection from 192.168.127.1:57890 on port 1883.
+1708963643: New client connected from 192.168.127.1:57890 as 566031ba-df05-4a4f-9dc5-37b57a8dd8b0 (p2, c1, k30).
+1708963643: Client 566031ba-df05-4a4f-9dc5-37b57a8dd8b0 disconnected: Broken pipe.
+1708963644: New connection from 192.168.127.1:57891 on port 1883.
+1708963644: New client connected from 192.168.127.1:57891 as 0cdaaa7b-66dc-43f2-8c42-953ff7e7ed3c (p2, c1, k30).
+1708963644: Client 0cdaaa7b-66dc-43f2-8c42-953ff7e7ed3c disconnected.
+1708963645: New connection from 192.168.127.1:57892 on port 1883.
+1708963645: New client connected from 192.168.127.1:57892 as 51dfca1e-9a83-47ed-95f6-06a9ff37a712 (p2, c1, k30).
+1708963646: Client 51dfca1e-9a83-47ed-95f6-06a9ff37a712 disconnected: Broken pipe.
+1708963647: New connection from 192.168.127.1:57893 on port 1883.
+1708963647: New client connected from 192.168.127.1:57893 as 5f379c95-8196-4c38-9ad7-1fbb5b484cee (p2, c1, k30).
+1708963647: Client 5f379c95-8196-4c38-9ad7-1fbb5b484cee disconnected: Broken pipe.
+1708963648: New connection from 192.168.127.1:57894 on port 1883.
+1708963648: New client connected from 192.168.127.1:57894 as 58328ca7-b4b5-4aec-aa1f-6ad7a6a794b1 (p2, c1, k30).
+1708963648: Client 58328ca7-b4b5-4aec-aa1f-6ad7a6a794b1 disconnected.
+1708963649: New connection from 192.168.127.1:57895 on port 1883.
+1708963649: New client connected from 192.168.127.1:57895 as c7421678-acde-4fe1-b816-7885c133d95e (p2, c1, k30).
+1708963650: Client c7421678-acde-4fe1-b816-7885c133d95e disconnected: Broken pipe.
+1708963651: New connection from 192.168.127.1:57896 on port 1883.
+1708963651: New client connected from 192.168.127.1:57896 as 7cc8d17d-2be0-43ea-a86e-4aec766caf3f (p2, c1, k30).
+1708963651: Client 7cc8d17d-2be0-43ea-a86e-4aec766caf3f disconnected.
+1708963652: New connection from 192.168.127.1:57897 on port 1883.
+1708963652: New client connected from 192.168.127.1:57897 as 3cf03130-8d84-43fa-98d3-4f871368a601 (p2, c1, k30).
+1708963652: Client 3cf03130-8d84-43fa-98d3-4f871368a601 closed its connection.
+1708963653: New connection from 192.168.127.1:57898 on port 1883.
+1708963653: New client connected from 192.168.127.1:57898 as adb7384e-2184-4ea3-9cd6-89a4cc968173 (p2, c1, k30).
+1708963654: Client adb7384e-2184-4ea3-9cd6-89a4cc968173 disconnected: Broken pipe.
+1708963655: New connection from 192.168.127.1:57899 on port 1883.
+1708963655: New client connected from 192.168.127.1:57899 as 9f9d4f17-8b14-4fe1-a0ba-21a661e0010f (p2, c1, k30).
+1708963655: Client 9f9d4f17-8b14-4fe1-a0ba-21a661e0010f disconnected: Broken pipe.
+1708963656: New connection from 192.168.127.1:57900 on port 1883.
+1708963656: New client connected from 192.168.127.1:57900 as 4e409449-1e39-4b88-9a88-5827941417fa (p2, c1, k30).
+1708963656: Client 4e409449-1e39-4b88-9a88-5827941417fa disconnected: Broken pipe.
+1708963657: New connection from 192.168.127.1:57901 on port 1883.
+1708963657: New client connected from 192.168.127.1:57901 as 96acb118-27d1-45eb-9308-d8912f5bf8e8 (p2, c1, k30).
+1708963658: Client 96acb118-27d1-45eb-9308-d8912f5bf8e8 closed its connection.
+1708963659: New connection from 192.168.127.1:57902 on port 1883.
+1708963659: New client connected from 192.168.127.1:57902 as 833b85ff-8cc5-4e8a-81d6-d6f370fb4b56 (p2, c1, k30).
+1708963659: Client 833b85ff-8cc5-4e8a-81d6-d6f370fb4b56 disconnected: Broken pipe.
+1708963660: New connection from 192.168.127.1:57903 on port 1883.
+1708963660: New client connected from 192.168.127.1:57903 as 5f9d1cf8-0412-4f8a-8ae5-33fd45fc3cb0 (p2, c1, k30).
+1708963660: Client 5f9d1cf8-0412-4f8a-8ae5-33fd45fc3cb0 disconnected: Broken pipe.
+1708963661: New connection from 192.168.127.1:57904 on port 1883.
+1708963661: New client connected from 192.168.127.1:57904 as 8fad7d91-78d6-41e0-a2d5-5b4c71448a84 (p2, c1, k30).
+1708963662: Client 8fad7d91-78d6-41e0-a2d5-5b4c71448a84 disconnected.
+1708963663: New connection from 192.168.127.1:57905 on port 1883.
+1708963663: New client connected from 192.168.127.1:57905 as 6c8a1a1a-391f-4a5b-882d-a47d810eab20 (p2, c1, k30).
+1708963663: Client 6c8a1a1a-391f-4a5b-882d-a47d810eab20 disconnected.
+1708963664: New connection from 192.168.127.1:57906 on port 1883.
+1708963664: New client connected from 192.168.127.1:57906 as 17f791bb-fdae-44f1-9738-c7591c32ac34 (p2, c1, k30).
+1708963664: Client 17f791bb-fdae-44f1-9738-c7591c32ac34 disconnected: Broken pipe.
+1708963665: New connection from 192.168.127.1:57907 on port 1883.
+1708963665: New client connected from 192.168.127.1:57907 as a576a7e8-b9dd-425f-9827-c28b1938a458 (p2, c1, k30).
+1708963665: Client a576a7e8-b9dd-425f-9827-c28b1938a458 disconnected.
+1708963666: New connection from 192.168.127.1:57908 on port 1883.
+1708963666: New client connected from 192.168.127.1:57908 as b1522f7d-e20d-4dc6-8209-8600556ae15c (p2, c1, k30).
+1708963667: Client b1522f7d-e20d-4dc6-8209-8600556ae15c disconnected: Broken pipe.
+1708963668: New connection from 192.168.127.1:57909 on port 1883.
+1708963668: New client connected from 192.168.127.1:57909 as 58762942-145c-4d7f-ac58-2807d91afe78 (p2, c1, k30).
+1708963668: Client 58762942-145c-4d7f-ac58-2807d91afe78 disconnected: Broken pipe.
+1708963669: New connection from 192.168.127.1:57910 on port 1883.
+1708963669: New client connected from 192.168.127.1:57910 as 86ac3d16-05bf-4e87-9732-83cf1f023550 (p2, c1, k30).
+1708963669: Client 86ac3d16-05bf-4e87-9732-83cf1f023550 disconnected.
+1708963670: New connection from 192.168.127.1:57911 on port 1883.
+1708963670: New client connected from 192.168.127.1:57911 as d49e979e-93e8-4313-8992-055fd5dccae1 (p2, c1, k30).
+1708963671: Client d49e979e-93e8-4313-8992-055fd5dccae1 disconnected: Broken pipe.
+1708963672: New connection from 192.168.127.1:57912 on port 1883.
+1708963672: New client connected from 192.168.127.1:57912 as 084ae2c2-4a3e-42e9-88a4-fb4f3b3d942c (p2, c1, k30).
+1708963672: Client 084ae2c2-4a3e-42e9-88a4-fb4f3b3d942c disconnected: Broken pipe.
+1708963673: New connection from 192.168.127.1:57913 on port 1883.
+1708963673: New client connected from 192.168.127.1:57913 as d10745d1-b581-42c8-9644-b24eff6fa0d9 (p2, c1, k30).
+1708963673: Client d10745d1-b581-42c8-9644-b24eff6fa0d9 disconnected.
+1708963674: New connection from 192.168.127.1:57914 on port 1883.
+1708963674: New client connected from 192.168.127.1:57914 as 8b3da597-0827-491b-ae14-0a999bd7ee38 (p2, c1, k30).
+1708963675: Client 8b3da597-0827-491b-ae14-0a999bd7ee38 disconnected: Broken pipe.
+1708963676: New connection from 192.168.127.1:57915 on port 1883.
+1708963676: New client connected from 192.168.127.1:57915 as ef15e434-7daf-4e06-9e04-8bd781069b13 (p2, c1, k30).
+1708963676: Client ef15e434-7daf-4e06-9e04-8bd781069b13 disconnected: Broken pipe.
+1708963677: New connection from 192.168.127.1:57916 on port 1883.
+1708963677: New client connected from 192.168.127.1:57916 as 28a30efe-7790-4f52-9674-62c6664cec0f (p2, c1, k30).
+1708963677: Client 28a30efe-7790-4f52-9674-62c6664cec0f disconnected.
+1708963678: New connection from 192.168.127.1:57917 on port 1883.
+1708963678: New client connected from 192.168.127.1:57917 as 1bd1153d-afaa-45ef-980d-56daed0f3da2 (p2, c1, k30).
+1708963679: Client 1bd1153d-afaa-45ef-980d-56daed0f3da2 disconnected.
+1708963680: New connection from 192.168.127.1:57918 on port 1883.
+1708963680: New client connected from 192.168.127.1:57918 as 5e458416-0c4c-4376-ba5b-2f16a9bc21c7 (p2, c1, k30).
+1708963680: Client 5e458416-0c4c-4376-ba5b-2f16a9bc21c7 disconnected.
+1708963681: New connection from 192.168.127.1:57919 on port 1883.
+1708963681: New client connected from 192.168.127.1:57919 as 0b9f0525-9506-4719-99a4-8121d2afa09a (p2, c1, k30).
+1708963681: Client 0b9f0525-9506-4719-99a4-8121d2afa09a disconnected: Broken pipe.
+1708963682: New connection from 192.168.127.1:57920 on port 1883.
+1708963682: New client connected from 192.168.127.1:57920 as 4cd018f4-0029-48e6-bf40-bb21347c4a9d (p2, c1, k30).
+1708963683: Client 4cd018f4-0029-48e6-bf40-bb21347c4a9d disconnected: Broken pipe.
+1708963684: New connection from 192.168.127.1:57921 on port 1883.
+1708963684: New client connected from 192.168.127.1:57921 as e90ac61c-b5ce-4ae6-8d90-a8dcf00ba902 (p2, c1, k30).
+1708963684: Client e90ac61c-b5ce-4ae6-8d90-a8dcf00ba902 disconnected: Broken pipe.
+1708963685: New connection from 192.168.127.1:57922 on port 1883.
+1708963685: New client connected from 192.168.127.1:57922 as 2afbd719-0545-48a5-a8dd-f2e40cd3b927 (p2, c1, k30).
+1708963685: Client 2afbd719-0545-48a5-a8dd-f2e40cd3b927 disconnected.
+1708963686: New connection from 192.168.127.1:57923 on port 1883.
+1708963686: New client connected from 192.168.127.1:57923 as 2b7f11be-4f69-4215-aa18-0b18a0520a3f (p2, c1, k30).
+1708963687: Client 2b7f11be-4f69-4215-aa18-0b18a0520a3f disconnected: Broken pipe.
+1708963688: New connection from 192.168.127.1:57924 on port 1883.
+1708963688: New client connected from 192.168.127.1:57924 as 49e2fe17-7706-4af4-b365-08f79fb7829f (p2, c1, k30).
+1708963688: Client 49e2fe17-7706-4af4-b365-08f79fb7829f disconnected.
+1708963689: New connection from 192.168.127.1:57925 on port 1883.
+1708963689: New client connected from 192.168.127.1:57925 as e0bbc5ef-0355-4b6e-9cff-a2e8e063cf37 (p2, c1, k30).
+1708963689: Client e0bbc5ef-0355-4b6e-9cff-a2e8e063cf37 disconnected.
+1708963690: New connection from 192.168.127.1:57926 on port 1883.
+1708963690: New client connected from 192.168.127.1:57926 as 6afa1bfc-765e-4d38-b5ca-272c12687009 (p2, c1, k30).
+1708963691: Client 6afa1bfc-765e-4d38-b5ca-272c12687009 disconnected: Broken pipe.
+1708963692: New connection from 192.168.127.1:57927 on port 1883.
+1708963692: New client connected from 192.168.127.1:57927 as 36f0970b-5158-4c51-a3f5-5303b0dd5150 (p2, c1, k30).
+1708963692: Client 36f0970b-5158-4c51-a3f5-5303b0dd5150 disconnected: Broken pipe.
+1708963693: New connection from 192.168.127.1:57928 on port 1883.
+1708963693: New client connected from 192.168.127.1:57928 as 5478d77b-dd78-41ef-8ced-5c6f7ae5bc7e (p2, c1, k30).
+1708963693: Client 5478d77b-dd78-41ef-8ced-5c6f7ae5bc7e disconnected.
+1708963694: New connection from 192.168.127.1:57929 on port 1883.
+1708963694: New client connected from 192.168.127.1:57929 as e1c05ddf-a9a3-41d9-bc06-93d604b6697f (p2, c1, k30).
+1708963695: Client e1c05ddf-a9a3-41d9-bc06-93d604b6697f disconnected: Broken pipe.
+1708963696: New connection from 192.168.127.1:57930 on port 1883.
+1708963696: New client connected from 192.168.127.1:57930 as fca89c4b-0b8e-4179-bae5-a276b5b65568 (p2, c1, k30).
+1708963696: Client fca89c4b-0b8e-4179-bae5-a276b5b65568 disconnected.
+1708963697: New connection from 192.168.127.1:57931 on port 1883.
+1708963697: New client connected from 192.168.127.1:57931 as 37f6917b-634e-452f-8675-538a2fd54f97 (p2, c1, k30).
+1708963697: Client 37f6917b-634e-452f-8675-538a2fd54f97 disconnected.
+1708963698: New connection from 192.168.127.1:57932 on port 1883.
+1708963698: New client connected from 192.168.127.1:57932 as 75bfa91a-62d4-4ec4-bb67-b7fab2eae2c2 (p2, c1, k30).
+1708963699: Client 75bfa91a-62d4-4ec4-bb67-b7fab2eae2c2 disconnected.
+1708963700: New connection from 192.168.127.1:57933 on port 1883.
+1708963700: New client connected from 192.168.127.1:57933 as 80865de1-5507-45b6-8584-55e1068019ea (p2, c1, k30).
+1708963700: Client 80865de1-5507-45b6-8584-55e1068019ea disconnected: Broken pipe.
+1708963701: New connection from 192.168.127.1:57934 on port 1883.
+1708963701: New client connected from 192.168.127.1:57934 as 660a9271-37e6-400b-8e20-eadc0e3f7050 (p2, c1, k30).
+1708963701: Client 660a9271-37e6-400b-8e20-eadc0e3f7050 disconnected.
+1708963702: New connection from 192.168.127.1:57935 on port 1883.
+1708963702: New client connected from 192.168.127.1:57935 as 898d6949-2ced-4194-a8e7-f323b5402287 (p2, c1, k30).
+1708963703: Client 898d6949-2ced-4194-a8e7-f323b5402287 disconnected: Broken pipe.
+1708963704: New connection from 192.168.127.1:57936 on port 1883.
+1708963704: New client connected from 192.168.127.1:57936 as 864c8b8a-20a5-4383-b931-5a2a8970a09e (p2, c1, k30).
+1708963704: Client 864c8b8a-20a5-4383-b931-5a2a8970a09e disconnected.
+1708963705: New connection from 192.168.127.1:57937 on port 1883.
+1708963705: New client connected from 192.168.127.1:57937 as 7c2968c8-53bf-4fa7-8db6-eae4e6d98a05 (p2, c1, k30).
+1708963705: Client 7c2968c8-53bf-4fa7-8db6-eae4e6d98a05 disconnected.
+1708963706: New connection from 192.168.127.1:57938 on port 1883.
+1708963706: New client connected from 192.168.127.1:57938 as 788495c0-915f-498e-9686-e96f41d14bda (p2, c1, k30).
+1708963707: Client 788495c0-915f-498e-9686-e96f41d14bda disconnected.
+1708963708: New connection from 192.168.127.1:57939 on port 1883.
+1708963708: New client connected from 192.168.127.1:57939 as a8d88855-c263-4f04-a070-3110d910fbf9 (p2, c1, k30).
+1708963708: Client a8d88855-c263-4f04-a070-3110d910fbf9 closed its connection.
+1708963709: New connection from 192.168.127.1:57940 on port 1883.
+1708963709: New client connected from 192.168.127.1:57940 as 0ddcbb11-ecf2-4a83-ac20-564c8710b885 (p2, c1, k30).
+1708963709: Client 0ddcbb11-ecf2-4a83-ac20-564c8710b885 disconnected: Broken pipe.
+1708963710: New connection from 192.168.127.1:57941 on port 1883.
+1708963710: New client connected from 192.168.127.1:57941 as 6b495812-c9f4-43d9-bdeb-ecf341511110 (p2, c1, k30).
+1708963711: Client 6b495812-c9f4-43d9-bdeb-ecf341511110 disconnected.
+1708963712: New connection from 192.168.127.1:57942 on port 1883.
+1708963712: New client connected from 192.168.127.1:57942 as 1f5c9151-10ec-4424-81cd-ee7f83211048 (p2, c1, k30).
+1708963712: Client 1f5c9151-10ec-4424-81cd-ee7f83211048 disconnected: Broken pipe.
+1708963713: New connection from 192.168.127.1:57943 on port 1883.
+1708963713: New client connected from 192.168.127.1:57943 as 9dd60e1c-b4ed-4aba-8e88-fe462358b160 (p2, c1, k30).
+1708963713: Client 9dd60e1c-b4ed-4aba-8e88-fe462358b160 disconnected: Broken pipe.
+1708963714: New connection from 192.168.127.1:57944 on port 1883.
+1708963714: New client connected from 192.168.127.1:57944 as b3a99ca4-a56d-4dde-bc9b-98ff2cccee9d (p2, c1, k30).
+1708963715: Client b3a99ca4-a56d-4dde-bc9b-98ff2cccee9d disconnected: Broken pipe.
+1708963716: New connection from 192.168.127.1:57945 on port 1883.
+1708963716: New client connected from 192.168.127.1:57945 as 330a2896-d04b-4522-abb9-654b655f09b9 (p2, c1, k30).
+1708963716: Client 330a2896-d04b-4522-abb9-654b655f09b9 disconnected: Broken pipe.
+1708963717: New connection from 192.168.127.1:57946 on port 1883.
+1708963717: New client connected from 192.168.127.1:57946 as 6d1542f9-80bf-44b0-9541-c5de92149390 (p2, c1, k30).
+1708963717: Client 6d1542f9-80bf-44b0-9541-c5de92149390 disconnected: Broken pipe.
+1708963718: New connection from 192.168.127.1:57947 on port 1883.
+1708963718: New client connected from 192.168.127.1:57947 as e46ea99c-aa24-4597-a1c3-38d79c892c28 (p2, c1, k30).
+1708963719: Client e46ea99c-aa24-4597-a1c3-38d79c892c28 disconnected: Broken pipe.
+1708963720: New connection from 192.168.127.1:57948 on port 1883.
+1708963720: New client connected from 192.168.127.1:57948 as ddc5c686-7ca4-4838-89a3-83a8be612c38 (p2, c1, k30).
+1708963720: Client ddc5c686-7ca4-4838-89a3-83a8be612c38 disconnected.
+1708963721: New connection from 192.168.127.1:57949 on port 1883.
+1708963721: New client connected from 192.168.127.1:57949 as f7251d49-324d-46de-be69-762b4094c893 (p2, c1, k30).
+1708963721: Client f7251d49-324d-46de-be69-762b4094c893 disconnected: Broken pipe.
+1708963722: New connection from 192.168.127.1:57950 on port 1883.
+1708963722: New client connected from 192.168.127.1:57950 as d6083e0e-43ef-420f-8e56-cbb09150fbdd (p2, c1, k30).
+1708963723: Client d6083e0e-43ef-420f-8e56-cbb09150fbdd disconnected: Broken pipe.
+1708963724: New connection from 192.168.127.1:57951 on port 1883.
+1708963724: New client connected from 192.168.127.1:57951 as 54f3f90a-8097-4b7d-9fa0-d5f1ce8aa367 (p2, c1, k30).
+1708963724: Client 54f3f90a-8097-4b7d-9fa0-d5f1ce8aa367 disconnected: Broken pipe.
+1708963725: New connection from 192.168.127.1:57952 on port 1883.
+1708963725: New client connected from 192.168.127.1:57952 as db03153c-b2d3-4c1f-a725-f64c34ef3255 (p2, c1, k30).
+1708963725: Client db03153c-b2d3-4c1f-a725-f64c34ef3255 disconnected: Broken pipe.
+1708963726: New connection from 192.168.127.1:57953 on port 1883.
+1708963726: New client connected from 192.168.127.1:57953 as 0fbbe0b1-f995-4bf7-a287-70ff2636cdaf (p2, c1, k30).
+1708963727: Client 0fbbe0b1-f995-4bf7-a287-70ff2636cdaf disconnected: Broken pipe.
+1708963728: New connection from 192.168.127.1:57954 on port 1883.
+1708963728: New client connected from 192.168.127.1:57954 as 20b208ab-50e7-4e5d-af92-e9f7d2a24440 (p2, c1, k30).
+1708963728: Client 20b208ab-50e7-4e5d-af92-e9f7d2a24440 disconnected: Broken pipe.
+1708963729: New connection from 192.168.127.1:57955 on port 1883.
+1708963729: New client connected from 192.168.127.1:57955 as 6cace500-d5fb-4bb1-89e2-2a853aca8fe2 (p2, c1, k30).
+1708963729: Client 6cace500-d5fb-4bb1-89e2-2a853aca8fe2 disconnected.
+1708963729: Client paho369904493110750 disconnected.
+1708963730: New connection from 192.168.127.1:57956 on port 1883.
+1708963730: New client connected from 192.168.127.1:57956 as 1b79039f-8310-49b5-bbad-0362b0c5ce3b (p2, c1, k30).
+1708963769: New connection from 192.168.127.1:57957 on port 1883.
+1708963769: New client connected from 192.168.127.1:57957 as paho370069226742875 (p2, c1, k60).
+1708963771: Client 1b79039f-8310-49b5-bbad-0362b0c5ce3b disconnected: Broken pipe.
+1708963772: New connection from 192.168.127.1:57958 on port 1883.
+1708963772: New client connected from 192.168.127.1:57958 as 061f3ea6-092f-47cd-9755-3abc13c5694f (p2, c1, k30).
+1708963773: Client 061f3ea6-092f-47cd-9755-3abc13c5694f disconnected: Broken pipe.
+1708963774: New connection from 192.168.127.1:57959 on port 1883.
+1708963774: New client connected from 192.168.127.1:57959 as 8f7eb77d-200a-4a6f-b6db-2421945198f5 (p2, c1, k30).
+1708963774: Client 8f7eb77d-200a-4a6f-b6db-2421945198f5 disconnected: Broken pipe.
+1708963775: New connection from 192.168.127.1:57960 on port 1883.
+1708963775: New client connected from 192.168.127.1:57960 as 8d474ad0-cee5-465d-8c91-e7f84b11139a (p2, c1, k30).
+1708963775: Client 8d474ad0-cee5-465d-8c91-e7f84b11139a disconnected: Broken pipe.
+1708963776: New connection from 192.168.127.1:57961 on port 1883.
+1708963776: New client connected from 192.168.127.1:57961 as 1a1807fd-a8e1-4b6f-839c-49ed4c6e0b60 (p2, c1, k30).
+1708963777: Client 1a1807fd-a8e1-4b6f-839c-49ed4c6e0b60 closed its connection.
+1708963778: New connection from 192.168.127.1:57962 on port 1883.
+1708963778: New client connected from 192.168.127.1:57962 as 46f99a5e-01d8-40f6-971d-e6869b0318a5 (p2, c1, k30).
+1708963778: Client 46f99a5e-01d8-40f6-971d-e6869b0318a5 disconnected.
+1708963779: New connection from 192.168.127.1:57963 on port 1883.
+1708963779: New client connected from 192.168.127.1:57963 as 07657161-2216-456d-9aff-635b042b40d8 (p2, c1, k30).
+1708963779: Client 07657161-2216-456d-9aff-635b042b40d8 disconnected.
+1708963780: New connection from 192.168.127.1:57964 on port 1883.
+1708963780: New client connected from 192.168.127.1:57964 as 9d1a1c46-b292-41c3-ae42-272bc97889e2 (p2, c1, k30).
+1708963781: Client 9d1a1c46-b292-41c3-ae42-272bc97889e2 closed its connection.
+1708963782: New connection from 192.168.127.1:57965 on port 1883.
+1708963782: New client connected from 192.168.127.1:57965 as 4a140f2d-1091-43fa-9df5-b21c2c2e49ab (p2, c1, k30).
+1708963783: Client 4a140f2d-1091-43fa-9df5-b21c2c2e49ab disconnected.
+1708963784: New connection from 192.168.127.1:57966 on port 1883.
+1708963784: New client connected from 192.168.127.1:57966 as be0f2f10-7e21-4c55-81c6-9df2b3eb372c (p2, c1, k30).
+1708963784: Client be0f2f10-7e21-4c55-81c6-9df2b3eb372c disconnected.
+1708963785: New connection from 192.168.127.1:57967 on port 1883.
+1708963785: New client connected from 192.168.127.1:57967 as 89be54de-5cd9-4623-b7b0-c509b700bf5d (p2, c1, k30).
+1708963786: Client 89be54de-5cd9-4623-b7b0-c509b700bf5d disconnected: Broken pipe.
+1708963787: New connection from 192.168.127.1:57968 on port 1883.
+1708963787: New client connected from 192.168.127.1:57968 as dad5eaf8-1a53-4620-a664-4625d15cce78 (p2, c1, k30).
+1708963788: Client dad5eaf8-1a53-4620-a664-4625d15cce78 disconnected.
+1708963789: New connection from 192.168.127.1:57969 on port 1883.
+1708963789: New client connected from 192.168.127.1:57969 as e9288f6b-df66-4515-bee5-63e0328e027d (p2, c1, k30).
+1708963790: Client e9288f6b-df66-4515-bee5-63e0328e027d disconnected.
+1708963791: New connection from 192.168.127.1:57970 on port 1883.
+1708963791: New client connected from 192.168.127.1:57970 as 0465eb38-f04e-439e-b727-0f5e50811016 (p2, c1, k30).
+1708963792: Client 0465eb38-f04e-439e-b727-0f5e50811016 disconnected.
+1708963793: New connection from 192.168.127.1:57971 on port 1883.
+1708963793: New client connected from 192.168.127.1:57971 as 4e3dcfb0-7797-47f6-9674-e2c72b2b3ae5 (p2, c1, k30).
+1708963794: Client 4e3dcfb0-7797-47f6-9674-e2c72b2b3ae5 disconnected: Broken pipe.
+1708963795: New connection from 192.168.127.1:57972 on port 1883.
+1708963795: New client connected from 192.168.127.1:57972 as e4ce0da8-cbef-44b3-bed6-5820c6586b63 (p2, c1, k30).
+1708963795: Client e4ce0da8-cbef-44b3-bed6-5820c6586b63 disconnected: Broken pipe.
+1708963796: New connection from 192.168.127.1:57973 on port 1883.
+1708963796: New client connected from 192.168.127.1:57973 as bce0557a-8610-4e24-9143-da3b8c9f169a (p2, c1, k30).
+1708963797: Client bce0557a-8610-4e24-9143-da3b8c9f169a disconnected: Broken pipe.
+1708963798: New connection from 192.168.127.1:57974 on port 1883.
+1708963798: New client connected from 192.168.127.1:57974 as b74f7347-d148-4f74-99bc-2164d769be8d (p2, c1, k30).
+1708963799: Client b74f7347-d148-4f74-99bc-2164d769be8d disconnected: Broken pipe.
+1708963800: New connection from 192.168.127.1:57975 on port 1883.
+1708963800: New client connected from 192.168.127.1:57975 as 0befeacc-5b4e-4aaf-8dab-0fd448a7bec6 (p2, c1, k30).
+1708963801: Client 0befeacc-5b4e-4aaf-8dab-0fd448a7bec6 disconnected: Broken pipe.
+1708963802: New connection from 192.168.127.1:57976 on port 1883.
+1708963802: New client connected from 192.168.127.1:57976 as 673b6069-b68f-46da-a33e-3012cc4da93e (p2, c1, k30).
+1708963803: Client 673b6069-b68f-46da-a33e-3012cc4da93e disconnected.
+1708963804: New connection from 192.168.127.1:57977 on port 1883.
+1708963804: New client connected from 192.168.127.1:57977 as aa146b7c-a3df-4cc3-91c9-25a761b5095d (p2, c1, k30).
+1708963805: Client aa146b7c-a3df-4cc3-91c9-25a761b5095d disconnected: Broken pipe.
+1708963806: New connection from 192.168.127.1:57978 on port 1883.
+1708963806: New client connected from 192.168.127.1:57978 as ad1c8b29-6f3f-4b8b-a27d-76454db2b02e (p2, c1, k30).
+1708963806: Client ad1c8b29-6f3f-4b8b-a27d-76454db2b02e disconnected.
+1708963807: New connection from 192.168.127.1:57979 on port 1883.
+1708963807: New client connected from 192.168.127.1:57979 as 6d702ea7-0edb-4cd4-b02d-ef1201bd9b80 (p2, c1, k30).
+1708963808: Client 6d702ea7-0edb-4cd4-b02d-ef1201bd9b80 disconnected.
+1708963809: New connection from 192.168.127.1:57980 on port 1883.
+1708963809: New client connected from 192.168.127.1:57980 as 187433e0-4716-4995-9d02-07ccb69099d4 (p2, c1, k30).
+1708963810: Client 187433e0-4716-4995-9d02-07ccb69099d4 disconnected: Broken pipe.
+1708963811: New connection from 192.168.127.1:57981 on port 1883.
+1708963811: New client connected from 192.168.127.1:57981 as 8b76f8e6-87e9-469a-9246-575b1d2c6fa8 (p2, c1, k30).
+1708963812: Client 8b76f8e6-87e9-469a-9246-575b1d2c6fa8 disconnected: Broken pipe.
+1708963813: New connection from 192.168.127.1:57982 on port 1883.
+1708963813: New client connected from 192.168.127.1:57982 as 42747329-b911-41aa-b7fc-10b48f3476f2 (p2, c1, k30).
+1708963814: Client 42747329-b911-41aa-b7fc-10b48f3476f2 disconnected: Broken pipe.
+1708963815: New connection from 192.168.127.1:57983 on port 1883.
+1708963815: New client connected from 192.168.127.1:57983 as eb78c4de-e600-4c5f-a428-6f95016a6bad (p2, c1, k30).
+1708963815: Client eb78c4de-e600-4c5f-a428-6f95016a6bad disconnected: Broken pipe.
+1708963816: New connection from 192.168.127.1:57984 on port 1883.
+1708963816: New client connected from 192.168.127.1:57984 as c453ff9e-8ff8-4338-8dba-a6493748d3cf (p2, c1, k30).
+1708963817: Client c453ff9e-8ff8-4338-8dba-a6493748d3cf disconnected: Broken pipe.
+1708963818: New connection from 192.168.127.1:57985 on port 1883.
+1708963818: New client connected from 192.168.127.1:57985 as 3455cbd2-e9c9-4f2a-926e-a3b1cb18ae6d (p2, c1, k30).
+1708963818: Client 3455cbd2-e9c9-4f2a-926e-a3b1cb18ae6d disconnected: Broken pipe.
+1708963819: New connection from 192.168.127.1:57986 on port 1883.
+1708963819: New client connected from 192.168.127.1:57986 as 6d714d32-3702-431a-bc3c-1df976b97563 (p2, c1, k30).
+1708963820: Client 6d714d32-3702-431a-bc3c-1df976b97563 disconnected.
+1708963821: New connection from 192.168.127.1:57987 on port 1883.
+1708963821: New client connected from 192.168.127.1:57987 as 93309bd0-d735-4ec2-9507-b01014ecd29a (p2, c1, k30).
+1708963821: Client 93309bd0-d735-4ec2-9507-b01014ecd29a closed its connection.
+1708963822: New connection from 192.168.127.1:57988 on port 1883.
+1708963822: New client connected from 192.168.127.1:57988 as b0ec28e7-0373-4ae3-b597-d6820becda28 (p2, c1, k30).
+1708963823: Client b0ec28e7-0373-4ae3-b597-d6820becda28 disconnected: Broken pipe.
+1708963824: New connection from 192.168.127.1:57989 on port 1883.
+1708963824: New client connected from 192.168.127.1:57989 as afb92488-3196-4bff-b897-65d57722ff21 (p2, c1, k30).
+1708963825: Client afb92488-3196-4bff-b897-65d57722ff21 disconnected.
+1708963826: New connection from 192.168.127.1:57990 on port 1883.
+1708963826: New client connected from 192.168.127.1:57990 as 877e5371-8797-4f6e-b2f0-908e359e6f92 (p2, c1, k30).
+1708963826: Client paho370069226742875 disconnected.
+1708964330: New connection from 192.168.127.1:57991 on port 1883.
+1708964330: New client connected from 192.168.127.1:57991 as paho370630252788833 (p2, c1, k60).
+1708964332: Client 877e5371-8797-4f6e-b2f0-908e359e6f92 disconnected: Broken pipe.
+1708964333: New connection from 192.168.127.1:57992 on port 1883.
+1708964333: New client connected from 192.168.127.1:57992 as c749895e-1816-4fa5-93b3-7abee5cab376 (p2, c1, k30).
+1708964333: Client c749895e-1816-4fa5-93b3-7abee5cab376 disconnected.
+1708964334: New connection from 192.168.127.1:57993 on port 1883.
+1708964334: New client connected from 192.168.127.1:57993 as 44c06f1d-8e69-4a10-a973-054c9464fe46 (p2, c1, k30).
+1708964334: Client 44c06f1d-8e69-4a10-a973-054c9464fe46 disconnected: Broken pipe.
+1708964335: New connection from 192.168.127.1:57994 on port 1883.
+1708964335: New client connected from 192.168.127.1:57994 as 9962a804-dcc7-42d0-850e-1d8582f8b6f9 (p2, c1, k30).
+1708964336: Client 9962a804-dcc7-42d0-850e-1d8582f8b6f9 disconnected: Broken pipe.
+1708964337: New connection from 192.168.127.1:57995 on port 1883.
+1708964337: New client connected from 192.168.127.1:57995 as ab1b27cf-45a2-4e75-a2b5-bf3db9cfcc88 (p2, c1, k30).
+1708964337: Client ab1b27cf-45a2-4e75-a2b5-bf3db9cfcc88 disconnected.
+1708964338: New connection from 192.168.127.1:57996 on port 1883.
+1708964338: New client connected from 192.168.127.1:57996 as 62f8e928-6fe0-4242-a446-96c1a0073b97 (p2, c1, k30).
+1708964338: Client 62f8e928-6fe0-4242-a446-96c1a0073b97 disconnected: Broken pipe.
+1708964339: New connection from 192.168.127.1:57997 on port 1883.
+1708964339: New client connected from 192.168.127.1:57997 as 5dd1c269-0577-4704-9bba-2a2ecc762c58 (p2, c1, k30).
+1708964341: Client 5dd1c269-0577-4704-9bba-2a2ecc762c58 disconnected: Broken pipe.
+1708964342: New connection from 192.168.127.1:57998 on port 1883.
+1708964342: New client connected from 192.168.127.1:57998 as 238d80dd-f49a-417f-8210-f268fe839011 (p2, c1, k30).
+1708964342: Client 238d80dd-f49a-417f-8210-f268fe839011 disconnected.
+1708964343: New connection from 192.168.127.1:57999 on port 1883.
+1708964343: New client connected from 192.168.127.1:57999 as 0d202d58-8679-490f-8db2-de9fabd068ab (p2, c1, k30).
+1708964344: Client 0d202d58-8679-490f-8db2-de9fabd068ab disconnected: Broken pipe.
+1708964345: New connection from 192.168.127.1:58000 on port 1883.
+1708964345: New client connected from 192.168.127.1:58000 as f0f48e24-471d-444f-8abd-e60dfb729274 (p2, c1, k30).
+1708964346: Client f0f48e24-471d-444f-8abd-e60dfb729274 disconnected.
+1708964347: New connection from 192.168.127.1:58001 on port 1883.
+1708964347: New client connected from 192.168.127.1:58001 as 9d1e584e-697f-4fb4-8f47-4f4ebd09ce69 (p2, c1, k30).
+1708964348: Client 9d1e584e-697f-4fb4-8f47-4f4ebd09ce69 disconnected: Broken pipe.
+1708964348: Client paho370630252788833 disconnected.
+1708964349: New connection from 192.168.127.1:58002 on port 1883.
+1708964349: New client connected from 192.168.127.1:58002 as 5328d120-5f2a-4e8c-a9b4-d07181a765d1 (p2, c1, k30).
+1708964356: New connection from 192.168.127.1:58003 on port 1883.
+1708964356: New client connected from 192.168.127.1:58003 as paho370656034391541 (p2, c1, k60).
+1708964358: Client 5328d120-5f2a-4e8c-a9b4-d07181a765d1 closed its connection.
+1708964359: New connection from 192.168.127.1:58004 on port 1883.
+1708964359: New client connected from 192.168.127.1:58004 as 7f3c10d1-10eb-463e-aa42-fc9074884bc2 (p2, c1, k30).
+1708964359: Client 7f3c10d1-10eb-463e-aa42-fc9074884bc2 closed its connection.
+1708964360: New connection from 192.168.127.1:58005 on port 1883.
+1708964360: New client connected from 192.168.127.1:58005 as 6f232a46-a276-43d1-9042-261304f71d93 (p2, c1, k30).
+1708964360: Client 6f232a46-a276-43d1-9042-261304f71d93 disconnected: Broken pipe.
+1708964361: New connection from 192.168.127.1:58006 on port 1883.
+1708964361: New client connected from 192.168.127.1:58006 as 0774ed8f-5e52-4106-9106-c57687cd2f39 (p2, c1, k30).
+1708964361: Client 0774ed8f-5e52-4106-9106-c57687cd2f39 disconnected.
+1708964362: New connection from 192.168.127.1:58007 on port 1883.
+1708964362: New client connected from 192.168.127.1:58007 as 85fb3dff-bb61-42df-9c6e-fab85cfd44a0 (p2, c1, k30).
+1708964363: Client 85fb3dff-bb61-42df-9c6e-fab85cfd44a0 disconnected.
+1708964364: New connection from 192.168.127.1:58008 on port 1883.
+1708964364: New client connected from 192.168.127.1:58008 as 7ad58e26-3562-405c-a250-6c60610d39c0 (p2, c1, k30).
+1708964365: Client 7ad58e26-3562-405c-a250-6c60610d39c0 disconnected.
+1708964366: New connection from 192.168.127.1:58009 on port 1883.
+1708964366: New client connected from 192.168.127.1:58009 as 09daedf0-7553-4cc0-89d7-5ad282fe52e6 (p2, c1, k30).
+1708964366: Client 09daedf0-7553-4cc0-89d7-5ad282fe52e6 disconnected.
+1708964367: New connection from 192.168.127.1:58010 on port 1883.
+1708964367: New client connected from 192.168.127.1:58010 as e0797de8-eaf4-4176-b598-b7c19ea436c0 (p2, c1, k30).
+1708964368: Client e0797de8-eaf4-4176-b598-b7c19ea436c0 disconnected.
+1708964369: New connection from 192.168.127.1:58011 on port 1883.
+1708964369: New client connected from 192.168.127.1:58011 as b9ddb975-e078-486e-a1ef-d5638e6d4ef6 (p2, c1, k30).
+1708964370: Client b9ddb975-e078-486e-a1ef-d5638e6d4ef6 disconnected: Broken pipe.
+1708964371: New connection from 192.168.127.1:58012 on port 1883.
+1708964371: New client connected from 192.168.127.1:58012 as 55795184-539e-43e3-b68b-e146c6407437 (p2, c1, k30).
+1708964372: Client 55795184-539e-43e3-b68b-e146c6407437 disconnected.
+1708964373: New connection from 192.168.127.1:58013 on port 1883.
+1708964373: New client connected from 192.168.127.1:58013 as 489005da-f1fc-4c19-a090-66e1ff887ed6 (p2, c1, k30).
+1708964374: Client 489005da-f1fc-4c19-a090-66e1ff887ed6 disconnected.
+1708964375: New connection from 192.168.127.1:58014 on port 1883.
+1708964375: New client connected from 192.168.127.1:58014 as ffe7494f-f8d2-4223-806a-ede551f53b91 (p2, c1, k30).
+1708964376: Client ffe7494f-f8d2-4223-806a-ede551f53b91 closed its connection.
+1708964377: New connection from 192.168.127.1:58015 on port 1883.
+1708964377: New client connected from 192.168.127.1:58015 as aafb8f6e-c332-4e52-a867-88e8ad1b5cd2 (p2, c1, k30).
+1708964378: Client paho370656034391541 disconnected.
+1708964600: New connection from 192.168.127.1:58016 on port 1883.
+1708964600: New client connected from 192.168.127.1:58016 as paho370900479473500 (p2, c1, k60).
+1708964604: Client aafb8f6e-c332-4e52-a867-88e8ad1b5cd2 disconnected: Broken pipe.
+1708964605: New connection from 192.168.127.1:58017 on port 1883.
+1708964605: New client connected from 192.168.127.1:58017 as c1d93b26-6515-49ba-a6b5-400a42013819 (p2, c1, k30).
+1708964605: Client c1d93b26-6515-49ba-a6b5-400a42013819 disconnected: Broken pipe.
+1708964606: New connection from 192.168.127.1:58018 on port 1883.
+1708964606: New client connected from 192.168.127.1:58018 as a13838ab-dfce-4321-9d60-82019c5bbd2b (p2, c1, k30).
+1708964607: Client a13838ab-dfce-4321-9d60-82019c5bbd2b disconnected: Broken pipe.
+1708964608: New connection from 192.168.127.1:58019 on port 1883.
+1708964608: New client connected from 192.168.127.1:58019 as 299d9698-e773-4a18-99a8-39c011cfea7a (p2, c1, k30).
+1708964609: Client 299d9698-e773-4a18-99a8-39c011cfea7a disconnected: Broken pipe.
+1708964610: New connection from 192.168.127.1:58020 on port 1883.
+1708964610: New client connected from 192.168.127.1:58020 as 597ef0ee-8e3a-4316-a621-801602d592af (p2, c1, k30).
+1708964610: Client 597ef0ee-8e3a-4316-a621-801602d592af disconnected: Broken pipe.
+1708964611: New connection from 192.168.127.1:58021 on port 1883.
+1708964611: New client connected from 192.168.127.1:58021 as 17662f81-eb9f-4772-9e99-328b50251114 (p2, c1, k30).
+1708964613: Client 17662f81-eb9f-4772-9e99-328b50251114 disconnected.
+1708964614: New connection from 192.168.127.1:58022 on port 1883.
+1708964614: New client connected from 192.168.127.1:58022 as bdbbf96f-8c8a-4f62-9d6d-bb070b61252e (p2, c1, k30).
+1708964615: Client bdbbf96f-8c8a-4f62-9d6d-bb070b61252e disconnected.
+1708964616: New connection from 192.168.127.1:58023 on port 1883.
+1708964616: New client connected from 192.168.127.1:58023 as 822f523f-a167-4c18-9249-7cb6aa403c8f (p2, c1, k30).
+1708964616: Client 822f523f-a167-4c18-9249-7cb6aa403c8f disconnected.
+1708964617: New connection from 192.168.127.1:58024 on port 1883.
+1708964617: New client connected from 192.168.127.1:58024 as f4f41fa2-db26-4f19-9a4a-cc34dca3fe87 (p2, c1, k30).
+1708964619: Client f4f41fa2-db26-4f19-9a4a-cc34dca3fe87 disconnected.
+1708964620: New connection from 192.168.127.1:58025 on port 1883.
+1708964620: New client connected from 192.168.127.1:58025 as 9968101d-4e48-4146-9462-8985e62b19a0 (p2, c1, k30).
+1708964620: Client 9968101d-4e48-4146-9462-8985e62b19a0 disconnected: Broken pipe.
+1708964621: New connection from 192.168.127.1:58026 on port 1883.
+1708964621: New client connected from 192.168.127.1:58026 as c605b237-d551-4085-a2e5-9bfd1cf6a478 (p2, c1, k30).
+1708964622: Client c605b237-d551-4085-a2e5-9bfd1cf6a478 disconnected: Broken pipe.
+1708964623: New connection from 192.168.127.1:58027 on port 1883.
+1708964623: New client connected from 192.168.127.1:58027 as 9f046478-735b-43d2-aff4-9aceb7fb2d7f (p2, c1, k30).
+1708964625: Client 9f046478-735b-43d2-aff4-9aceb7fb2d7f disconnected.
+1708964626: New connection from 192.168.127.1:58028 on port 1883.
+1708964626: New client connected from 192.168.127.1:58028 as e9756728-627e-436a-95d4-3c66abacccd3 (p2, c1, k30).
+1708964626: Client e9756728-627e-436a-95d4-3c66abacccd3 disconnected.
+1708964627: New connection from 192.168.127.1:58029 on port 1883.
+1708964627: New client connected from 192.168.127.1:58029 as 04e50a6a-a4b3-4aa7-af16-2dc0b1e702f9 (p2, c1, k30).
+1708964628: Client 04e50a6a-a4b3-4aa7-af16-2dc0b1e702f9 disconnected: Broken pipe.
+1708964629: New connection from 192.168.127.1:58030 on port 1883.
+1708964629: New client connected from 192.168.127.1:58030 as b8378f54-5bd3-46cc-baf9-ee68064c7a8f (p2, c1, k30).
+1708964631: Client b8378f54-5bd3-46cc-baf9-ee68064c7a8f disconnected: Broken pipe.
+1708964632: New connection from 192.168.127.1:58031 on port 1883.
+1708964632: New client connected from 192.168.127.1:58031 as 3ce955e9-e500-4501-98b6-3150c6467ee6 (p2, c1, k30).
+1708964632: Client paho370900479473500 disconnected.
+1708964713: Client 3ce955e9-e500-4501-98b6-3150c6467ee6 disconnected.
+1708964719: New connection from 192.168.127.1:58032 on port 1883.
+1708964719: New client connected from 192.168.127.1:58032 as a08713d7-ec64-4171-9d24-8322464b6319 (p2, c1, k30).
+1708964733: New connection from 192.168.127.1:58033 on port 1883.
+1708964733: New client connected from 192.168.127.1:58033 as paho371033238631875 (p2, c1, k60).
+1708964736: Client a08713d7-ec64-4171-9d24-8322464b6319 disconnected.
+1708964737: New connection from 192.168.127.1:58034 on port 1883.
+1708964737: New client connected from 192.168.127.1:58034 as 5223a3d9-3359-4dac-aa0d-c3ee73108fdc (p2, c1, k30).
+1708964738: Client 5223a3d9-3359-4dac-aa0d-c3ee73108fdc disconnected.
+1708964739: New connection from 192.168.127.1:58035 on port 1883.
+1708964739: New client connected from 192.168.127.1:58035 as 38ac43cb-3e39-436b-a5ac-6e2c6aca433f (p2, c1, k30).
+1708964739: Client 38ac43cb-3e39-436b-a5ac-6e2c6aca433f disconnected.
+1708964740: New connection from 192.168.127.1:58036 on port 1883.
+1708964740: New client connected from 192.168.127.1:58036 as e4d50c9d-dbbf-49d5-b942-97fc6d2baaf3 (p2, c1, k30).
+1708964742: Client e4d50c9d-dbbf-49d5-b942-97fc6d2baaf3 disconnected: Broken pipe.
+1708964743: New connection from 192.168.127.1:58037 on port 1883.
+1708964743: New client connected from 192.168.127.1:58037 as 9370e5c5-5d78-4c06-9c6f-96355e16130f (p2, c1, k30).
+1708964744: Client 9370e5c5-5d78-4c06-9c6f-96355e16130f disconnected: Broken pipe.
+1708964745: New connection from 192.168.127.1:58038 on port 1883.
+1708964745: New client connected from 192.168.127.1:58038 as 9a21e1c6-727a-44cf-a331-1aa3f3eb37e5 (p2, c1, k30).
+1708964745: Client 9a21e1c6-727a-44cf-a331-1aa3f3eb37e5 closed its connection.
+1708964746: New connection from 192.168.127.1:58039 on port 1883.
+1708964746: New client connected from 192.168.127.1:58039 as df6844c4-0cd2-4c64-b7a3-ea8c517f6f13 (p2, c1, k30).
+1708964748: Client df6844c4-0cd2-4c64-b7a3-ea8c517f6f13 disconnected.
+1708964749: New connection from 192.168.127.1:58040 on port 1883.
+1708964749: New client connected from 192.168.127.1:58040 as 67365d4a-aae3-4c0a-a5b1-131a802b8c2c (p2, c1, k30).
+1708964750: Client 67365d4a-aae3-4c0a-a5b1-131a802b8c2c disconnected.
+1708964751: New connection from 192.168.127.1:58041 on port 1883.
+1708964751: New client connected from 192.168.127.1:58041 as 14be8e94-fa49-4757-a67b-af387fcbd56e (p2, c1, k30).
+1708964751: Client 14be8e94-fa49-4757-a67b-af387fcbd56e disconnected.
+1708964752: New connection from 192.168.127.1:58042 on port 1883.
+1708964752: New client connected from 192.168.127.1:58042 as 145bc5c5-44f3-43f1-8153-4057748cd4e0 (p2, c1, k30).
+1708964754: Client 145bc5c5-44f3-43f1-8153-4057748cd4e0 disconnected: Broken pipe.
+1708964755: New connection from 192.168.127.1:58043 on port 1883.
+1708964755: New client connected from 192.168.127.1:58043 as f9470be1-1da2-4c91-8ca7-2541c8565fa0 (p2, c1, k30).
+1708964756: Client f9470be1-1da2-4c91-8ca7-2541c8565fa0 disconnected: Broken pipe.
+1708964757: New connection from 192.168.127.1:58044 on port 1883.
+1708964757: New client connected from 192.168.127.1:58044 as d7761de3-4d4b-4013-9270-127ca2d85c8e (p2, c1, k30).
+1708964757: Client d7761de3-4d4b-4013-9270-127ca2d85c8e disconnected: Broken pipe.
+1708964758: New connection from 192.168.127.1:58045 on port 1883.
+1708964758: New client connected from 192.168.127.1:58045 as 921b76b4-42b4-42c9-b882-527a7f89619d (p2, c1, k30).
+1708964760: Client 921b76b4-42b4-42c9-b882-527a7f89619d closed its connection.
+1708964761: New connection from 192.168.127.1:58046 on port 1883.
+1708964761: New client connected from 192.168.127.1:58046 as 26496866-e7c6-4d9e-9502-3c25b4e4fcf8 (p2, c1, k30).
+1708964762: Client 26496866-e7c6-4d9e-9502-3c25b4e4fcf8 closed its connection.
+1708964766: Client paho371033238631875 disconnected.
+1708964985: New connection from 192.168.127.1:58047 on port 1883.
+1708964985: New client connected from 192.168.127.1:58047 as paho371285463323375 (p2, c1, k60).
+1708965009: Client paho371285463323375 disconnected.
+1708965081: New connection from 192.168.127.1:58048 on port 1883.
+1708965082: New client connected from 192.168.127.1:58048 as paho371381774595041 (p2, c1, k60).
+1708965092: Client paho371381774595041 disconnected.
+1708965100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708965100: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1708965100: Error: Permission denied.
+1708965338: New connection from 192.168.127.1:58049 on port 1883.
+1708965338: New client connected from 192.168.127.1:58049 as paho371638232036208 (p2, c1, k60).
+1708965342: Client paho371638232036208 disconnected.
+1708965469: New connection from 192.168.127.1:58050 on port 1883.
+1708965469: New client connected from 192.168.127.1:58050 as paho371768945433166 (p2, c1, k60).
+1708965473: Client paho371768945433166 disconnected.
+1708965562: New connection from 192.168.127.1:58051 on port 1883.
+1708965562: New client connected from 192.168.127.1:58051 as paho371862350624208 (p2, c1, k60).
+1708965581: Client paho371862350624208 disconnected.
+1708965608: New connection from 192.168.127.1:58052 on port 1883.
+1708965608: New client connected from 192.168.127.1:58052 as 3d67bab4-1220-4d95-ae05-0716a3c109ca (p2, c1, k30).
+1708965651: New connection from 192.168.127.1:58053 on port 1883.
+1708965652: New client connected from 192.168.127.1:58053 as paho371951656075250 (p2, c1, k60).
+1708965655: Client 3d67bab4-1220-4d95-ae05-0716a3c109ca disconnected.
+1708965656: New connection from 192.168.127.1:58054 on port 1883.
+1708965656: New client connected from 192.168.127.1:58054 as 6c40a2c4-e707-49e4-bcf1-8f746c2f616d (p2, c1, k30).
+1708965665: Client 6c40a2c4-e707-49e4-bcf1-8f746c2f616d disconnected: Broken pipe.
+1708965666: New connection from 192.168.127.1:58055 on port 1883.
+1708965666: New client connected from 192.168.127.1:58055 as 0abba1d4-af15-4bd4-9b9f-9026cbc9a3ae (p2, c1, k30).
+1708965675: Client 0abba1d4-af15-4bd4-9b9f-9026cbc9a3ae closed its connection.
+1708965676: New connection from 192.168.127.1:58056 on port 1883.
+1708965676: New client connected from 192.168.127.1:58056 as 7ca616fc-fb5a-46ea-99b3-e0ea9b8b746c (p2, c1, k30).
+1708965685: Client 7ca616fc-fb5a-46ea-99b3-e0ea9b8b746c disconnected: Broken pipe.
+1708965686: New connection from 192.168.127.1:58057 on port 1883.
+1708965686: New client connected from 192.168.127.1:58057 as f1d19cdd-c518-448b-af56-a895a7981c44 (p2, c1, k30).
+1708965693: Client f1d19cdd-c518-448b-af56-a895a7981c44 disconnected.
+1708965701: Client paho371951656075250 disconnected.
+1708966066: New connection from 192.168.127.1:58058 on port 1883.
+1708966066: New client connected from 192.168.127.1:58058 as consumer (p2, c1, k30).
+1708966079: New connection from 192.168.127.1:58059 on port 1883.
+1708966079: New client connected from 192.168.127.1:58059 as capture-image (p2, c1, k60).
+1708966083: Client consumer disconnected.
+1708966084: New connection from 192.168.127.1:58060 on port 1883.
+1708966084: New client connected from 192.168.127.1:58060 as consumer (p2, c1, k30).
+1708966093: Client consumer disconnected.
+1708966094: New connection from 192.168.127.1:58061 on port 1883.
+1708966094: New client connected from 192.168.127.1:58061 as consumer (p2, c1, k30).
+1708966103: Client consumer disconnected: Broken pipe.
+1708966104: New connection from 192.168.127.1:58062 on port 1883.
+1708966104: New client connected from 192.168.127.1:58062 as consumer (p2, c1, k30).
+1708966107: Client capture-image disconnected.
+1708966112: Client consumer disconnected.
+1708966745: New connection from 192.168.127.1:58063 on port 1883.
+1708966745: New client connected from 192.168.127.1:58063 as consumer (p2, c1, k30).
+1708966757: New connection from 192.168.127.1:58064 on port 1883.
+1708966758: New client connected from 192.168.127.1:58064 as capture-image (p2, c1, k60).
+1708966762: Client consumer disconnected.
+1708966763: New connection from 192.168.127.1:58065 on port 1883.
+1708966763: New client connected from 192.168.127.1:58065 as consumer (p2, c1, k30).
+1708966771: Client consumer disconnected: Broken pipe.
+1708966772: New connection from 192.168.127.1:58066 on port 1883.
+1708966772: New client connected from 192.168.127.1:58066 as consumer (p2, c1, k30).
+1708966781: Client consumer disconnected: Broken pipe.
+1708966782: New connection from 192.168.127.1:58067 on port 1883.
+1708966782: New client connected from 192.168.127.1:58067 as consumer (p2, c1, k30).
+1708966791: Client consumer disconnected: Broken pipe.
+1708966792: New connection from 192.168.127.1:58068 on port 1883.
+1708966792: New client connected from 192.168.127.1:58068 as consumer (p2, c1, k30).
+1708966801: Client consumer closed its connection.
+1708966802: New connection from 192.168.127.1:58069 on port 1883.
+1708966802: New client connected from 192.168.127.1:58069 as consumer (p2, c1, k30).
+1708966812: Client consumer disconnected: Broken pipe.
+1708966813: New connection from 192.168.127.1:58070 on port 1883.
+1708966813: New client connected from 192.168.127.1:58070 as consumer (p2, c1, k30).
+1708966821: Client consumer disconnected.
+1708966822: New connection from 192.168.127.1:58071 on port 1883.
+1708966822: New client connected from 192.168.127.1:58071 as consumer (p2, c1, k30).
+1708966832: Client consumer disconnected: Broken pipe.
+1708966833: New connection from 192.168.127.1:58072 on port 1883.
+1708966833: New client connected from 192.168.127.1:58072 as consumer (p2, c1, k30).
+1708966841: Client consumer disconnected: Broken pipe.
+1708966842: New connection from 192.168.127.1:58073 on port 1883.
+1708966842: New client connected from 192.168.127.1:58073 as consumer (p2, c1, k30).
+1708966845: Client consumer disconnected.
+1708966848: Client capture-image disconnected.
+1708966901: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708966901: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1708966901: Error: Permission denied.
+1708967494: New connection from 192.168.127.1:58074 on port 1883.
+1708967494: New client connected from 192.168.127.1:58074 as capture-image (p2, c1, k60).
+1708967500: Client capture-image disconnected.
+1708967525: New connection from 192.168.127.1:58075 on port 1883.
+1708967525: New client connected from 192.168.127.1:58075 as consumer (p2, c1, k30).
+1708967583: New connection from 192.168.127.1:58076 on port 1883.
+1708967583: New client connected from 192.168.127.1:58076 as capture-image (p2, c1, k60).
+1708967587: Client consumer disconnected.
+1708967588: New connection from 192.168.127.1:58077 on port 1883.
+1708967588: New client connected from 192.168.127.1:58077 as consumer (p2, c1, k30).
+1708967597: Client consumer disconnected: Broken pipe.
+1708967598: New connection from 192.168.127.1:58078 on port 1883.
+1708967598: New client connected from 192.168.127.1:58078 as consumer (p2, c1, k30).
+1708967600: Client consumer disconnected.
+1708967609: Client capture-image disconnected.
+1708968702: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708968702: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1708968702: Error: Permission denied.
+1708968897: mosquitto version 2.0.18 terminating
+1708968897: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708968897: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1708968897: Error: Permission denied.
+1709050927: mosquitto version 2.0.18 starting
+1709050927: Config loaded from /mosquitto/config/mosquitto.conf.
+1709050927: Opening ipv4 listen socket on port 1883.
+1709050927: mosquitto version 2.0.18 running
+1709051011: mosquitto version 2.0.18 terminating
+1709051011: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709051011: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709051011: Error: Permission denied.
+1709052064: mosquitto version 2.0.18 starting
+1709052064: Config loaded from /mosquitto/config/mosquitto.conf.
+1709052064: Opening ipv4 listen socket on port 1883.
+1709052064: mosquitto version 2.0.18 running
+1709052103: New connection from 192.168.127.1:32959 on port 1883.
+1709052103: New client connected from 192.168.127.1:32959 as consumer (p2, c1, k30).
+1709052773: New connection from 192.168.127.1:32960 on port 1883.
+1709052773: New client connected from 192.168.127.1:32960 as capture-image (p2, c1, k60).
+1709052773: Client consumer disconnected.
+1709052774: New connection from 192.168.127.1:32961 on port 1883.
+1709052774: New client connected from 192.168.127.1:32961 as consumer (p2, c1, k30).
+1709052801: Client capture-image disconnected.
+1709052903: Client consumer disconnected.
+1709053051: New connection from 192.168.127.1:32962 on port 1883.
+1709053051: New client connected from 192.168.127.1:32962 as auto-A144A3F7-437D-7894-9075-9833962FC6C9 (p5, c1, k60).
+1709053067: New connection from 192.168.127.1:32963 on port 1883.
+1709053068: New client connected from 192.168.127.1:32963 as capture-image (p2, c1, k60).
+1709053079: Client auto-A144A3F7-437D-7894-9075-9833962FC6C9 disconnected.
+1709053106: Client capture-image disconnected.
+1709053118: New connection from 192.168.127.1:32964 on port 1883.
+1709053118: New client connected from 192.168.127.1:32964 as auto-D67AFAA5-D5B9-C2E0-65C0-3CA2DCE38B0C (p5, c1, k60).
+1709053140: New connection from 192.168.127.1:32965 on port 1883.
+1709053141: New client connected from 192.168.127.1:32965 as capture-image (p2, c1, k60).
+1709053166: Client capture-image disconnected.
+1709053471: Client auto-D67AFAA5-D5B9-C2E0-65C0-3CA2DCE38B0C disconnected.
+1709053526: New connection from 192.168.127.1:32966 on port 1883.
+1709053526: New client connected from 192.168.127.1:32966 as consumer (p2, c1, k30).
+1709053541: New connection from 192.168.127.1:32967 on port 1883.
+1709053541: New client connected from 192.168.127.1:32967 as capture-image (p2, c1, k60).
+1709053541: Client consumer disconnected.
+1709053542: New connection from 192.168.127.1:32968 on port 1883.
+1709053542: New client connected from 192.168.127.1:32968 as consumer (p2, c1, k30).
+1709053556: Client consumer disconnected.
+1709053560: Client capture-image disconnected.
+1709053864: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709053864: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709053864: Error: Permission denied.
+1709055666: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709055666: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709055666: Error: Permission denied.
+1709055921: New connection from 192.168.127.1:32969 on port 1883.
+1709055921: New client connected from 192.168.127.1:32969 as auto-167F6F2F-E391-591E-E608-A57010871140 (p5, c1, k60).
+1709055933: New connection from 192.168.127.1:32970 on port 1883.
+1709055933: New client connected from 192.168.127.1:32970 as capture-image (p2, c1, k60).
+1709055941: Client capture-image disconnected.
+1709055995: New connection from 192.168.127.1:32971 on port 1883.
+1709055995: New client connected from 192.168.127.1:32971 as capture-image (p2, c1, k60).
+1709055998: Client capture-image disconnected.
+1709056456: New connection from 192.168.127.1:32972 on port 1883.
+1709056456: New client connected from 192.168.127.1:32972 as capture-image (p2, c1, k60).
+1709056463: Client capture-image disconnected.
+1709056595: New connection from 192.168.127.1:32973 on port 1883.
+1709056595: New client connected from 192.168.127.1:32973 as capture-image (p2, c1, k60).
+1709056601: Client capture-image disconnected.
+1709056788: Client auto-167F6F2F-E391-591E-E608-A57010871140 disconnected.
+1709056796: New connection from 192.168.127.1:32974 on port 1883.
+1709056796: New client connected from 192.168.127.1:32974 as consumer (p2, c1, k30).
+1709056814: New connection from 192.168.127.1:32975 on port 1883.
+1709056814: New client connected from 192.168.127.1:32975 as capture-image (p2, c1, k60).
+1709056816: Client consumer disconnected.
+1709056817: New connection from 192.168.127.1:32976 on port 1883.
+1709056817: New client connected from 192.168.127.1:32976 as consumer (p2, c1, k30).
+1709056826: Client capture-image disconnected.
+1709057054: Client consumer disconnected.
+1709057060: New connection from 192.168.127.1:32977 on port 1883.
+1709057060: New client connected from 192.168.127.1:32977 as consumer (p2, c1, k30).
+1709057077: New connection from 192.168.127.1:32978 on port 1883.
+1709057077: New client connected from 192.168.127.1:32978 as capture-image (p2, c1, k60).
+1709057079: Client consumer disconnected.
+1709057080: New connection from 192.168.127.1:32979 on port 1883.
+1709057080: New client connected from 192.168.127.1:32979 as consumer (p2, c1, k30).
+1709057092: Client capture-image disconnected.
+1709057347: Client consumer disconnected.
+1709057352: New connection from 192.168.127.1:32980 on port 1883.
+1709057352: New client connected from 192.168.127.1:32980 as capture-image (p2, c1, k60).
+1709057357: Client capture-image disconnected.
+1709057467: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709057467: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709057467: Error: Permission denied.
+1709057502: New connection from 192.168.127.1:32981 on port 1883.
+1709057502: New client connected from 192.168.127.1:32981 as consumer (p2, c1, k30).
+1709057515: New connection from 192.168.127.1:32982 on port 1883.
+1709057516: New client connected from 192.168.127.1:32982 as capture-image (p2, c1, k60).
+1709057517: Client consumer disconnected.
+1709057518: New connection from 192.168.127.1:32983 on port 1883.
+1709057518: New client connected from 192.168.127.1:32983 as consumer (p2, c1, k30).
+1709057525: Client capture-image disconnected.
+1709057526: Client consumer disconnected.
+1709057720: New connection from 192.168.127.1:32984 on port 1883.
+1709057720: New client connected from 192.168.127.1:32984 as consumer (p2, c1, k30).
+1709057720: Client consumer disconnected.
+1709057873: New connection from 192.168.127.1:32985 on port 1883.
+1709057873: New client connected from 192.168.127.1:32985 as consumer (p2, c1, k30).
+1709057886: New connection from 192.168.127.1:32986 on port 1883.
+1709057887: New client connected from 192.168.127.1:32986 as capture-image (p2, c1, k60).
+1709057887: Client consumer disconnected.
+1709057888: New connection from 192.168.127.1:32987 on port 1883.
+1709057888: New client connected from 192.168.127.1:32987 as consumer (p2, c1, k30).
+1709057906: Client capture-image disconnected.
+1709058171: Client consumer disconnected.
+1709058254: New connection from 192.168.127.1:32988 on port 1883.
+1709058254: New client connected from 192.168.127.1:32988 as consumer (p2, c1, k30).
+1709058268: New connection from 192.168.127.1:32989 on port 1883.
+1709058269: New client connected from 192.168.127.1:32989 as capture-image (p2, c1, k60).
+1709058269: Client consumer disconnected.
+1709058270: New connection from 192.168.127.1:32990 on port 1883.
+1709058270: New client connected from 192.168.127.1:32990 as consumer (p2, c1, k30).
+1709058278: Client capture-image disconnected.
+1709058447: Client consumer disconnected.
+1709058462: New connection from 192.168.127.1:32991 on port 1883.
+1709058462: New client connected from 192.168.127.1:32991 as consumer (p2, c1, k30).
+1709058487: New connection from 192.168.127.1:32992 on port 1883.
+1709058487: New client connected from 192.168.127.1:32992 as capture-image (p2, c1, k60).
+1709058487: Client consumer disconnected.
+1709058488: New connection from 192.168.127.1:32993 on port 1883.
+1709058488: New client connected from 192.168.127.1:32993 as consumer (p2, c1, k30).
+1709058531: Client consumer disconnected.
+1709058681: Client capture-image disconnected.
+1709058707: New connection from 192.168.127.1:32994 on port 1883.
+1709058707: New client connected from 192.168.127.1:32994 as consumer (p2, c1, k30).
+1709058707: New connection from 192.168.127.1:32995 on port 1883.
+1709058708: New client connected from 192.168.127.1:32995 as capture-image (p2, c1, k60).
+1709058708: Client consumer disconnected.
+1709058709: New connection from 192.168.127.1:32996 on port 1883.
+1709058709: New client connected from 192.168.127.1:32996 as consumer (p2, c1, k30).
+1709058786: Client capture-image disconnected.
+1709058808: New connection from 192.168.127.1:32997 on port 1883.
+1709058809: New client connected from 192.168.127.1:32997 as capture-image (p2, c1, k60).
+1709058809: Client consumer disconnected: Broken pipe.
+1709058810: New connection from 192.168.127.1:32998 on port 1883.
+1709058810: New client connected from 192.168.127.1:32998 as consumer (p2, c1, k30).
+1709058821: Client capture-image disconnected.
+1709058822: Client consumer disconnected.
+1709059066: New connection from 192.168.127.1:32999 on port 1883.
+1709059066: New client connected from 192.168.127.1:32999 as consumer (p2, c1, k30).
+1709059103: New connection from 192.168.127.1:33000 on port 1883.
+1709059103: New client connected from 192.168.127.1:33000 as capture-image (p2, c1, k60).
+1709059104: Client consumer disconnected.
+1709059105: New connection from 192.168.127.1:33001 on port 1883.
+1709059105: New client connected from 192.168.127.1:33001 as consumer (p2, c1, k30).
+1709059132: Client capture-image disconnected.
+1709059134: Client consumer disconnected.
+1709059267: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709059267: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709059267: Error: Permission denied.
+1709059546: New connection from 192.168.127.1:33002 on port 1883.
+1709059546: New client connected from 192.168.127.1:33002 as consumer (p2, c1, k30).
+1709059574: New connection from 192.168.127.1:33003 on port 1883.
+1709059575: New client connected from 192.168.127.1:33003 as capture-image (p2, c1, k60).
+1709059575: Client consumer disconnected.
+1709059576: New connection from 192.168.127.1:33004 on port 1883.
+1709059576: New client connected from 192.168.127.1:33004 as consumer (p2, c1, k30).
+1709059626: Client capture-image disconnected.
+1709059629: Client consumer disconnected.
+1709059714: New connection from 192.168.127.1:33005 on port 1883.
+1709059715: New client connected from 192.168.127.1:33005 as capture-image (p2, c1, k60).
+1709059721: Client capture-image disconnected.
+1709059922: New connection from 192.168.127.1:33006 on port 1883.
+1709059922: New client connected from 192.168.127.1:33006 as capture-image (p2, c1, k60).
+1709059944: New connection from 192.168.127.1:33007 on port 1883.
+1709059944: New client connected from 192.168.127.1:33007 as consumer (p2, c1, k30).
+1709059950: Client capture-image disconnected.
+1709059961: New connection from 192.168.127.1:33008 on port 1883.
+1709059962: New client connected from 192.168.127.1:33008 as capture-image (p2, c1, k60).
+1709059962: Client consumer disconnected.
+1709059963: New connection from 192.168.127.1:33009 on port 1883.
+1709059963: New client connected from 192.168.127.1:33009 as consumer (p2, c1, k30).
+1709059989: Client capture-image disconnected.
+1709060031: New connection from 192.168.127.1:33010 on port 1883.
+1709060032: New client connected from 192.168.127.1:33010 as capture-image (p2, c1, k60).
+1709060061: Client capture-image disconnected.
+1709060062: Client consumer disconnected.
+1709060069: New connection from 192.168.127.1:33011 on port 1883.
+1709060069: New client connected from 192.168.127.1:33011 as consumer (p2, c1, k30).
+1709060081: New connection from 192.168.127.1:33012 on port 1883.
+1709060081: New client connected from 192.168.127.1:33012 as capture-image (p2, c1, k60).
+1709060280: Client consumer disconnected.
+1709060588: New connection from 192.168.127.1:33013 on port 1883.
+1709060588: New client connected from 192.168.127.1:33013 as consumer (p2, c1, k30).
+1709060591: Client capture-image disconnected.
+1709060601: New connection from 192.168.127.1:33014 on port 1883.
+1709060602: New client connected from 192.168.127.1:33014 as capture-image (p2, c1, k60).
+1709061069: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709061069: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709061069: Error: Permission denied.
+1709061099: Client consumer disconnected.
+1709061103: Client capture-image disconnected.
+1709061107: New connection from 192.168.127.1:33015 on port 1883.
+1709061107: New client connected from 192.168.127.1:33015 as consumer (p2, c1, k30).
+1709061119: New connection from 192.168.127.1:33016 on port 1883.
+1709061120: New client connected from 192.168.127.1:33016 as capture-image (p2, c1, k60).
+1709061136: Client consumer disconnected.
+1709061450: Client capture-image disconnected.
+1709062870: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709062870: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709062870: Error: Permission denied.
+1709064671: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709064671: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709064671: Error: Permission denied.
+1709230013: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709230013: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709230013: Error: Permission denied.
+1709231814: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709231814: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709231814: Error: Permission denied.
+1709232370: New connection from 192.168.127.1:33017 on port 1883.
+1709232371: New client connected from 192.168.127.1:33017 as capture-image (p2, c1, k60).
+1709232384: Client capture-image disconnected.
+1709232401: New connection from 192.168.127.1:33018 on port 1883.
+1709232402: New client connected from 192.168.127.1:33018 as capture-image (p2, c1, k60).
+1709232462: Client capture-image disconnected.
+1709233615: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709233615: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709233615: Error: Permission denied.
+1709235416: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709235416: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709235416: Error: Permission denied.
+1709237217: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709237217: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709237217: Error: Permission denied.
