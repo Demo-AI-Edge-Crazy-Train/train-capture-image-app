@@ -6,6 +6,7 @@ import com.dropbox.core.v2.DbxClientV2;
 import com.dropbox.core.v2.files.WriteMode;
 import org.opencv.core.Mat;
 import org.opencv.videoio.VideoCapture;
+import org.opencv.videoio.Videoio;
 import org.opencv.imgcodecs.Imgcodecs;
 
 
@@ -27,6 +28,10 @@ public class ImageCaptureService {
     public void captureAndUploadImage() {
         try {
             // Capture the image
+            if(camera.isOpened() == false) {
+                System.out.println("Error: Camera not opened");
+                return;
+            }
             Mat image = new Mat();
             camera.read(image);
 
