@@ -1,32 +1,45 @@
 package org.redhat.demo.crazytrain.captureimage;
 
-
-import com.dropbox.core.DbxRequestConfig;
-import com.dropbox.core.v2.DbxClientV2;
-import com.dropbox.core.v2.files.WriteMode;
-import org.opencv.core.Mat;
-import org.opencv.videoio.VideoCapture;
-import org.opencv.videoio.Videoio;
-import org.opencv.imgcodecs.Imgcodecs;
-
-
-
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.inject.Produces;
+
+import org.jboss.logging.Logger;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.UUID;
+
+import org.opencv.core.Mat;
+import org.opencv.videoio.VideoCapture;
+import org.opencv.imgcodecs.Imgcodecs;
+import nu.pattern.OpenCV;
+
+import com.dropbox.core.DbxRequestConfig;
+import com.dropbox.core.v2.DbxClientV2;
+import com.dropbox.core.v2.files.WriteMode;
+
+
+
+
+
+
+
+
+
 
 @ApplicationScoped
 public class ImageCaptureService {
 
-    private final VideoCapture camera = new VideoCapture(0);
+    private static final Logger LOGGER = Logger.getLogger(ImageCaptureService.class);
+
+    static {
+        OpenCV.loadShared();
+    }
+    VideoCapture camera;
 
     public void captureAndUploadImage() {
         try {
+            camera = new VideoCapture(0);
             // Capture the image
             if(camera.isOpened() == false) {
                 System.out.println("Error: Camera not opened");
@@ -42,27 +55,27 @@ public class ImageCaptureService {
             // Convert the timestamp to a string and append the file extension
             String filename = timestamp + ".jpg";
             if (!Imgcodecs.imwrite(filename, image)) {
-                System.out.println("Failed to save image");
+                LOGGER.error("Failed to save image");
                 return;
             }
 
             // Upload the local file to Dropbox
-            String dropboxAccessToken = "";
-            DbxRequestConfig config = DbxRequestConfig.newBuilder("test").build();
-            DbxClientV2 client = new DbxClientV2(config, dropboxAccessToken);
-            try (InputStream in = new FileInputStream(filename)) {
-                client.files().uploadBuilder("/images/" + filename)
-                        .withMode(WriteMode.OVERWRITE)
-                        .uploadAndFinish(in);
-            }catch (Exception e) {
-                e.printStackTrace();
-                System.out.println("Image capture and upload process failed: " + e.getMessage());
-            }
+            // String dropboxAccessToken = "";
+            // DbxRequestConfig config = DbxRequestConfig.newBuilder("test").build();
+            // DbxClientV2 client = new DbxClientV2(config, dropboxAccessToken);
+            // try (InputStream in = new FileInputStream(filename)) {
+            //     client.files().uploadBuilder("/images/" + filename)
+            //             .withMode(WriteMode.OVERWRITE)
+            //             .uploadAndFinish(in);
+            // }catch (Exception e) {
+            //     e.printStackTrace();
+            //     LOGGER.error("Image capture and upload process failed: " + e.getMessage());
+            // }
 
             // Delete the local file
             Files.delete(Paths.get(filename));
         } catch (Exception e) {
-            System.out.println("Image capture and upload process failed: " + e.getMessage());
+            LOGGER.error("Image capture and upload process failed: " + e.getMessage());
         }
     }
 }

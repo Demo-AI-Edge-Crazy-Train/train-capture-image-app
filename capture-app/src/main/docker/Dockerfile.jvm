@@ -81,7 +81,46 @@ FROM registry.access.redhat.com/ubi8/openjdk-17:1.16
 
 ENV LANGUAGE='en_US:en'
 
+USER root
 
+# Install necessary packages
+RUN microdnf install -y wget unzip cmake gcc-c++ 
+
+# Download EPEL release and install it
+# Download and install Ant
+RUN wget https://dlcdn.apache.org//ant/binaries/apache-ant-1.10.14-bin.zip && \
+    unzip apache-ant-1.10.14-bin.zip && \
+    mv apache-ant-1.10.14 /opt/ant && \
+    rm apache-ant-1.10.14-bin.zip
+
+# Set ANT_HOME environment variable
+ENV ANT_HOME=/opt/ant
+ENV PATH=${ANT_HOME}/bin:${PATH}
+# Download and extract OpenCV
+RUN wget https://github.com/opencv/opencv/archive/4.5.3.zip -O opencv.zip && \
+    unzip opencv.zip && \
+    rm opencv.zip
+
+# Build OpenCV
+WORKDIR opencv-4.5.3
+RUN mkdir build
+WORKDIR build
+RUN cmake -D BUILD_SHARED_LIBS=OFF -D BUILD_opencv_java=ON .. && \
+    make -j8
+# Use grep to search for lines starting with WITH_
+#RUN grep 'WITH_' CMakeCache.txt
+# RUN ls -l 
+# RUN ls -l lib/
+# RUN ls -l bin
+# RUN ls -l bin
+# RUN ls -l modules/java_bindings_generator
+# RUN ls $JAVA_HOME/bin/javac
+# RUN ls $JAVA_HOME/include/jni.h
+# Move the built library to a location where Java can find it
+#RUN mv lib/libopencv_java453.so /usr/lib/
+USER 1001
+
+RUN cd /deployments
 # We make four distinct layers so if there are application changes the library layers can be re-used
 COPY --chown=185 target/quarkus-app/lib/ /deployments/lib/
 COPY --chown=185 target/quarkus-app/*.jar /deployments/
@@ -91,6 +130,8 @@ COPY --chown=185 target/quarkus-app/quarkus/ /deployments/quarkus/
 EXPOSE 8080
 USER 185
 ENV JAVA_OPTS="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
+ENV OPENCV_LOG_LEVEL=debug
+ENV OPENCV_VIDEOIO_DEBUG=1
 ENV JAVA_APP_JAR="/deployments/quarkus-run.jar"
 
 ENTRYPOINT [ "/opt/jboss/container/java/run/run-java.sh" ]
