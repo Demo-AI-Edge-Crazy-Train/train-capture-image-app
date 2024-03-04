@@ -1,14 +1,6 @@
 ####
 # This Dockerfile is used in order to build a container that runs the Quarkus application with OpenCV
 #
-# Pre-requisites: rebuild the openjdk image on Fedora 39 base.
-#
-# sudo dnf install -y cekit
-# git clone https://github.com/jboss-container-images/openjdk -b ubi9
-# cd openjdk
-# sed -i 's/uname -i/uname -m/g' $(grep -rl 'uname -i')
-# cekit --descriptor fedora39-openjdk-17-runtime.yaml build podman
-# 
 # Before building the container image run:
 #
 # ./mvnw package
@@ -23,14 +15,7 @@
 # sudo podman run -i --rm -p 8080:8080 --privileged -v /dev:/dev quarkus/train-capture-image-jvm
 #
 ####
-FROM fedora39/openjdk-17-runtime:1.18
-
-# Install OpenCV 4.8.1 (it needs to match the minor version used by quarkus-opencv)
-USER 0
-RUN dnf install -y opencv-4.8.1* opencv-java \
- && dnf clean all \
- && usermod -a -G video default
-USER 185
+FROM demo-ai-edge-crazy-train/openjdk-opencv:17-4.8.1
 
 # We make four distinct layers so if there are application changes the library layers can be re-used
 COPY --chown=185 target/quarkus-app/lib/ /deployments/lib/
