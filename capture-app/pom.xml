@@ -48,7 +48,26 @@
     <dependency>
       <groupId>io.quarkiverse.opencv</groupId>
       <artifactId>quarkus-opencv</artifactId>
-      <version>LATEST</version>
+      <!--
+        Be explicit about the version of quarkus-opencv (and thus about the version of OpenCV) 
+        since the version of the bindings needs to match the version of OpenCV in the container image.
+
+        quarkus-opencv 2.1.0 is using OpenCV 4.8.1-0
+
+        By chance, OpenCV 4.8.1 is also available in Fedora 39. Run the following command to install it:
+
+        ```sh
+        sudo dnf install -y opencv opencv-java
+        ```
+
+        However, the JNI library for OpenCV (opencv_java481.so) is not on the default path.
+        Fix it by setting the LD_LIBRARY_PATH environment variable.
+        
+        ```sh
+        export LD_LIBRARY_PATH="/usr/lib/java:$LD_LIBRARY_PATH"
+        ```
+        -->
+      <version>2.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.paho</groupId>

@@ -1,52 +1,59 @@
 package org.redhat.demo.crazytrain.captureimage;
 
-import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Singleton;
+import jakarta.ws.rs.Path;
 
+import java.nio.file.FileSystems;
+
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.jboss.logging.Logger;
-import java.nio.file.*;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
+import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.videoio.VideoCapture;
 import org.opencv.imgcodecs.Imgcodecs;
-import nu.pattern.OpenCV;
 
-import com.dropbox.core.DbxRequestConfig;
-import com.dropbox.core.v2.DbxClientV2;
-import com.dropbox.core.v2.files.WriteMode;
-
-
-
-
-
-
-
-
-
-
-@ApplicationScoped
+// Using Singleton here to make sure there won't be two instances of the OpenCV capture process running
+@Singleton
 public class ImageCaptureService {
 
     private static final Logger LOGGER = Logger.getLogger(ImageCaptureService.class);
+    private VideoCapture camera;
 
-    // static {
-    //     System.load("/deployments/lib/libopencv_java480.so");
-    // }
-    VideoCapture camera;
+    @ConfigProperty(name = "capture.videoDeviceIndex")
+    int videoDeviceIndex;
 
-    public void captureAndUploadImage() {
+    @ConfigProperty(name = "java.io.tmpdir")
+    String tmpFolder;
+
+    public ImageCaptureService() {
+    }
+
+    static {
+        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+    }
+
+    public void captureImage() {
         try {
-            camera = new VideoCapture(0);
-            // Capture the image
+            // Create the OpenCV camera
+            if (camera == null) {
+                LOGGER.infof("Opening camera at index %d", videoDeviceIndex);
+                camera = new VideoCapture(this.videoDeviceIndex);
+            }
+    
+            // If somehow something goes wrong, reload the OpenCV camera
+            if (!camera.isOpened()) {
+                camera.release();
+                camera.open(this.videoDeviceIndex);
+            }
+
+            // Last check before running a capture
             if(camera.isOpened() == false) {
-                System.out.println("Error: Camera not opened");
+                LOGGER.error("Error: Camera not opened");
                 return;
             }
+
+            // Read an image
             Mat image = new Mat();
             camera.read(image);
 
@@ -55,27 +62,11 @@ public class ImageCaptureService {
             long timestamp = System.currentTimeMillis();
 
             // Convert the timestamp to a string and append the file extension
-            String filename = timestamp + ".jpg";
+            String filename = FileSystems.getDefault().getPath(tmpFolder, String.format("%d.jpg", timestamp)).toString();
             if (!Imgcodecs.imwrite(filename, image)) {
                 LOGGER.error("Failed to save image");
                 return;
             }
-
-            // Upload the local file to Dropbox
-            // String dropboxAccessToken = "";
-            // DbxRequestConfig config = DbxRequestConfig.newBuilder("test").build();
-            // DbxClientV2 client = new DbxClientV2(config, dropboxAccessToken);
-            // try (InputStream in = new FileInputStream(filename)) {
-            //     client.files().uploadBuilder("/images/" + filename)
-            //             .withMode(WriteMode.OVERWRITE)
-            //             .uploadAndFinish(in);
-            // }catch (Exception e) {
-            //     e.printStackTrace();
-            //     LOGGER.error("Image capture and upload process failed: " + e.getMessage());
-            // }
-
-            // Delete the local file
-            Files.delete(Paths.get(filename));
         } catch (Exception e) {
             LOGGER.error("Image capture and upload process failed: " + e.getMessage());
         }
