@@ -1,0 +1,154 @@
+FROM registry.fedoraproject.org/fedora-minimal:38 AS opencv-libs
+
+# Install minimal prerequisites (Ubuntu 18.04 as reference)
+# Build tools for OpenCV
+# libavcodec, libavformat, libswscale, libavutil, libswresample are needed by ffmpeg. See https://ffmpeg.org/about.html
+RUN microdnf install -y  gcc gcc-c++ make java-17-openjdk-devel xz-devel wget unzip cmake git 
+RUN wget https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm && \
+    rpm -i rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm && \
+    rm rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+# Update the system and install FFmpeg libraries
+RUN microdnf update -y && microdnf install -y ffmpeg-libs
+
+# Clean up
+RUN microdnf clean all 
+   
+
+# Download and unpack OpenCV sources
+# Note that the Java jar version must match the version we build here - 4.8 at the moment
+RUN wget -O opencv.zip https://github.com/opencv/opencv/archive/4.8.0.zip && unzip opencv.zip
+
+# Create build directory
+RUN mkdir -p build && cd build
+
+# Configure OpenCV. Turn off features we do not need to restrict size
+# See: https://docs.opencv.org/4.x/db/d05/tutorial_config_reference.html
+#
+# CMAKE OUTPUT, MUST LOOK LIKE SHOWN BELOW:
+# Important things to note:
+# - Java/ant/JNI are enabled under Java:
+# - FFMPEG is enabled under Video I/O:
+#
+# CMAKE OUTPUT #################################################################################################################################
+#11 28.73 --   OpenCV modules:
+#11 28.74 --     To be built:                 calib3d core features2d flann gapi imgcodecs imgproc java objdetect photo stitching video videoio
+#11 28.74 --     Disabled:                    dnn highgui ml world
+#11 28.74 --     Disabled by dependency:      -
+#11 28.74 --     Unavailable:                 python2 python3 ts
+#11 28.74 --     Applications:                -
+#11 28.74 --     Documentation:               NO
+#11 28.74 --     Non-free algorithms:         NO
+#11 28.74 --
+#11 28.74 --   GUI:
+#11 28.74 --     GTK+:                        NO
+#11 28.74 --     VTK support:                 NO
+#11 28.74 --
+#11 28.74 --   Media I/O:
+#11 28.74 --     ZLib:                        zlib (ver 1.2.13)
+#11 28.74 --     JPEG:                        libjpeg-turbo (ver 2.1.3-62)
+#11 28.74 --     WEBP:                        build (ver encoder: 0x020f)
+#11 28.74 --     PNG:                         build (ver 1.6.37)
+#11 28.74 --     TIFF:                        build (ver 42 - 4.2.0)
+#11 28.74 --     JPEG 2000:                   build (ver 2.5.0)
+#11 28.74 --     OpenEXR:                     build (ver 2.3.0)
+#11 28.75 --     HDR:                         YES
+#11 28.75 --     SUNRASTER:                   YES
+#11 28.75 --     PXM:                         YES
+#11 28.75 --     PFM:                         YES
+#11 28.75 --
+#11 28.75 --   Video I/O:
+#11 28.75 --     DC1394:                      NO
+#11 28.75 --     FFMPEG:                      YES
+#11 28.75 --       avcodec:                   YES (58.91.100)
+#11 28.75 --       avformat:                  YES (58.45.100)
+#11 28.75 --       avutil:                    YES (56.51.100)
+#11 28.75 --       swscale:                   YES (5.7.100)
+#11 28.75 --       avresample:                NO
+#11 28.75 --
+#...
+#11 28.76 --   Java:
+#11 28.76 --     ant:                         /usr/bin/ant (ver 1.10.9)
+#11 28.76 --     Java:                        NO
+#11 28.76 --     JNI:                         /usr/lib/jvm/java-17-openjdk-amd64/include /usr/lib/jvm/java-17-openjdk-amd64/include/linux /usr/lib/jvm/java-17-openjdk-amd64/include
+#11 28.76 --     Java wrappers:               YES (ANT)
+#11 28.76 --     Java tests:                  NO
+# ########################################################################################################################################################
+
+# OpenCV build needs JDK
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+
+RUN cmake -DWITH_GSTREAMER=OFF \
+-DBUILD_opencv_highgui=OFF \
+-DBUILD_opencv_dnn=OFF \
+-DBUILD_opencv_ml=OFF \
+-DBUILD_opencv_apps=OFF \
+-DBUILD_opencv_js=OFF \
+-DBUILD_opencv_ts=OFF \
+-DBUILD_opencv_viz=OFF \
+-DBUILD_opencv_lagacy=OFF \
+-DBUILD_opencv_androidcamera=OFF \
+-DBUILD_SHARED_LIBS=ON \
+-DBUILD_PERF_TESTS=OFF \
+-DBUILD_TESTS=OFF \
+-DBUILD_opencv_python2=OFF  \
+-DOPENCV_FFMPEG_SKIP_BUILD_CHECK=ON \
+-DWITH_V4L=ON \
+-DWITH_FFMPEG=ON \
+-DBUILD_opencv_java=ON \
+-DBUILD_opencv_python3=OFF ../opencv-4.8.0
+
+# Build OpenCV Java shared lib
+RUN make -j8
+RUN make install
+
+RUN ls -ail /usr/lib/
+
+
+#RUN mkdir -p /deployments/lib /deployments/app/ /deployments/quarkus/
+
+FROM registry.access.redhat.com/ubi8/openjdk-17:1.16 AS opencv-app
+
+USER root
+
+COPY --from=opencv-libs --chown=185 /usr/lib/*.so* /deployments/lib/
+COPY --from=opencv-libs --chown=185  /usr/lib/ld-linux-aarch64.so.1 /deployments/lib/
+COPY --from=opencv-libs --chown=185  /bin/opencv-480.jar /deployments/
+
+RUN ls -ail /usr/lib/
+
+RUN microdnf install -y gcc libstdc++ && microdnf clean all
+
+# # COPY --from=opencv-libs /usr/bin/ffmpeg /usr/bin/ffmpeg
+
+# # Big(ish) static lib from the OpenCV build. Contains all OpenCV deps.
+# # OpenCV JNI layer needs this to work
+USER root
+RUN strings strings /usr/lib64/libstdc++.so.6  | grep GLIBCXX
+
+
+
+
+RUN ls -ail /deployments/lib/
+
+
+RUN cd /deployments
+# We make four distinct layers so if there are application changes the library layers can be re-used
+COPY --chown=185 target/quarkus-app/lib/ /deployments/lib/
+COPY --chown=185 target/quarkus-app/*.jar /deployments/
+COPY --chown=185 target/quarkus-app/app/ /deployments/app/
+COPY --chown=185 target/quarkus-app/quarkus/ /deployments/quarkus/
+USER 1001
+
+RUN ls -ail /deployments/lib/
+EXPOSE 8080
+USER 185
+ENV JAVA_OPTS="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
+ENV OPENCV_LOG_LEVEL=debug
+ENV OPENCV_VIDEOIO_DEBUG=1
+ENV LD_LIBRARY_PATH=/deployments/lib/
+ENV JAVA_APP_JAR="/deployments/quarkus-run.jar"
+RUN ls /deployments/quarkus
+#RUN ldd /deployments/lib/libopencv_java480.so
+
+ENTRYPOINT [ "/opt/jboss/container/java/run/run-java.sh" ]

@@ -3,8 +3,10 @@ package org.redhat.demo.crazytrain.captureimage;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import org.jboss.logging.Logger;
+import java.nio.file.*;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -32,9 +34,9 @@ public class ImageCaptureService {
 
     private static final Logger LOGGER = Logger.getLogger(ImageCaptureService.class);
 
-    static {
-        OpenCV.loadShared();
-    }
+    // static {
+    //     System.load("/deployments/lib/libopencv_java480.so");
+    // }
     VideoCapture camera;
 
     public void captureAndUploadImage() {
