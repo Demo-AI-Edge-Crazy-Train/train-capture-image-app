@@ -15,7 +15,7 @@
 # sudo podman run -i --rm -p 8080:8080 --privileged -v /dev:/dev quarkus/train-capture-image-jvm
 #
 ####
-FROM demo-ai-edge-crazy-train/openjdk-opencv:17-4.8.1
+FROM quay.io/demo-ai-edge-crazy-train/openjdk-opencv:17-4.8.1
 
 # We make four distinct layers so if there are application changes the library layers can be re-used
 COPY --chown=185 target/quarkus-app/lib/ /deployments/lib/
