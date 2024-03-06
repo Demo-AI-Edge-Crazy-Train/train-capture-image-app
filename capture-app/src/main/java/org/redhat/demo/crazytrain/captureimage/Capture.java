@@ -155,7 +155,7 @@
 //         LOGGER.info("Uploading image to Dropbox");
 //         try (InputStream in = new FileInputStream(filename)) {
 //             DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/crazytrain/images").build();
-//             DbxClientV2 client = new DbxClientV2(config, "sl.BwhQkWzGtt43vzTOzHu90VoJwySq89oy48ZBmw9ghSWx6SrpO18ia1xnYGaAes3XkcHx0n_QAIy03vO87bgXpwKsTt2U1ySBRGIE4m3W7BAVYhISVmcTFZd2_3tOugx166wNmt3BR7nM");
+//             DbxClientV2 client = new DbxClientV2(config, "");
 //             client.files().uploadBuilder("/" + filename).withMode(WriteMode.ADD).uploadAndFinish(in);
 //             FileMetadata metadata = (FileMetadata)client.files().getMetadata("dropbox/crazytrain/images/" + filename);
 //             LOGGER.info("File exists: " + metadata.getPathLower());
