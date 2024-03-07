@@ -2584,3 +2584,12 @@
 1709824576: New connection from 192.168.127.1:19601 on port 1883.
 1709824576: New client connected from 192.168.127.1:19601 as paho664022958659416 (p2, c1, k60).
 1709824576: Client paho664022958659416 disconnected.
+1709826181: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709826181: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709826181: Error: Permission denied.
+1709827982: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709827982: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709827982: Error: Permission denied.
+1709829783: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709829783: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709829783: Error: Permission denied.
