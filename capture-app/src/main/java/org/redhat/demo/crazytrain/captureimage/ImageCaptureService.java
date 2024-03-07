@@ -1,34 +1,94 @@
+
 package org.redhat.demo.crazytrain.captureimage;
 
-import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.event.Observes;
+import jakarta.inject.Singleton;
+import jakarta.ws.rs.Path;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.nio.file.FileSystems;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionStage;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.jboss.logging.Logger;
+
+import org.opencv.core.Core;
+import org.opencv.core.Mat;
 import org.opencv.videoio.VideoCapture;
-import org.redhat.demo.crazytrain.mqtt.MqttPublisher;
+import org.opencv.videoio.Videoio;
+import org.opencv.imgcodecs.Imgcodecs;
 
-import io.quarkus.runtime.StartupEvent;
-
-@ApplicationScoped
+// Using Singleton here to make sure there won't be two instances of the OpenCV capture process running
+@Singleton
 public class ImageCaptureService {
+
     private static final Logger LOGGER = Logger.getLogger(ImageCaptureService.class);
-    private final VideoCapture camera = new VideoCapture(0); // Use default camera
-    private final String tmpFolder = "/tmp/crazy-train-images";
-    @ConfigProperty(name = "capture.dropbox.token")
-    private  String dtoken;
 
-    private final ScheduledExecutorService executor = Executors.newScheduledThreadPool(10);
+    @ConfigProperty(name = "capture.videoDeviceIndex")
+    int videoDeviceIndex;
 
-    void onStart(@Observes StartupEvent ev) {
-        // Put your startup logic here
-        for (int i = 0; i < 10; i++) {
-           // MqttPublisher mqttPublisher = new MqttPublisher("tcp://localhost:1883", "train-image");
-            executor.scheduleAtFixedRate(new ImageCaptureTask(i, camera, 0,tmpFolder), 0, 1, TimeUnit.SECONDS);
+    @ConfigProperty(name = "capture.tmpFolder")
+    String tmpFolder;
+
+    public ImageCaptureService() {
+    }
+
+    static {
+        if(!System.getProperty("os.name").contains("Mac")){ // This is a workaround for the issue with OpenCV on Mac
+            // Load the native OpenCV library
+            LOGGER.info("Loading OpenCV library...");
+            System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+     }
+    }
+
+    public Mat captureImage(VideoCapture camera) {
+        try {
+            // Create the OpenCV camera
+            if (camera == null) {
+                LOGGER.infof("Opening camera at index %d", videoDeviceIndex);
+                camera = new VideoCapture(this.videoDeviceIndex);
+            }
+    
+            // If somehow something goes wrong, reload the OpenCV camera
+            if (!camera.isOpened()) {
+                camera.release();
+                camera.open(this.videoDeviceIndex);
+            }
+
+            // Last check before running a capture
+            if(camera.isOpened() == false) {
+                LOGGER.error("Error: Camera not opened");
+                return null;
+            }
+                        // Read an image
+            
+                Mat image = new Mat();
+                camera.read(image);
+                if (image.empty()) {
+                    LOGGER.error("Error: Image is empty");
+                    return null;
+                }
+                // camera.release();
+                // Save the image to a local file
+               
+                // LOGGER.infof("Saving image to %s and absolute path %s", filename, tmpFolder);
+                // if (!Imgcodecs.imwrite(tmpFolder+"/"+filename, image)) {
+                //     LOGGER.error("Failed to save image");
+                //     return;
+                // }
+                // // Get the current timestamp
+                // LOGGER.infof("Saving image to %s and absolute path %s", filename, tmpFolder);
+                return image;           
+        } catch (Exception e) {
+            LOGGER.error("Image capture and upload process failed: " + e.getMessage());
+            return null;
         }
-    }  
+    }
+
+    public byte[] matToByteArray(Mat mat) {
+        int size = (int) (mat.total() * mat.elemSize());
+        byte[] bytes = new byte[size];
+        mat.get(0, 0, bytes);
+        return bytes;
+    }
+    
 }

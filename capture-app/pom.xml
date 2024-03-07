@@ -36,7 +36,7 @@
       <groupId>com.dropbox.core</groupId>
       <artifactId>dropbox-core-sdk</artifactId>
       <version>4.0.1</version>
-  </dependency>
+    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive</artifactId>
@@ -44,29 +44,10 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-scheduler</artifactId>
-  </dependency>
+    </dependency>
     <dependency>
       <groupId>io.quarkiverse.opencv</groupId>
       <artifactId>quarkus-opencv</artifactId>
-      <!--
-        Be explicit about the version of quarkus-opencv (and thus about the version of OpenCV) 
-        since the version of the bindings needs to match the version of OpenCV in the container image.
-
-        quarkus-opencv 2.1.0 is using OpenCV 4.8.1-0
-
-        By chance, OpenCV 4.8.1 is also available in Fedora 39. Run the following command to install it:
-
-        ```sh
-        sudo dnf install -y opencv opencv-java
-        ```
-
-        However, the JNI library for OpenCV (opencv_java481.so) is not on the default path.
-        Fix it by setting the LD_LIBRARY_PATH environment variable.
-        
-        ```sh
-        export LD_LIBRARY_PATH="/usr/lib/java:$LD_LIBRARY_PATH"
-        ```
-        -->
       <version>2.1.0</version>
     </dependency>
     <dependency>
@@ -74,13 +55,13 @@
       <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
       <version>1.2.5</version>
     </dependency>
-    <!-- <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-smallrye-reactive-messaging-mqtt</artifactId>
-    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jackson</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-smallrye-fault-tolerance</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
