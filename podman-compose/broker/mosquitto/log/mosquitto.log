@@ -967,3 +967,1620 @@
 1709281603: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1709281603: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
 1709281603: Error: Permission denied.
+1709797836: mosquitto version 2.0.18 starting
+1709797836: Config loaded from /mosquitto/config/mosquitto.conf.
+1709797836: Opening ipv4 listen socket on port 1883.
+1709797836: mosquitto version 2.0.18 running
+1709797878: New connection from 192.168.127.1:65207 on port 1883.
+1709797878: New client connected from 192.168.127.1:65207 as auto-C7EE17EE-F17F-AE40-3550-78CEE21698A0 (p5, c1, k60).
+1709797888: Client auto-C7EE17EE-F17F-AE40-3550-78CEE21698A0 disconnected.
+1709797916: New connection from 192.168.127.1:65208 on port 1883.
+1709797916: New client connected from 192.168.127.1:65208 as auto-BF0D87CE-B9CA-209B-6464-6E6634AC8B6B (p5, c1, k60).
+1709799247: New connection from 192.168.127.1:65210 on port 1883.
+1709799247: New client connected from 192.168.127.1:65210 as auto-2E9AA2A2-8AB9-C9F4-749C-9552122CBF0A (p5, c1, k60).
+1709799247: Client auto-2E9AA2A2-8AB9-C9F4-749C-9552122CBF0A disconnected.
+1709799261: New connection from 192.168.127.1:65211 on port 1883.
+1709799261: New client connected from 192.168.127.1:65211 as auto-B8A5533B-70C2-06CB-007F-41C4295A9CE7 (p5, c1, k60).
+1709799261: Client auto-B8A5533B-70C2-06CB-007F-41C4295A9CE7 disconnected.
+1709799636: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709799636: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709799636: Error: Permission denied.
+1709799809: Client auto-BF0D87CE-B9CA-209B-6464-6E6634AC8B6B has exceeded timeout, disconnecting.
+1709801437: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709801437: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709801437: Error: Permission denied.
+1709803238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709803238: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709803238: Error: Permission denied.
+1709805039: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709805039: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709805039: Error: Permission denied.
+1709806840: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709806840: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709806840: Error: Permission denied.
+1709808641: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709808641: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709808641: Error: Permission denied.
+1709808815: mosquitto version 2.0.18 terminating
+1709808815: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709808815: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709808815: Error: Permission denied.
+1709822580: mosquitto version 2.0.18 starting
+1709822580: Config loaded from /mosquitto/config/mosquitto.conf.
+1709822580: Opening ipv4 listen socket on port 1883.
+1709822580: mosquitto version 2.0.18 running
+1709822586: New connection from 192.168.127.1:19072 on port 1883.
+1709822586: New client connected from 192.168.127.1:19072 as auto-62BB5AFC-A3AB-CF45-5362-25201DF21C9D (p5, c1, k60).
+1709823559: New connection from 192.168.127.1:19073 on port 1883.
+1709823560: New connection from 192.168.127.1:19074 on port 1883.
+1709823560: New client connected from 192.168.127.1:19073 as paho663006633508375 (p2, c1, k60).
+1709823560: Client paho663006633508375 disconnected.
+1709823560: New connection from 192.168.127.1:19075 on port 1883.
+1709823560: New client connected from 192.168.127.1:19074 as paho663006952054333 (p2, c1, k60).
+1709823560: Client paho663006952054333 disconnected.
+1709823560: New connection from 192.168.127.1:19076 on port 1883.
+1709823560: New client connected from 192.168.127.1:19075 as paho663007050310375 (p2, c1, k60).
+1709823560: Client paho663007050310375 disconnected.
+1709823560: New connection from 192.168.127.1:19077 on port 1883.
+1709823560: New client connected from 192.168.127.1:19076 as paho663007314909833 (p2, c1, k60).
+1709823560: Client paho663007314909833 disconnected.
+1709823560: New connection from 192.168.127.1:19078 on port 1883.
+1709823560: New client connected from 192.168.127.1:19077 as paho663007412148250 (p2, c1, k60).
+1709823560: Client paho663007412148250 disconnected.
+1709823560: New connection from 192.168.127.1:19079 on port 1883.
+1709823561: New connection from 192.168.127.1:19080 on port 1883.
+1709823561: New client connected from 192.168.127.1:19078 as paho663007683381125 (p2, c1, k60).
+1709823561: Client paho663007683381125 disconnected.
+1709823561: New client connected from 192.168.127.1:19079 as paho663007743836083 (p2, c1, k60).
+1709823561: Client paho663007743836083 disconnected.
+1709823561: New connection from 192.168.127.1:19081 on port 1883.
+1709823561: New connection from 192.168.127.1:19082 on port 1883.
+1709823561: New client connected from 192.168.127.1:19080 as paho663007954496750 (p2, c1, k60).
+1709823561: Client paho663007954496750 disconnected.
+1709823561: New connection from 192.168.127.1:19083 on port 1883.
+1709823561: New client connected from 192.168.127.1:19081 as paho663008072826000 (p2, c1, k60).
+1709823561: Client paho663008072826000 disconnected.
+1709823561: New client connected from 192.168.127.1:19082 as paho663008106353500 (p2, c1, k60).
+1709823561: Client paho663008106353500 disconnected.
+1709823561: New connection from 192.168.127.1:19084 on port 1883.
+1709823561: New connection from 192.168.127.1:19085 on port 1883.
+1709823561: New client connected from 192.168.127.1:19083 as paho663008305023000 (p2, c1, k60).
+1709823561: Client paho663008305023000 disconnected.
+1709823561: New connection from 192.168.127.1:19086 on port 1883.
+1709823561: New client connected from 192.168.127.1:19084 as paho663008438676375 (p2, c1, k60).
+1709823561: New client connected from 192.168.127.1:19085 as paho663008469398083 (p2, c1, k60).
+1709823561: Client paho663008438676375 disconnected.
+1709823561: Client paho663008469398083 disconnected.
+1709823561: New connection from 192.168.127.1:19087 on port 1883.
+1709823561: New connection from 192.168.127.1:19088 on port 1883.
+1709823562: New connection from 192.168.127.1:19089 on port 1883.
+1709823562: New client connected from 192.168.127.1:19086 as paho663008670676875 (p2, c1, k60).
+1709823562: Client paho663008670676875 disconnected.
+1709823562: New connection from 192.168.127.1:19090 on port 1883.
+1709823562: New client connected from 192.168.127.1:19087 as paho663008832727958 (p2, c1, k60).
+1709823562: Client paho663008832727958 disconnected.
+1709823562: New client connected from 192.168.127.1:19088 as paho663008864146000 (p2, c1, k60).
+1709823562: Client paho663008864146000 disconnected.
+1709823562: New connection from 192.168.127.1:19091 on port 1883.
+1709823562: New client connected from 192.168.127.1:19089 as paho663008965982333 (p2, c1, k60).
+1709823562: Client paho663008965982333 disconnected.
+1709823562: New connection from 192.168.127.1:19092 on port 1883.
+1709823562: New client connected from 192.168.127.1:19090 as paho663009033064458 (p2, c1, k60).
+1709823562: Client paho663009033064458 disconnected.
+1709823562: New connection from 192.168.127.1:19093 on port 1883.
+1709823562: New client connected from 192.168.127.1:19091 as paho663009194662875 (p2, c1, k60).
+1709823562: Client paho663009194662875 disconnected.
+1709823562: New connection from 192.168.127.1:19094 on port 1883.
+1709823562: New client connected from 192.168.127.1:19092 as paho663009330178833 (p2, c1, k60).
+1709823562: Client paho663009330178833 disconnected.
+1709823562: New connection from 192.168.127.1:19095 on port 1883.
+1709823562: New client connected from 192.168.127.1:19093 as paho663009393267833 (p2, c1, k60).
+1709823562: Client paho663009393267833 disconnected.
+1709823562: New connection from 192.168.127.1:19096 on port 1883.
+1709823562: New client connected from 192.168.127.1:19094 as paho663009527143875 (p2, c1, k60).
+1709823562: Client paho663009527143875 disconnected.
+1709823563: New connection from 192.168.127.1:19097 on port 1883.
+1709823563: New connection from 192.168.127.1:19098 on port 1883.
+1709823563: New client connected from 192.168.127.1:19095 as paho663009694889833 (p2, c1, k60).
+1709823563: Client paho663009694889833 disconnected.
+1709823563: New connection from 192.168.127.1:19099 on port 1883.
+1709823563: New client connected from 192.168.127.1:19096 as paho663009758317458 (p2, c1, k60).
+1709823563: Client paho663009758317458 disconnected.
+1709823563: New connection from 192.168.127.1:19100 on port 1883.
+1709823563: New client connected from 192.168.127.1:19097 as paho663009891366625 (p2, c1, k60).
+1709823563: Client paho663009891366625 disconnected.
+1709823563: New connection from 192.168.127.1:19101 on port 1883.
+1709823563: New client connected from 192.168.127.1:19098 as paho663009955610208 (p2, c1, k60).
+1709823563: Client paho663009955610208 disconnected.
+1709823563: New connection from 192.168.127.1:19102 on port 1883.
+1709823563: New client connected from 192.168.127.1:19099 as paho663010057279000 (p2, c1, k60).
+1709823563: Client paho663010057279000 disconnected.
+1709823563: New connection from 192.168.127.1:19103 on port 1883.
+1709823563: New client connected from 192.168.127.1:19100 as paho663010120240791 (p2, c1, k60).
+1709823563: Client paho663010120240791 disconnected.
+1709823563: New connection from 192.168.127.1:19104 on port 1883.
+1709823563: New client connected from 192.168.127.1:19101 as paho663010252555833 (p2, c1, k60).
+1709823563: Client paho663010252555833 disconnected.
+1709823563: New client connected from 192.168.127.1:19102 as paho663010322395000 (p2, c1, k60).
+1709823563: Client paho663010322395000 disconnected.
+1709823563: New connection from 192.168.127.1:19105 on port 1883.
+1709823563: New client connected from 192.168.127.1:19103 as paho663010415554750 (p2, c1, k60).
+1709823563: Client paho663010415554750 disconnected.
+1709823563: New connection from 192.168.127.1:19106 on port 1883.
+1709823563: New client connected from 192.168.127.1:19104 as paho663010482512583 (p2, c1, k60).
+1709823563: Client paho663010482512583 disconnected.
+1709823563: New connection from 192.168.127.1:19107 on port 1883.
+1709823564: New connection from 192.168.127.1:19108 on port 1883.
+1709823564: New client connected from 192.168.127.1:19105 as paho663010679685083 (p2, c1, k60).
+1709823564: Client paho663010679685083 disconnected.
+1709823564: New connection from 192.168.127.1:19109 on port 1883.
+1709823564: New client connected from 192.168.127.1:19106 as paho663010780663958 (p2, c1, k60).
+1709823564: Client paho663010780663958 disconnected.
+1709823564: New client connected from 192.168.127.1:19107 as paho663010810551791 (p2, c1, k60).
+1709823564: Client paho663010810551791 disconnected.
+1709823564: New connection from 192.168.127.1:19110 on port 1883.
+1709823564: New connection from 192.168.127.1:19111 on port 1883.
+1709823564: New client connected from 192.168.127.1:19108 as paho663010943757083 (p2, c1, k60).
+1709823564: Client paho663010943757083 disconnected.
+1709823564: New connection from 192.168.127.1:19112 on port 1883.
+1709823564: New client connected from 192.168.127.1:19109 as paho663011042303750 (p2, c1, k60).
+1709823564: Client paho663011042303750 disconnected.
+1709823564: New connection from 192.168.127.1:19113 on port 1883.
+1709823564: New client connected from 192.168.127.1:19110 as paho663011141495166 (p2, c1, k60).
+1709823564: New client connected from 192.168.127.1:19111 as paho663011173801250 (p2, c1, k60).
+1709823564: Client paho663011141495166 disconnected.
+1709823564: Client paho663011173801250 disconnected.
+1709823564: New connection from 192.168.127.1:19114 on port 1883.
+1709823564: New client connected from 192.168.127.1:19112 as paho663011309261791 (p2, c1, k60).
+1709823564: Client paho663011309261791 disconnected.
+1709823564: New connection from 192.168.127.1:19115 on port 1883.
+1709823564: New client connected from 192.168.127.1:19113 as paho663011410242208 (p2, c1, k60).
+1709823564: Client paho663011410242208 disconnected.
+1709823564: New connection from 192.168.127.1:19116 on port 1883.
+1709823564: New client connected from 192.168.127.1:19114 as paho663011505523125 (p2, c1, k60).
+1709823564: Client paho663011505523125 disconnected.
+1709823564: New connection from 192.168.127.1:19117 on port 1883.
+1709823565: New connection from 192.168.127.1:19118 on port 1883.
+1709823565: New client connected from 192.168.127.1:19115 as paho663011673120166 (p2, c1, k60).
+1709823565: Client paho663011673120166 disconnected.
+1709823565: New connection from 192.168.127.1:19119 on port 1883.
+1709823565: New client connected from 192.168.127.1:19116 as paho663011771922791 (p2, c1, k60).
+1709823565: Client paho663011771922791 disconnected.
+1709823565: New connection from 192.168.127.1:19120 on port 1883.
+1709823565: New client connected from 192.168.127.1:19117 as paho663011866430916 (p2, c1, k60).
+1709823565: Client paho663011866430916 disconnected.
+1709823565: New connection from 192.168.127.1:19121 on port 1883.
+1709823565: New client connected from 192.168.127.1:19118 as paho663011994702666 (p2, c1, k60).
+1709823565: Client paho663011994702666 disconnected.
+1709823565: New connection from 192.168.127.1:19122 on port 1883.
+1709823565: New client connected from 192.168.127.1:19119 as paho663012032532791 (p2, c1, k60).
+1709823565: Client paho663012032532791 disconnected.
+1709823565: New connection from 192.168.127.1:19123 on port 1883.
+1709823565: New client connected from 192.168.127.1:19120 as paho663012144110708 (p2, c1, k60).
+1709823565: Client paho663012144110708 disconnected.
+1709823565: New connection from 192.168.127.1:19124 on port 1883.
+1709823565: New client connected from 192.168.127.1:19121 as paho663012230392708 (p2, c1, k60).
+1709823565: Client paho663012230392708 disconnected.
+1709823565: New client connected from 192.168.127.1:19122 as paho663012330747958 (p2, c1, k60).
+1709823565: Client paho663012330747958 disconnected.
+1709823565: New connection from 192.168.127.1:19125 on port 1883.
+1709823565: New client connected from 192.168.127.1:19123 as paho663012402632500 (p2, c1, k60).
+1709823565: Client paho663012402632500 disconnected.
+1709823565: New connection from 192.168.127.1:19126 on port 1883.
+1709823565: New client connected from 192.168.127.1:19124 as paho663012494811750 (p2, c1, k60).
+1709823565: Client paho663012494811750 disconnected.
+1709823565: New connection from 192.168.127.1:19127 on port 1883.
+1709823566: New connection from 192.168.127.1:19128 on port 1883.
+1709823566: New client connected from 192.168.127.1:19125 as paho663012692544416 (p2, c1, k60).
+1709823566: Client paho663012692544416 disconnected.
+1709823566: New connection from 192.168.127.1:19129 on port 1883.
+1709823566: New client connected from 192.168.127.1:19126 as paho663012760852291 (p2, c1, k60).
+1709823566: Client paho663012760852291 disconnected.
+1709823566: New connection from 192.168.127.1:19130 on port 1883.
+1709823566: New client connected from 192.168.127.1:19127 as paho663012858289958 (p2, c1, k60).
+1709823566: Client paho663012858289958 disconnected.
+1709823566: New connection from 192.168.127.1:19131 on port 1883.
+1709823566: New client connected from 192.168.127.1:19128 as paho663012957566166 (p2, c1, k60).
+1709823566: Client paho663012957566166 disconnected.
+1709823566: New connection from 192.168.127.1:19132 on port 1883.
+1709823566: New client connected from 192.168.127.1:19129 as paho663013056912208 (p2, c1, k60).
+1709823566: Client paho663013056912208 disconnected.
+1709823566: New connection from 192.168.127.1:19133 on port 1883.
+1709823566: New client connected from 192.168.127.1:19130 as paho663013120983208 (p2, c1, k60).
+1709823566: Client paho663013120983208 disconnected.
+1709823566: New connection from 192.168.127.1:19134 on port 1883.
+1709823566: New client connected from 192.168.127.1:19131 as paho663013222569125 (p2, c1, k60).
+1709823566: Client paho663013222569125 disconnected.
+1709823566: New client connected from 192.168.127.1:19132 as paho663013320984583 (p2, c1, k60).
+1709823566: Client paho663013320984583 disconnected.
+1709823566: New connection from 192.168.127.1:19135 on port 1883.
+1709823566: New client connected from 192.168.127.1:19133 as paho663013420540416 (p2, c1, k60).
+1709823566: Client paho663013420540416 disconnected.
+1709823566: New client connected from 192.168.127.1:19134 as paho663013451785333 (p2, c1, k60).
+1709823566: New connection from 192.168.127.1:19136 on port 1883.
+1709823566: Client paho663013451785333 disconnected.
+1709823566: New connection from 192.168.127.1:19137 on port 1883.
+1709823567: New connection from 192.168.127.1:19138 on port 1883.
+1709823567: New client connected from 192.168.127.1:19135 as paho663013683361875 (p2, c1, k60).
+1709823567: Client paho663013683361875 disconnected.
+1709823567: New connection from 192.168.127.1:19139 on port 1883.
+1709823567: New client connected from 192.168.127.1:19136 as paho663013799063666 (p2, c1, k60).
+1709823567: New client connected from 192.168.127.1:19137 as paho663013813834750 (p2, c1, k60).
+1709823567: Client paho663013799063666 disconnected.
+1709823567: Client paho663013813834750 disconnected.
+1709823567: New connection from 192.168.127.1:19140 on port 1883.
+1709823567: New connection from 192.168.127.1:19141 on port 1883.
+1709823567: New client connected from 192.168.127.1:19138 as paho663013969143041 (p2, c1, k60).
+1709823567: Client paho663013969143041 disconnected.
+1709823567: New connection from 192.168.127.1:19142 on port 1883.
+1709823567: New client connected from 192.168.127.1:19139 as paho663014090181000 (p2, c1, k60).
+1709823567: Client paho663014090181000 disconnected.
+1709823567: New connection from 192.168.127.1:19143 on port 1883.
+1709823567: New client connected from 192.168.127.1:19140 as paho663014148854166 (p2, c1, k60).
+1709823567: Client paho663014148854166 disconnected.
+1709823567: New client connected from 192.168.127.1:19141 as paho663014187762291 (p2, c1, k60).
+1709823567: New connection from 192.168.127.1:19144 on port 1883.
+1709823567: Client paho663014187762291 disconnected.
+1709823567: New client connected from 192.168.127.1:19142 as paho663014325420000 (p2, c1, k60).
+1709823567: Client paho663014325420000 disconnected.
+1709823567: New connection from 192.168.127.1:19145 on port 1883.
+1709823567: New client connected from 192.168.127.1:19143 as paho663014442023750 (p2, c1, k60).
+1709823567: Client paho663014442023750 disconnected.
+1709823567: New connection from 192.168.127.1:19146 on port 1883.
+1709823567: New client connected from 192.168.127.1:19144 as paho663014520173333 (p2, c1, k60).
+1709823567: Client paho663014520173333 disconnected.
+1709823567: New connection from 192.168.127.1:19147 on port 1883.
+1709823568: New connection from 192.168.127.1:19148 on port 1883.
+1709823568: New client connected from 192.168.127.1:19145 as paho663014673266250 (p2, c1, k60).
+1709823568: Client paho663014673266250 disconnected.
+1709823568: New connection from 192.168.127.1:19149 on port 1883.
+1709823568: New client connected from 192.168.127.1:19146 as paho663014771775416 (p2, c1, k60).
+1709823568: Client paho663014771775416 disconnected.
+1709823568: New connection from 192.168.127.1:19150 on port 1883.
+1709823568: New client connected from 192.168.127.1:19147 as paho663014876107791 (p2, c1, k60).
+1709823568: Client paho663014876107791 disconnected.
+1709823568: New connection from 192.168.127.1:19151 on port 1883.
+1709823568: New client connected from 192.168.127.1:19148 as paho663014972418291 (p2, c1, k60).
+1709823568: Client paho663014972418291 disconnected.
+1709823568: New connection from 192.168.127.1:19152 on port 1883.
+1709823568: New client connected from 192.168.127.1:19149 as paho663015039778916 (p2, c1, k60).
+1709823568: Client paho663015039778916 disconnected.
+1709823568: New connection from 192.168.127.1:19153 on port 1883.
+1709823568: New client connected from 192.168.127.1:19150 as paho663015137207625 (p2, c1, k60).
+1709823568: Client paho663015137207625 disconnected.
+1709823568: New connection from 192.168.127.1:19154 on port 1883.
+1709823568: New client connected from 192.168.127.1:19151 as paho663015234809791 (p2, c1, k60).
+1709823568: Client paho663015234809791 disconnected.
+1709823568: New client connected from 192.168.127.1:19152 as paho663015336388625 (p2, c1, k60).
+1709823568: Client paho663015336388625 disconnected.
+1709823568: New client connected from 192.168.127.1:19153 as paho663015373354916 (p2, c1, k60).
+1709823568: New connection from 192.168.127.1:19155 on port 1883.
+1709823568: Client paho663015373354916 disconnected.
+1709823568: New connection from 192.168.127.1:19156 on port 1883.
+1709823568: New client connected from 192.168.127.1:19154 as paho663015502311333 (p2, c1, k60).
+1709823568: Client paho663015502311333 disconnected.
+1709823568: New connection from 192.168.127.1:19157 on port 1883.
+1709823569: New connection from 192.168.127.1:19158 on port 1883.
+1709823569: New client connected from 192.168.127.1:19155 as paho663015695279750 (p2, c1, k60).
+1709823569: Client paho663015695279750 disconnected.
+1709823569: New client connected from 192.168.127.1:19156 as paho663015729064458 (p2, c1, k60).
+1709823569: Client paho663015729064458 disconnected.
+1709823569: New connection from 192.168.127.1:19159 on port 1883.
+1709823569: New connection from 192.168.127.1:19160 on port 1883.
+1709823569: New client connected from 192.168.127.1:19157 as paho663015862755250 (p2, c1, k60).
+1709823569: Client paho663015862755250 disconnected.
+1709823569: New connection from 192.168.127.1:19161 on port 1883.
+1709823569: New client connected from 192.168.127.1:19158 as paho663015966377833 (p2, c1, k60).
+1709823569: Client <unknown> closed its connection.
+1709823569: Client <unknown> closed its connection.
+1709823569: Client paho663015966377833 closed its connection.
+1709823569: Client <unknown> closed its connection.
+1709823589: New connection from 192.168.127.1:19162 on port 1883.
+1709823589: New client connected from 192.168.127.1:19162 as paho663036236605791 (p2, c1, k60).
+1709823589: Client paho663036236605791 disconnected.
+1709823589: New connection from 192.168.127.1:19163 on port 1883.
+1709823590: New connection from 192.168.127.1:19164 on port 1883.
+1709823590: New client connected from 192.168.127.1:19163 as paho663036652735875 (p2, c1, k60).
+1709823590: Client paho663036652735875 disconnected.
+1709823590: New connection from 192.168.127.1:19165 on port 1883.
+1709823590: New client connected from 192.168.127.1:19164 as paho663036954138458 (p2, c1, k60).
+1709823590: Client paho663036954138458 disconnected.
+1709823590: New connection from 192.168.127.1:19166 on port 1883.
+1709823590: New client connected from 192.168.127.1:19165 as paho663037017809250 (p2, c1, k60).
+1709823590: Client paho663037017809250 disconnected.
+1709823590: New connection from 192.168.127.1:19167 on port 1883.
+1709823590: New client connected from 192.168.127.1:19166 as paho663037318572833 (p2, c1, k60).
+1709823590: Client paho663037318572833 disconnected.
+1709823590: New client connected from 192.168.127.1:19167 as paho663037350556541 (p2, c1, k60).
+1709823590: Client paho663037350556541 disconnected.
+1709823590: New connection from 192.168.127.1:19168 on port 1883.
+1709823590: New connection from 192.168.127.1:19169 on port 1883.
+1709823591: New connection from 192.168.127.1:19170 on port 1883.
+1709823591: New client connected from 192.168.127.1:19168 as paho663037689043750 (p2, c1, k60).
+1709823591: New client connected from 192.168.127.1:19169 as paho663037710576875 (p2, c1, k60).
+1709823591: Client paho663037689043750 disconnected.
+1709823591: Client paho663037710576875 disconnected.
+1709823591: New connection from 192.168.127.1:19171 on port 1883.
+1709823591: New connection from 192.168.127.1:19172 on port 1883.
+1709823591: New client connected from 192.168.127.1:19170 as paho663037943195541 (p2, c1, k60).
+1709823591: Client paho663037943195541 disconnected.
+1709823591: New connection from 192.168.127.1:19173 on port 1883.
+1709823591: New client connected from 192.168.127.1:19171 as paho663038073295291 (p2, c1, k60).
+1709823591: Client paho663038073295291 disconnected.
+1709823591: New client connected from 192.168.127.1:19172 as paho663038105420208 (p2, c1, k60).
+1709823591: Client paho663038105420208 disconnected.
+1709823591: New connection from 192.168.127.1:19174 on port 1883.
+1709823591: New connection from 192.168.127.1:19175 on port 1883.
+1709823591: New client connected from 192.168.127.1:19173 as paho663038305016500 (p2, c1, k60).
+1709823591: Client paho663038305016500 disconnected.
+1709823591: New connection from 192.168.127.1:19176 on port 1883.
+1709823591: New client connected from 192.168.127.1:19174 as paho663038434677041 (p2, c1, k60).
+1709823591: Client paho663038434677041 disconnected.
+1709823591: New connection from 192.168.127.1:19177 on port 1883.
+1709823591: New client connected from 192.168.127.1:19175 as paho663038469707375 (p2, c1, k60).
+1709823591: Client paho663038469707375 disconnected.
+1709823592: New connection from 192.168.127.1:19178 on port 1883.
+1709823592: New client connected from 192.168.127.1:19176 as paho663038666879875 (p2, c1, k60).
+1709823592: Client paho663038666879875 disconnected.
+1709823592: New connection from 192.168.127.1:19179 on port 1883.
+1709823592: New client connected from 192.168.127.1:19177 as paho663038766994916 (p2, c1, k60).
+1709823592: Client paho663038766994916 disconnected.
+1709823592: New connection from 192.168.127.1:19180 on port 1883.
+1709823592: New client connected from 192.168.127.1:19178 as paho663038939341166 (p2, c1, k60).
+1709823592: Client paho663038939341166 disconnected.
+1709823592: New connection from 192.168.127.1:19181 on port 1883.
+1709823592: New client connected from 192.168.127.1:19179 as paho663039030751375 (p2, c1, k60).
+1709823592: Client paho663039030751375 disconnected.
+1709823592: New connection from 192.168.127.1:19182 on port 1883.
+1709823592: New client connected from 192.168.127.1:19180 as paho663039132672000 (p2, c1, k60).
+1709823592: Client paho663039132672000 disconnected.
+1709823592: New connection from 192.168.127.1:19183 on port 1883.
+1709823592: New client connected from 192.168.127.1:19181 as paho663039294569833 (p2, c1, k60).
+1709823592: Client paho663039294569833 disconnected.
+1709823592: New connection from 192.168.127.1:19184 on port 1883.
+1709823592: New client connected from 192.168.127.1:19182 as paho663039407449708 (p2, c1, k60).
+1709823592: Client paho663039407449708 disconnected.
+1709823592: New connection from 192.168.127.1:19185 on port 1883.
+1709823592: New client connected from 192.168.127.1:19183 as paho663039491088375 (p2, c1, k60).
+1709823592: Client paho663039491088375 disconnected.
+1709823592: New connection from 192.168.127.1:19186 on port 1883.
+1709823593: New connection from 192.168.127.1:19187 on port 1883.
+1709823593: New client connected from 192.168.127.1:19184 as paho663039690983958 (p2, c1, k60).
+1709823593: Client paho663039690983958 disconnected.
+1709823593: New connection from 192.168.127.1:19188 on port 1883.
+1709823593: New client connected from 192.168.127.1:19185 as paho663039755756666 (p2, c1, k60).
+1709823593: Client paho663039755756666 disconnected.
+1709823593: New connection from 192.168.127.1:19189 on port 1883.
+1709823593: New client connected from 192.168.127.1:19186 as paho663039859266833 (p2, c1, k60).
+1709823593: Client paho663039859266833 disconnected.
+1709823593: New connection from 192.168.127.1:19190 on port 1883.
+1709823593: New client connected from 192.168.127.1:19187 as paho663039953978458 (p2, c1, k60).
+1709823593: Client paho663039953978458 disconnected.
+1709823593: New connection from 192.168.127.1:19191 on port 1883.
+1709823593: New client connected from 192.168.127.1:19188 as paho663040020245708 (p2, c1, k60).
+1709823593: Client paho663040020245708 disconnected.
+1709823593: New connection from 192.168.127.1:19192 on port 1883.
+1709823593: New client connected from 192.168.127.1:19189 as paho663040086676083 (p2, c1, k60).
+1709823593: Client paho663040086676083 disconnected.
+1709823593: New connection from 192.168.127.1:19193 on port 1883.
+1709823593: New client connected from 192.168.127.1:19190 as paho663040188737250 (p2, c1, k60).
+1709823593: Client paho663040188737250 disconnected.
+1709823593: New client connected from 192.168.127.1:19191 as paho663040319005625 (p2, c1, k60).
+1709823593: Client paho663040319005625 disconnected.
+1709823593: New client connected from 192.168.127.1:19192 as paho663040353205916 (p2, c1, k60).
+1709823593: Client paho663040353205916 disconnected.
+1709823593: New connection from 192.168.127.1:19194 on port 1883.
+1709823593: New connection from 192.168.127.1:19195 on port 1883.
+1709823593: New client connected from 192.168.127.1:19193 as paho663040414748375 (p2, c1, k60).
+1709823593: Client paho663040414748375 disconnected.
+1709823593: New connection from 192.168.127.1:19196 on port 1883.
+1709823594: New connection from 192.168.127.1:19197 on port 1883.
+1709823594: New client connected from 192.168.127.1:19194 as paho663040681054750 (p2, c1, k60).
+1709823594: New client connected from 192.168.127.1:19195 as paho663040711447041 (p2, c1, k60).
+1709823594: Client paho663040681054750 disconnected.
+1709823594: Client paho663040711447041 disconnected.
+1709823594: New connection from 192.168.127.1:19198 on port 1883.
+1709823594: New client connected from 192.168.127.1:19196 as paho663040749770291 (p2, c1, k60).
+1709823594: Client paho663040749770291 disconnected.
+1709823594: New connection from 192.168.127.1:19199 on port 1883.
+1709823594: New connection from 192.168.127.1:19200 on port 1883.
+1709823594: New client connected from 192.168.127.1:19197 as paho663040946294583 (p2, c1, k60).
+1709823594: Client paho663040946294583 disconnected.
+1709823594: New connection from 192.168.127.1:19201 on port 1883.
+1709823594: New client connected from 192.168.127.1:19198 as paho663041041706000 (p2, c1, k60).
+1709823594: Client paho663041041706000 disconnected.
+1709823594: New client connected from 192.168.127.1:19199 as paho663041077186916 (p2, c1, k60).
+1709823594: Client paho663041077186916 disconnected.
+1709823594: New connection from 192.168.127.1:19202 on port 1883.
+1709823594: New client connected from 192.168.127.1:19200 as paho663041110189041 (p2, c1, k60).
+1709823594: Client paho663041110189041 disconnected.
+1709823594: New connection from 192.168.127.1:19203 on port 1883.
+1709823594: New client connected from 192.168.127.1:19201 as paho663041307076875 (p2, c1, k60).
+1709823594: Client paho663041307076875 disconnected.
+1709823594: New connection from 192.168.127.1:19204 on port 1883.
+1709823594: New client connected from 192.168.127.1:19202 as paho663041404213333 (p2, c1, k60).
+1709823594: New client connected from 192.168.127.1:19203 as paho663041440666166 (p2, c1, k60).
+1709823594: Client paho663041404213333 disconnected.
+1709823594: Client paho663041440666166 disconnected.
+1709823594: New connection from 192.168.127.1:19205 on port 1883.
+1709823594: New connection from 192.168.127.1:19206 on port 1883.
+1709823595: New connection from 192.168.127.1:19207 on port 1883.
+1709823595: New client connected from 192.168.127.1:19204 as paho663041670019666 (p2, c1, k60).
+1709823595: Client paho663041670019666 disconnected.
+1709823595: New connection from 192.168.127.1:19208 on port 1883.
+1709823595: New client connected from 192.168.127.1:19205 as paho663041801147250 (p2, c1, k60).
+1709823595: New client connected from 192.168.127.1:19206 as paho663041834018375 (p2, c1, k60).
+1709823595: Client paho663041801147250 disconnected.
+1709823595: Client paho663041834018375 disconnected.
+1709823595: New connection from 192.168.127.1:19209 on port 1883.
+1709823595: New connection from 192.168.127.1:19210 on port 1883.
+1709823595: New client connected from 192.168.127.1:19207 as paho663041967769416 (p2, c1, k60).
+1709823595: Client paho663041967769416 disconnected.
+1709823595: New connection from 192.168.127.1:19211 on port 1883.
+1709823595: New client connected from 192.168.127.1:19208 as paho663042031515458 (p2, c1, k60).
+1709823595: Client paho663042031515458 disconnected.
+1709823595: New connection from 192.168.127.1:19212 on port 1883.
+1709823595: New client connected from 192.168.127.1:19209 as paho663042166495208 (p2, c1, k60).
+1709823595: New client connected from 192.168.127.1:19210 as paho663042197417500 (p2, c1, k60).
+1709823595: Client paho663042166495208 disconnected.
+1709823595: Client paho663042197417500 disconnected.
+1709823595: New connection from 192.168.127.1:19213 on port 1883.
+1709823595: New client connected from 192.168.127.1:19211 as paho663042329749708 (p2, c1, k60).
+1709823595: Client paho663042329749708 disconnected.
+1709823595: New client connected from 192.168.127.1:19212 as paho663042365617750 (p2, c1, k60).
+1709823595: Client paho663042365617750 disconnected.
+1709823595: New connection from 192.168.127.1:19214 on port 1883.
+1709823595: New connection from 192.168.127.1:19215 on port 1883.
+1709823595: New client connected from 192.168.127.1:19213 as paho663042529690458 (p2, c1, k60).
+1709823595: Client paho663042529690458 disconnected.
+1709823596: New connection from 192.168.127.1:19216 on port 1883.
+1709823596: New connection from 192.168.127.1:19217 on port 1883.
+1709823596: New client connected from 192.168.127.1:19214 as paho663042692292208 (p2, c1, k60).
+1709823596: Client paho663042692292208 disconnected.
+1709823596: New client connected from 192.168.127.1:19215 as paho663042726546250 (p2, c1, k60).
+1709823596: Client paho663042726546250 disconnected.
+1709823596: New connection from 192.168.127.1:19218 on port 1883.
+1709823596: New connection from 192.168.127.1:19219 on port 1883.
+1709823596: New client connected from 192.168.127.1:19216 as paho663042892039083 (p2, c1, k60).
+1709823596: Client paho663042892039083 disconnected.
+1709823596: New connection from 192.168.127.1:19220 on port 1883.
+1709823596: New client connected from 192.168.127.1:19217 as paho663042960033500 (p2, c1, k60).
+1709823596: Client paho663042960033500 disconnected.
+1709823596: New connection from 192.168.127.1:19221 on port 1883.
+1709823596: New client connected from 192.168.127.1:19218 as paho663043059978041 (p2, c1, k60).
+1709823596: Client paho663043059978041 disconnected.
+1709823596: New client connected from 192.168.127.1:19219 as paho663043089493541 (p2, c1, k60).
+1709823596: Client paho663043089493541 disconnected.
+1709823596: New connection from 192.168.127.1:19222 on port 1883.
+1709823596: New connection from 192.168.127.1:19223 on port 1883.
+1709823596: New client connected from 192.168.127.1:19220 as paho663043256452375 (p2, c1, k60).
+1709823596: Client paho663043256452375 disconnected.
+1709823596: New client connected from 192.168.127.1:19221 as paho663043322165875 (p2, c1, k60).
+1709823596: Client paho663043322165875 disconnected.
+1709823596: New connection from 192.168.127.1:19224 on port 1883.
+1709823596: New client connected from 192.168.127.1:19222 as paho663043419167583 (p2, c1, k60).
+1709823596: Client paho663043419167583 disconnected.
+1709823596: New client connected from 192.168.127.1:19223 as paho663043452864208 (p2, c1, k60).
+1709823596: Client paho663043452864208 disconnected.
+1709823596: New connection from 192.168.127.1:19225 on port 1883.
+1709823596: New connection from 192.168.127.1:19226 on port 1883.
+1709823597: New connection from 192.168.127.1:19227 on port 1883.
+1709823597: New client connected from 192.168.127.1:19224 as paho663043682863958 (p2, c1, k60).
+1709823597: Client paho663043682863958 disconnected.
+1709823597: Client <unknown> closed its connection.
+1709823597: Client <unknown> closed its connection.
+1709823597: Client <unknown> closed its connection.
+1709823622: New connection from 192.168.127.1:19228 on port 1883.
+1709823622: New client connected from 192.168.127.1:19228 as paho663069406842166 (p2, c1, k60).
+1709823622: Client paho663069406842166 disconnected.
+1709823622: New connection from 192.168.127.1:19229 on port 1883.
+1709823623: New connection from 192.168.127.1:19230 on port 1883.
+1709823623: New client connected from 192.168.127.1:19229 as paho663069823390041 (p2, c1, k60).
+1709823623: Client paho663069823390041 disconnected.
+1709823623: New connection from 192.168.127.1:19231 on port 1883.
+1709823623: New client connected from 192.168.127.1:19230 as paho663069953594916 (p2, c1, k60).
+1709823623: Client paho663069953594916 disconnected.
+1709823623: New connection from 192.168.127.1:19232 on port 1883.
+1709823623: New client connected from 192.168.127.1:19231 as paho663070225563875 (p2, c1, k60).
+1709823623: Client paho663070225563875 disconnected.
+1709823623: New connection from 192.168.127.1:19233 on port 1883.
+1709823623: New client connected from 192.168.127.1:19232 as paho663070287680583 (p2, c1, k60).
+1709823623: Client paho663070287680583 disconnected.
+1709823623: New connection from 192.168.127.1:19234 on port 1883.
+1709823624: New client connected from 192.168.127.1:19233 as paho663070583604833 (p2, c1, k60).
+1709823624: Client paho663070583604833 disconnected.
+1709823624: New connection from 192.168.127.1:19235 on port 1883.
+1709823624: New client connected from 192.168.127.1:19234 as paho663070650910875 (p2, c1, k60).
+1709823624: New connection from 192.168.127.1:19236 on port 1883.
+1709823624: Client paho663070650910875 disconnected.
+1709823624: New connection from 192.168.127.1:19237 on port 1883.
+1709823624: New client connected from 192.168.127.1:19235 as paho663070944142416 (p2, c1, k60).
+1709823624: Client paho663070944142416 disconnected.
+1709823624: New client connected from 192.168.127.1:19236 as paho663070978658583 (p2, c1, k60).
+1709823624: New connection from 192.168.127.1:19238 on port 1883.
+1709823624: Client paho663070978658583 disconnected.
+1709823624: New connection from 192.168.127.1:19239 on port 1883.
+1709823624: New client connected from 192.168.127.1:19237 as paho663071044405333 (p2, c1, k60).
+1709823624: Client paho663071044405333 disconnected.
+1709823624: New connection from 192.168.127.1:19240 on port 1883.
+1709823624: New client connected from 192.168.127.1:19238 as paho663071311919916 (p2, c1, k60).
+1709823624: New client connected from 192.168.127.1:19239 as paho663071342001375 (p2, c1, k60).
+1709823624: Client paho663071311919916 disconnected.
+1709823624: Client paho663071342001375 disconnected.
+1709823624: New connection from 192.168.127.1:19241 on port 1883.
+1709823624: New client connected from 192.168.127.1:19240 as paho663071410744791 (p2, c1, k60).
+1709823624: Client paho663071410744791 disconnected.
+1709823624: New connection from 192.168.127.1:19242 on port 1883.
+1709823624: New connection from 192.168.127.1:19243 on port 1883.
+1709823625: New connection from 192.168.127.1:19244 on port 1883.
+1709823625: New client connected from 192.168.127.1:19241 as paho663071703473208 (p2, c1, k60).
+1709823625: New client connected from 192.168.127.1:19242 as paho663071741498125 (p2, c1, k60).
+1709823625: Client paho663071703473208 disconnected.
+1709823625: New client connected from 192.168.127.1:19243 as paho663071768761208 (p2, c1, k60).
+1709823625: New connection from 192.168.127.1:19245 on port 1883.
+1709823625: Client paho663071741498125 disconnected.
+1709823625: Client paho663071768761208 disconnected.
+1709823625: New connection from 192.168.127.1:19246 on port 1883.
+1709823625: New connection from 192.168.127.1:19247 on port 1883.
+1709823625: New client connected from 192.168.127.1:19244 as paho663071939593125 (p2, c1, k60).
+1709823625: Client paho663071939593125 disconnected.
+1709823625: New connection from 192.168.127.1:19248 on port 1883.
+1709823625: New client connected from 192.168.127.1:19245 as paho663072076097625 (p2, c1, k60).
+1709823625: Client paho663072076097625 disconnected.
+1709823625: New client connected from 192.168.127.1:19246 as paho663072132030833 (p2, c1, k60).
+1709823625: Client paho663072132030833 disconnected.
+1709823625: New client connected from 192.168.127.1:19247 as paho663072164661375 (p2, c1, k60).
+1709823625: Client paho663072164661375 disconnected.
+1709823625: New connection from 192.168.127.1:19249 on port 1883.
+1709823625: New connection from 192.168.127.1:19250 on port 1883.
+1709823625: New client connected from 192.168.127.1:19248 as paho663072298059333 (p2, c1, k60).
+1709823625: Client paho663072298059333 disconnected.
+1709823625: New connection from 192.168.127.1:19251 on port 1883.
+1709823625: New client connected from 192.168.127.1:19249 as paho663072495494583 (p2, c1, k60).
+1709823625: Client paho663072495494583 disconnected.
+1709823625: New client connected from 192.168.127.1:19250 as paho663072534044583 (p2, c1, k60).
+1709823625: New connection from 192.168.127.1:19252 on port 1883.
+1709823625: Client paho663072534044583 disconnected.
+1709823626: New connection from 192.168.127.1:19253 on port 1883.
+1709823626: New connection from 192.168.127.1:19254 on port 1883.
+1709823626: New client connected from 192.168.127.1:19251 as paho663072662478875 (p2, c1, k60).
+1709823626: Client paho663072662478875 disconnected.
+1709823626: New connection from 192.168.127.1:19255 on port 1883.
+1709823626: New client connected from 192.168.127.1:19252 as paho663072860167541 (p2, c1, k60).
+1709823626: Client paho663072860167541 disconnected.
+1709823626: New client connected from 192.168.127.1:19253 as paho663072890528458 (p2, c1, k60).
+1709823626: New connection from 192.168.127.1:19256 on port 1883.
+1709823626: Client paho663072890528458 disconnected.
+1709823626: New connection from 192.168.127.1:19257 on port 1883.
+1709823626: New client connected from 192.168.127.1:19254 as paho663072967408250 (p2, c1, k60).
+1709823626: Client paho663072967408250 disconnected.
+1709823626: New connection from 192.168.127.1:19258 on port 1883.
+1709823626: New client connected from 192.168.127.1:19255 as paho663073023923041 (p2, c1, k60).
+1709823626: Client paho663073023923041 disconnected.
+1709823626: New connection from 192.168.127.1:19259 on port 1883.
+1709823626: New client connected from 192.168.127.1:19256 as paho663073221700500 (p2, c1, k60).
+1709823626: New client connected from 192.168.127.1:19257 as paho663073253210625 (p2, c1, k60).
+1709823626: Client paho663073221700500 disconnected.
+1709823626: New connection from 192.168.127.1:19260 on port 1883.
+1709823626: Client paho663073253210625 disconnected.
+1709823626: New client connected from 192.168.127.1:19258 as paho663073321508000 (p2, c1, k60).
+1709823626: Client paho663073321508000 disconnected.
+1709823626: New connection from 192.168.127.1:19261 on port 1883.
+1709823626: New client connected from 192.168.127.1:19259 as paho663073385219291 (p2, c1, k60).
+1709823626: Client paho663073385219291 disconnected.
+1709823626: New connection from 192.168.127.1:19262 on port 1883.
+1709823627: New client connected from 192.168.127.1:19260 as paho663073586330791 (p2, c1, k60).
+1709823627: Client paho663073586330791 disconnected.
+1709823627: New connection from 192.168.127.1:19263 on port 1883.
+1709823627: New connection from 192.168.127.1:19264 on port 1883.
+1709823627: New client connected from 192.168.127.1:19261 as paho663073687690166 (p2, c1, k60).
+1709823627: Client paho663073687690166 disconnected.
+1709823627: New client connected from 192.168.127.1:19262 as paho663073721050458 (p2, c1, k60).
+1709823627: New connection from 192.168.127.1:19265 on port 1883.
+1709823627: Client paho663073721050458 disconnected.
+1709823627: New connection from 192.168.127.1:19266 on port 1883.
+1709823627: New client connected from 192.168.127.1:19263 as paho663073951866458 (p2, c1, k60).
+1709823627: New client connected from 192.168.127.1:19264 as paho663073980903500 (p2, c1, k60).
+1709823627: Client paho663073951866458 disconnected.
+1709823627: Client paho663073980903500 disconnected.
+1709823627: New connection from 192.168.127.1:19267 on port 1883.
+1709823627: New client connected from 192.168.127.1:19265 as paho663074046075166 (p2, c1, k60).
+1709823627: New connection from 192.168.127.1:19268 on port 1883.
+1709823627: Client paho663074046075166 disconnected.
+1709823627: New client connected from 192.168.127.1:19266 as paho663074078705208 (p2, c1, k60).
+1709823627: Client paho663074078705208 disconnected.
+1709823627: New connection from 192.168.127.1:19269 on port 1883.
+1709823627: New connection from 192.168.127.1:19270 on port 1883.
+1709823627: New client connected from 192.168.127.1:19267 as paho663074344625625 (p2, c1, k60).
+1709823627: New client connected from 192.168.127.1:19268 as paho663074379185625 (p2, c1, k60).
+1709823627: New client connected from 192.168.127.1:19269 as paho663074409857500 (p2, c1, k60).
+1709823627: Client paho663074344625625 disconnected.
+1709823627: Client paho663074379185625 disconnected.
+1709823627: Client paho663074409857500 disconnected.
+1709823627: New client connected from 192.168.127.1:19270 as paho663074443390666 (p2, c1, k60).
+1709823627: New connection from 192.168.127.1:19271 on port 1883.
+1709823627: Client paho663074443390666 disconnected.
+1709823627: New connection from 192.168.127.1:19272 on port 1883.
+1709823627: New connection from 192.168.127.1:19273 on port 1883.
+1709823628: New connection from 192.168.127.1:19274 on port 1883.
+1709823628: New client connected from 192.168.127.1:19271 as paho663074756038875 (p2, c1, k60).
+1709823628: New client connected from 192.168.127.1:19272 as paho663074772436750 (p2, c1, k60).
+1709823628: Client paho663074756038875 disconnected.
+1709823628: Client paho663074772436750 disconnected.
+1709823628: New client connected from 192.168.127.1:19273 as paho663074811859208 (p2, c1, k60).
+1709823628: New connection from 192.168.127.1:19275 on port 1883.
+1709823628: Client paho663074811859208 disconnected.
+1709823628: New connection from 192.168.127.1:19276 on port 1883.
+1709823628: New connection from 192.168.127.1:19277 on port 1883.
+1709823628: New client connected from 192.168.127.1:19274 as paho663074956914958 (p2, c1, k60).
+1709823628: Client paho663074956914958 disconnected.
+1709823628: New connection from 192.168.127.1:19278 on port 1883.
+1709823628: New client connected from 192.168.127.1:19275 as paho663075137623291 (p2, c1, k60).
+1709823628: Client paho663075137623291 disconnected.
+1709823628: New client connected from 192.168.127.1:19276 as paho663075169384625 (p2, c1, k60).
+1709823628: Client paho663075169384625 disconnected.
+1709823628: New connection from 192.168.127.1:19279 on port 1883.
+1709823628: New client connected from 192.168.127.1:19277 as paho663075205441000 (p2, c1, k60).
+1709823628: Client paho663075205441000 disconnected.
+1709823628: New connection from 192.168.127.1:19280 on port 1883.
+1709823628: New client connected from 192.168.127.1:19278 as paho663075300930500 (p2, c1, k60).
+1709823628: Client paho663075300930500 disconnected.
+1709823628: New connection from 192.168.127.1:19281 on port 1883.
+1709823628: New client connected from 192.168.127.1:19279 as paho663075498890291 (p2, c1, k60).
+1709823628: Client paho663075498890291 disconnected.
+1709823628: New client connected from 192.168.127.1:19280 as paho663075532864083 (p2, c1, k60).
+1709823628: Client paho663075532864083 disconnected.
+1709823628: New connection from 192.168.127.1:19282 on port 1883.
+1709823629: New connection from 192.168.127.1:19283 on port 1883.
+1709823629: New client connected from 192.168.127.1:19281 as paho663075665274583 (p2, c1, k60).
+1709823629: New connection from 192.168.127.1:19284 on port 1883.
+1709823629: Client paho663075665274583 disconnected.
+1709823629: New connection from 192.168.127.1:19285 on port 1883.
+1709823629: New client connected from 192.168.127.1:19282 as paho663075863005083 (p2, c1, k60).
+1709823629: Client auto-62BB5AFC-A3AB-CF45-5362-25201DF21C9D disconnected.
+1709823629: New client connected from 192.168.127.1:19283 as paho663075894857791 (p2, c1, k60).
+1709823629: Client paho663075863005083 disconnected.
+1709823629: Client paho663075894857791 disconnected.
+1709823629: New connection from 192.168.127.1:19286 on port 1883.
+1709823629: New connection from 192.168.127.1:19287 on port 1883.
+1709823629: New client connected from 192.168.127.1:19284 as paho663075978487000 (p2, c1, k60).
+1709823629: Client paho663075978487000 disconnected.
+1709823629: New connection from 192.168.127.1:19288 on port 1883.
+1709823629: New client connected from 192.168.127.1:19285 as paho663076024996583 (p2, c1, k60).
+1709823629: Client paho663076024996583 disconnected.
+1709823629: New connection from 192.168.127.1:19289 on port 1883.
+1709823629: New client connected from 192.168.127.1:19286 as paho663076231303791 (p2, c1, k60).
+1709823629: Client paho663076231303791 disconnected.
+1709823629: New client connected from 192.168.127.1:19287 as paho663076257593708 (p2, c1, k60).
+1709823629: New connection from 192.168.127.1:19290 on port 1883.
+1709823629: Client paho663076257593708 disconnected.
+1709823629: New client connected from 192.168.127.1:19288 as paho663076322989000 (p2, c1, k60).
+1709823629: Client paho663076322989000 disconnected.
+1709823629: New connection from 192.168.127.1:19291 on port 1883.
+1709823629: New client connected from 192.168.127.1:19289 as paho663076356147166 (p2, c1, k60).
+1709823629: Client paho663076356147166 disconnected.
+1709823629: New connection from 192.168.127.1:19292 on port 1883.
+1709823630: New client connected from 192.168.127.1:19290 as paho663076587806125 (p2, c1, k60).
+1709823630: Client paho663076587806125 disconnected.
+1709823630: New connection from 192.168.127.1:19293 on port 1883.
+1709823630: New client connected from 192.168.127.1:19291 as paho663076651914916 (p2, c1, k60).
+1709823630: New connection from 192.168.127.1:19294 on port 1883.
+1709823630: Client paho663076651914916 disconnected.
+1709823630: New connection from 192.168.127.1:19295 on port 1883.
+1709823630: New client connected from 192.168.127.1:19292 as paho663076719611666 (p2, c1, k60).
+1709823630: Client paho663076719611666 disconnected.
+1709823630: New connection from 192.168.127.1:19296 on port 1883.
+1709823630: New client connected from 192.168.127.1:19293 as paho663076951514208 (p2, c1, k60).
+1709823630: New client connected from 192.168.127.1:19294 as paho663076981860083 (p2, c1, k60).
+1709823630: New client connected from 192.168.127.1:19295 as paho663077017509791 (p2, c1, k60).
+1709823630: Client paho663076951514208 disconnected.
+1709823630: Client paho663076981860083 disconnected.
+1709823630: New client connected from 192.168.127.1:19296 as paho663077049699041 (p2, c1, k60).
+1709823630: Client paho663077017509791 disconnected.
+1709823630: New connection from 192.168.127.1:19297 on port 1883.
+1709823630: Client paho663077049699041 disconnected.
+1709823630: New connection from 192.168.127.1:19298 on port 1883.
+1709823630: New connection from 192.168.127.1:19299 on port 1883.
+1709823630: New connection from 192.168.127.1:19300 on port 1883.
+1709823630: New client connected from 192.168.127.1:19297 as paho663077385877833 (p2, c1, k60).
+1709823630: New client connected from 192.168.127.1:19298 as paho663077415428458 (p2, c1, k60).
+1709823630: Client paho663077385877833 disconnected.
+1709823630: Client paho663077415428458 disconnected.
+1709823630: New client connected from 192.168.127.1:19299 as paho663077444671541 (p2, c1, k60).
+1709823630: Client paho663077444671541 disconnected.
+1709823630: New connection from 192.168.127.1:19301 on port 1883.
+1709823630: New client connected from 192.168.127.1:19300 as paho663077476792208 (p2, c1, k60).
+1709823630: Client paho663077476792208 disconnected.
+1709823630: New connection from 192.168.127.1:19302 on port 1883.
+1709823630: New connection from 192.168.127.1:19303 on port 1883.
+1709823631: New connection from 192.168.127.1:19304 on port 1883.
+1709823631: New client connected from 192.168.127.1:19301 as paho663077775564250 (p2, c1, k60).
+1709823631: Client paho663077775564250 disconnected.
+1709823631: New client connected from 192.168.127.1:19302 as paho663077807219708 (p2, c1, k60).
+1709823631: Client paho663077807219708 disconnected.
+1709823631: New connection from 192.168.127.1:19305 on port 1883.
+1709823631: New client connected from 192.168.127.1:19303 as paho663077840336250 (p2, c1, k60).
+1709823631: Client paho663077840336250 disconnected.
+1709823631: New connection from 192.168.127.1:19306 on port 1883.
+1709823631: New connection from 192.168.127.1:19307 on port 1883.
+1709823631: New client connected from 192.168.127.1:19304 as paho663077940875375 (p2, c1, k60).
+1709823631: Client paho663077940875375 disconnected.
+1709823631: New connection from 192.168.127.1:19308 on port 1883.
+1709823631: New client connected from 192.168.127.1:19305 as paho663078139762541 (p2, c1, k60).
+1709823631: Client paho663078139762541 disconnected.
+1709823631: New client connected from 192.168.127.1:19306 as paho663078177300458 (p2, c1, k60).
+1709823631: Client paho663078177300458 disconnected.
+1709823631: New connection from 192.168.127.1:19309 on port 1883.
+1709823631: New client connected from 192.168.127.1:19307 as paho663078204271666 (p2, c1, k60).
+1709823631: Client paho663078204271666 disconnected.
+1709823631: New connection from 192.168.127.1:19310 on port 1883.
+1709823631: New client connected from 192.168.127.1:19308 as paho663078269852333 (p2, c1, k60).
+1709823631: Client paho663078269852333 disconnected.
+1709823631: New connection from 192.168.127.1:19311 on port 1883.
+1709823631: New client connected from 192.168.127.1:19309 as paho663078502116666 (p2, c1, k60).
+1709823631: Client paho663078502116666 disconnected.
+1709823631: New client connected from 192.168.127.1:19310 as paho663078533006250 (p2, c1, k60).
+1709823631: Client paho663078533006250 disconnected.
+1709823631: New connection from 192.168.127.1:19312 on port 1883.
+1709823632: New connection from 192.168.127.1:19313 on port 1883.
+1709823632: New client connected from 192.168.127.1:19311 as paho663078603209833 (p2, c1, k60).
+1709823632: Client paho663078603209833 disconnected.
+1709823632: New connection from 192.168.127.1:19314 on port 1883.
+1709823632: New connection from 192.168.127.1:19315 on port 1883.
+1709823632: New client connected from 192.168.127.1:19312 as paho663078863961625 (p2, c1, k60).
+1709823632: Client paho663078863961625 disconnected.
+1709823632: New client connected from 192.168.127.1:19313 as paho663078896280333 (p2, c1, k60).
+1709823632: Client paho663078896280333 disconnected.
+1709823632: New connection from 192.168.127.1:19316 on port 1883.
+1709823632: New client connected from 192.168.127.1:19314 as paho663078930361375 (p2, c1, k60).
+1709823632: Client paho663078930361375 disconnected.
+1709823632: New connection from 192.168.127.1:19317 on port 1883.
+1709823632: New client connected from 192.168.127.1:19315 as paho663078963152541 (p2, c1, k60).
+1709823632: Client paho663078963152541 disconnected.
+1709823632: New connection from 192.168.127.1:19318 on port 1883.
+1709823632: New connection from 192.168.127.1:19319 on port 1883.
+1709823632: Client <unknown> closed its connection.
+1709823632: Client <unknown> closed its connection.
+1709823632: Client <unknown> closed its connection.
+1709823632: Client <unknown> closed its connection.
+1709823781: New connection from 192.168.127.1:19320 on port 1883.
+1709823781: New client connected from 192.168.127.1:19320 as paho663228217796250 (p2, c1, k60).
+1709823781: Client paho663228217796250 disconnected.
+1709823781: New connection from 192.168.127.1:19321 on port 1883.
+1709823782: New client connected from 192.168.127.1:19321 as paho663228635530708 (p2, c1, k60).
+1709823782: New connection from 192.168.127.1:19322 on port 1883.
+1709823782: Client paho663228635530708 disconnected.
+1709823782: New connection from 192.168.127.1:19323 on port 1883.
+1709823782: New client connected from 192.168.127.1:19322 as paho663228965108416 (p2, c1, k60).
+1709823782: New client connected from 192.168.127.1:19323 as paho663228999449958 (p2, c1, k60).
+1709823782: Client paho663228965108416 disconnected.
+1709823782: Client paho663228999449958 disconnected.
+1709823782: New connection from 192.168.127.1:19324 on port 1883.
+1709823782: New connection from 192.168.127.1:19325 on port 1883.
+1709823782: New client connected from 192.168.127.1:19324 as paho663229366526416 (p2, c1, k60).
+1709823782: New client connected from 192.168.127.1:19325 as paho663229393106000 (p2, c1, k60).
+1709823782: Client paho663229366526416 disconnected.
+1709823782: Client paho663229393106000 disconnected.
+1709823782: New connection from 192.168.127.1:19326 on port 1883.
+1709823782: New connection from 192.168.127.1:19327 on port 1883.
+1709823783: New connection from 192.168.127.1:19328 on port 1883.
+1709823783: New client connected from 192.168.127.1:19326 as paho663229771787375 (p2, c1, k60).
+1709823783: New client connected from 192.168.127.1:19327 as paho663229795767458 (p2, c1, k60).
+1709823783: Client paho663229771787375 disconnected.
+1709823783: Client paho663229795767458 disconnected.
+1709823783: New connection from 192.168.127.1:19329 on port 1883.
+1709823783: New connection from 192.168.127.1:19330 on port 1883.
+1709823783: New client connected from 192.168.127.1:19328 as paho663229984357500 (p2, c1, k60).
+1709823783: Client paho663229984357500 disconnected.
+1709823783: New connection from 192.168.127.1:19331 on port 1883.
+1709823783: New client connected from 192.168.127.1:19329 as paho663230155122583 (p2, c1, k60).
+1709823783: New client connected from 192.168.127.1:19330 as paho663230190853041 (p2, c1, k60).
+1709823783: Client paho663230155122583 disconnected.
+1709823783: Client paho663230190853041 disconnected.
+1709823783: New connection from 192.168.127.1:19332 on port 1883.
+1709823783: New connection from 192.168.127.1:19333 on port 1883.
+1709823783: New client connected from 192.168.127.1:19331 as paho663230369669708 (p2, c1, k60).
+1709823783: Client paho663230369669708 disconnected.
+1709823783: New connection from 192.168.127.1:19334 on port 1883.
+1709823783: New client connected from 192.168.127.1:19332 as paho663230559388250 (p2, c1, k60).
+1709823784: Client paho663230559388250 disconnected.
+1709823784: New client connected from 192.168.127.1:19333 as paho663230595800375 (p2, c1, k60).
+1709823784: New connection from 192.168.127.1:19335 on port 1883.
+1709823784: Client paho663230595800375 disconnected.
+1709823784: New connection from 192.168.127.1:19336 on port 1883.
+1709823784: New client connected from 192.168.127.1:19334 as paho663230713788708 (p2, c1, k60).
+1709823784: Client paho663230713788708 disconnected.
+1709823784: New connection from 192.168.127.1:19337 on port 1883.
+1709823784: New client connected from 192.168.127.1:19335 as paho663230916556625 (p2, c1, k60).
+1709823784: Client paho663230916556625 disconnected.
+1709823784: New client connected from 192.168.127.1:19336 as paho663230944765958 (p2, c1, k60).
+1709823784: New connection from 192.168.127.1:19338 on port 1883.
+1709823784: Client paho663230944765958 disconnected.
+1709823784: New connection from 192.168.127.1:19339 on port 1883.
+1709823784: New client connected from 192.168.127.1:19337 as paho663231084691708 (p2, c1, k60).
+1709823784: Client paho663231084691708 disconnected.
+1709823784: New connection from 192.168.127.1:19340 on port 1883.
+1709823784: New client connected from 192.168.127.1:19338 as paho663231280508458 (p2, c1, k60).
+1709823784: Client paho663231280508458 disconnected.
+1709823784: New client connected from 192.168.127.1:19339 as paho663231311932583 (p2, c1, k60).
+1709823784: Client paho663231311932583 disconnected.
+1709823784: New connection from 192.168.127.1:19341 on port 1883.
+1709823784: New connection from 192.168.127.1:19342 on port 1883.
+1709823784: New client connected from 192.168.127.1:19340 as paho663231440248666 (p2, c1, k60).
+1709823784: Client paho663231440248666 disconnected.
+1709823784: New connection from 192.168.127.1:19343 on port 1883.
+1709823785: New connection from 192.168.127.1:19344 on port 1883.
+1709823785: New client connected from 192.168.127.1:19341 as paho663231676831125 (p2, c1, k60).
+1709823785: New client connected from 192.168.127.1:19342 as paho663231705046125 (p2, c1, k60).
+1709823785: Client paho663231676831125 disconnected.
+1709823785: Client paho663231705046125 disconnected.
+1709823785: New connection from 192.168.127.1:19345 on port 1883.
+1709823785: New connection from 192.168.127.1:19346 on port 1883.
+1709823785: New client connected from 192.168.127.1:19343 as paho663231802620500 (p2, c1, k60).
+1709823785: Client paho663231802620500 disconnected.
+1709823785: New connection from 192.168.127.1:19347 on port 1883.
+1709823785: New client connected from 192.168.127.1:19344 as paho663231967944666 (p2, c1, k60).
+1709823785: Client paho663231967944666 disconnected.
+1709823785: New connection from 192.168.127.1:19348 on port 1883.
+1709823785: New client connected from 192.168.127.1:19345 as paho663232034084583 (p2, c1, k60).
+1709823785: Client paho663232034084583 disconnected.
+1709823785: New connection from 192.168.127.1:19349 on port 1883.
+1709823785: New client connected from 192.168.127.1:19346 as paho663232067057166 (p2, c1, k60).
+1709823785: Client paho663232067057166 disconnected.
+1709823785: New connection from 192.168.127.1:19350 on port 1883.
+1709823785: New client connected from 192.168.127.1:19347 as paho663232164620208 (p2, c1, k60).
+1709823785: Client paho663232164620208 disconnected.
+1709823785: New connection from 192.168.127.1:19351 on port 1883.
+1709823785: New client connected from 192.168.127.1:19348 as paho663232332216750 (p2, c1, k60).
+1709823785: Client paho663232332216750 disconnected.
+1709823785: New client connected from 192.168.127.1:19349 as paho663232364667666 (p2, c1, k60).
+1709823785: New connection from 192.168.127.1:19352 on port 1883.
+1709823785: Client paho663232364667666 disconnected.
+1709823785: New client connected from 192.168.127.1:19350 as paho663232436757750 (p2, c1, k60).
+1709823785: Client paho663232436757750 disconnected.
+1709823785: New connection from 192.168.127.1:19353 on port 1883.
+1709823785: New client connected from 192.168.127.1:19351 as paho663232496700833 (p2, c1, k60).
+1709823785: Client paho663232496700833 disconnected.
+1709823785: New connection from 192.168.127.1:19354 on port 1883.
+1709823786: New connection from 192.168.127.1:19355 on port 1883.
+1709823786: New client connected from 192.168.127.1:19352 as paho663232695773083 (p2, c1, k60).
+1709823786: Client paho663232695773083 disconnected.
+1709823786: New connection from 192.168.127.1:19356 on port 1883.
+1709823786: New client connected from 192.168.127.1:19353 as paho663232792504125 (p2, c1, k60).
+1709823786: Client paho663232792504125 disconnected.
+1709823786: New connection from 192.168.127.1:19357 on port 1883.
+1709823786: New client connected from 192.168.127.1:19354 as paho663232858264208 (p2, c1, k60).
+1709823786: Client paho663232858264208 disconnected.
+1709823786: New connection from 192.168.127.1:19358 on port 1883.
+1709823786: New client connected from 192.168.127.1:19355 as paho663232958552958 (p2, c1, k60).
+1709823786: Client paho663232958552958 disconnected.
+1709823786: New connection from 192.168.127.1:19359 on port 1883.
+1709823786: New client connected from 192.168.127.1:19356 as paho663233058599708 (p2, c1, k60).
+1709823786: Client paho663233058599708 disconnected.
+1709823786: New connection from 192.168.127.1:19360 on port 1883.
+1709823786: New client connected from 192.168.127.1:19357 as paho663233156819625 (p2, c1, k60).
+1709823786: Client paho663233156819625 disconnected.
+1709823786: New connection from 192.168.127.1:19361 on port 1883.
+1709823786: New client connected from 192.168.127.1:19358 as paho663233222559250 (p2, c1, k60).
+1709823786: Client paho663233222559250 disconnected.
+1709823786: New client connected from 192.168.127.1:19359 as paho663233322295875 (p2, c1, k60).
+1709823786: Client paho663233322295875 disconnected.
+1709823786: New connection from 192.168.127.1:19362 on port 1883.
+1709823786: New client connected from 192.168.127.1:19360 as paho663233420421500 (p2, c1, k60).
+1709823786: Client paho663233420421500 disconnected.
+1709823786: New connection from 192.168.127.1:19363 on port 1883.
+1709823786: New client connected from 192.168.127.1:19361 as paho663233520480458 (p2, c1, k60).
+1709823786: Client paho663233520480458 disconnected.
+1709823787: New connection from 192.168.127.1:19364 on port 1883.
+1709823787: New connection from 192.168.127.1:19365 on port 1883.
+1709823787: New client connected from 192.168.127.1:19362 as paho663233685253000 (p2, c1, k60).
+1709823787: Client paho663233685253000 disconnected.
+1709823787: New connection from 192.168.127.1:19366 on port 1883.
+1709823787: New client connected from 192.168.127.1:19363 as paho663233751168250 (p2, c1, k60).
+1709823787: Client paho663233751168250 disconnected.
+1709823787: New connection from 192.168.127.1:19367 on port 1883.
+1709823787: New client connected from 192.168.127.1:19364 as paho663233883436416 (p2, c1, k60).
+1709823787: Client paho663233883436416 disconnected.
+1709823787: New connection from 192.168.127.1:19368 on port 1883.
+1709823787: New client connected from 192.168.127.1:19365 as paho663233953721458 (p2, c1, k60).
+1709823787: Client paho663233953721458 disconnected.
+1709823787: New connection from 192.168.127.1:19369 on port 1883.
+1709823787: New client connected from 192.168.127.1:19366 as paho663234047931625 (p2, c1, k60).
+1709823787: Client paho663234047931625 disconnected.
+1709823787: New client connected from 192.168.127.1:19367 as paho663234080966958 (p2, c1, k60).
+1709823787: New connection from 192.168.127.1:19370 on port 1883.
+1709823787: Client paho663234080966958 disconnected.
+1709823787: New connection from 192.168.127.1:19371 on port 1883.
+1709823787: New client connected from 192.168.127.1:19368 as paho663234247527500 (p2, c1, k60).
+1709823787: Client paho663234247527500 disconnected.
+1709823787: New client connected from 192.168.127.1:19369 as paho663234310025916 (p2, c1, k60).
+1709823787: Client paho663234310025916 disconnected.
+1709823787: New connection from 192.168.127.1:19372 on port 1883.
+1709823787: New client connected from 192.168.127.1:19370 as paho663234423172458 (p2, c1, k60).
+1709823787: New client connected from 192.168.127.1:19371 as paho663234511451333 (p2, c1, k60).
+1709823787: Client paho663234423172458 disconnected.
+1709823787: Client paho663234511451333 disconnected.
+1709823787: New connection from 192.168.127.1:19373 on port 1883.
+1709823788: New connection from 192.168.127.1:19374 on port 1883.
+1709823788: New connection from 192.168.127.1:19375 on port 1883.
+1709823788: New client connected from 192.168.127.1:19372 as paho663234709277291 (p2, c1, k60).
+1709823788: Client paho663234709277291 disconnected.
+1709823788: New connection from 192.168.127.1:19376 on port 1883.
+1709823788: New client connected from 192.168.127.1:19373 as paho663234873625916 (p2, c1, k60).
+1709823788: Client paho663234873625916 disconnected.
+1709823788: New client connected from 192.168.127.1:19374 as paho663234907345375 (p2, c1, k60).
+1709823788: New connection from 192.168.127.1:19377 on port 1883.
+1709823788: Client paho663234907345375 disconnected.
+1709823788: New connection from 192.168.127.1:19378 on port 1883.
+1709823788: New client connected from 192.168.127.1:19375 as paho663234973631291 (p2, c1, k60).
+1709823788: Client paho663234973631291 disconnected.
+1709823788: New connection from 192.168.127.1:19379 on port 1883.
+1709823788: New client connected from 192.168.127.1:19376 as paho663235036626500 (p2, c1, k60).
+1709823788: Client paho663235036626500 disconnected.
+1709823788: New connection from 192.168.127.1:19380 on port 1883.
+1709823788: New client connected from 192.168.127.1:19377 as paho663235239160125 (p2, c1, k60).
+1709823788: New client connected from 192.168.127.1:19378 as paho663235271228875 (p2, c1, k60).
+1709823788: Client paho663235239160125 disconnected.
+1709823788: Client paho663235271228875 disconnected.
+1709823788: New connection from 192.168.127.1:19381 on port 1883.
+1709823788: New client connected from 192.168.127.1:19379 as paho663235332659375 (p2, c1, k60).
+1709823788: Client paho663235332659375 disconnected.
+1709823788: New client connected from 192.168.127.1:19380 as paho663235366711875 (p2, c1, k60).
+1709823788: Client paho663235366711875 disconnected.
+1709823788: New connection from 192.168.127.1:19382 on port 1883.
+1709823788: New connection from 192.168.127.1:19383 on port 1883.
+1709823789: New client connected from 192.168.127.1:19381 as paho663235597963000 (p2, c1, k60).
+1709823789: Client paho663235597963000 disconnected.
+1709823789: New connection from 192.168.127.1:19384 on port 1883.
+1709823789: New connection from 192.168.127.1:19385 on port 1883.
+1709823789: New client connected from 192.168.127.1:19382 as paho663235696211958 (p2, c1, k60).
+1709823789: Client paho663235696211958 disconnected.
+1709823789: New connection from 192.168.127.1:19386 on port 1883.
+1709823789: New client connected from 192.168.127.1:19383 as paho663235730925375 (p2, c1, k60).
+1709823789: Client paho663235730925375 disconnected.
+1709823789: New connection from 192.168.127.1:19387 on port 1883.
+1709823789: New client connected from 192.168.127.1:19384 as paho663235961995583 (p2, c1, k60).
+1709823789: New client connected from 192.168.127.1:19385 as paho663235993078791 (p2, c1, k60).
+1709823789: Client paho663235961995583 disconnected.
+1709823789: Client paho663235993078791 disconnected.
+1709823789: New connection from 192.168.127.1:19388 on port 1883.
+1709823789: New client connected from 192.168.127.1:19386 as paho663236026583916 (p2, c1, k60).
+1709823789: Client paho663236026583916 disconnected.
+1709823789: New connection from 192.168.127.1:19389 on port 1883.
+1709823789: New client connected from 192.168.127.1:19387 as paho663236066381208 (p2, c1, k60).
+1709823789: Client paho663236066381208 disconnected.
+1709823789: New connection from 192.168.127.1:19390 on port 1883.
+1709823789: New connection from 192.168.127.1:19391 on port 1883.
+1709823789: New client connected from 192.168.127.1:19388 as paho663236326345041 (p2, c1, k60).
+1709823789: Client paho663236326345041 disconnected.
+1709823789: New client connected from 192.168.127.1:19389 as paho663236359772541 (p2, c1, k60).
+1709823789: Client paho663236359772541 disconnected.
+1709823789: New connection from 192.168.127.1:19392 on port 1883.
+1709823789: New client connected from 192.168.127.1:19390 as paho663236390455791 (p2, c1, k60).
+1709823789: Client paho663236390455791 disconnected.
+1709823789: New client connected from 192.168.127.1:19391 as paho663236423616541 (p2, c1, k60).
+1709823789: Client paho663236423616541 disconnected.
+1709823789: New connection from 192.168.127.1:19393 on port 1883.
+1709823789: New connection from 192.168.127.1:19394 on port 1883.
+1709823790: New connection from 192.168.127.1:19395 on port 1883.
+1709823790: New client connected from 192.168.127.1:19392 as paho663236694101250 (p2, c1, k60).
+1709823790: Client paho663236694101250 disconnected.
+1709823790: New connection from 192.168.127.1:19396 on port 1883.
+1709823790: New client connected from 192.168.127.1:19393 as paho663236759812916 (p2, c1, k60).
+1709823790: Client paho663236759812916 disconnected.
+1709823790: New client connected from 192.168.127.1:19394 as paho663236786730833 (p2, c1, k60).
+1709823790: Client paho663236786730833 disconnected.
+1709823790: New connection from 192.168.127.1:19397 on port 1883.
+1709823790: New connection from 192.168.127.1:19398 on port 1883.
+1709823790: New client connected from 192.168.127.1:19395 as paho663236961368958 (p2, c1, k60).
+1709823790: Client paho663236961368958 disconnected.
+1709823790: New connection from 192.168.127.1:19399 on port 1883.
+1709823790: New client connected from 192.168.127.1:19396 as paho663237051174166 (p2, c1, k60).
+1709823790: Client paho663237051174166 disconnected.
+1709823790: New connection from 192.168.127.1:19400 on port 1883.
+1709823790: New client connected from 192.168.127.1:19397 as paho663237116776375 (p2, c1, k60).
+1709823790: Client paho663237116776375 disconnected.
+1709823790: New client connected from 192.168.127.1:19398 as paho663237151428791 (p2, c1, k60).
+1709823790: Client paho663237151428791 disconnected.
+1709823790: New connection from 192.168.127.1:19401 on port 1883.
+1709823790: New client connected from 192.168.127.1:19399 as paho663237318065666 (p2, c1, k60).
+1709823790: Client paho663237318065666 disconnected.
+1709823790: New connection from 192.168.127.1:19402 on port 1883.
+1709823790: New client connected from 192.168.127.1:19400 as paho663237417530541 (p2, c1, k60).
+1709823790: Client paho663237417530541 disconnected.
+1709823790: New connection from 192.168.127.1:19403 on port 1883.
+1709823790: New client connected from 192.168.127.1:19401 as paho663237479574458 (p2, c1, k60).
+1709823790: Client paho663237479574458 disconnected.
+1709823790: New connection from 192.168.127.1:19404 on port 1883.
+1709823791: New connection from 192.168.127.1:19405 on port 1883.
+1709823791: New client connected from 192.168.127.1:19402 as paho663237687693875 (p2, c1, k60).
+1709823791: Client paho663237687693875 disconnected.
+1709823791: New connection from 192.168.127.1:19406 on port 1883.
+1709823791: New client connected from 192.168.127.1:19403 as paho663237786785666 (p2, c1, k60).
+1709823791: Client paho663237786785666 disconnected.
+1709823791: New client connected from 192.168.127.1:19404 as paho663237815311000 (p2, c1, k60).
+1709823791: New connection from 192.168.127.1:19407 on port 1883.
+1709823791: Client paho663237815311000 disconnected.
+1709823791: New connection from 192.168.127.1:19408 on port 1883.
+1709823791: New client connected from 192.168.127.1:19405 as paho663237957709458 (p2, c1, k60).
+1709823791: Client paho663237957709458 disconnected.
+1709823791: New connection from 192.168.127.1:19409 on port 1883.
+1709823791: New client connected from 192.168.127.1:19406 as paho663238082052166 (p2, c1, k60).
+1709823791: Client paho663238082052166 disconnected.
+1709823791: New client connected from 192.168.127.1:19407 as paho663238148678625 (p2, c1, k60).
+1709823791: New connection from 192.168.127.1:19410 on port 1883.
+1709823791: Client paho663238148678625 disconnected.
+1709823791: New connection from 192.168.127.1:19411 on port 1883.
+1709823791: New client connected from 192.168.127.1:19408 as paho663238174307250 (p2, c1, k60).
+1709823791: Client paho663238174307250 disconnected.
+1709823791: New client connected from 192.168.127.1:19409 as paho663238351382333 (p2, c1, k60).
+1709823791: Client paho663238351382333 disconnected.
+1709823791: New connection from 192.168.127.1:19412 on port 1883.
+1709823791: New client connected from 192.168.127.1:19410 as paho663238469335666 (p2, c1, k60).
+1709823791: Client paho663238469335666 disconnected.
+1709823791: New client connected from 192.168.127.1:19411 as paho663238507273291 (p2, c1, k60).
+1709823791: New connection from 192.168.127.1:19413 on port 1883.
+1709823791: Client paho663238507273291 disconnected.
+1709823791: New connection from 192.168.127.1:19414 on port 1883.
+1709823792: New connection from 192.168.127.1:19415 on port 1883.
+1709823792: New client connected from 192.168.127.1:19412 as paho663238733287333 (p2, c1, k60).
+1709823792: Client paho663238733287333 disconnected.
+1709823792: New connection from 192.168.127.1:19416 on port 1883.
+1709823792: New client connected from 192.168.127.1:19413 as paho663238834328250 (p2, c1, k60).
+1709823792: Client paho663238834328250 disconnected.
+1709823792: New client connected from 192.168.127.1:19414 as paho663238866072458 (p2, c1, k60).
+1709823792: New connection from 192.168.127.1:19417 on port 1883.
+1709823792: Client paho663238866072458 disconnected.
+1709823792: New connection from 192.168.127.1:19418 on port 1883.
+1709823792: New client connected from 192.168.127.1:19415 as paho663238984236791 (p2, c1, k60).
+1709823792: Client paho663238984236791 disconnected.
+1709823792: New connection from 192.168.127.1:19419 on port 1883.
+1709823792: New client connected from 192.168.127.1:19416 as paho663239097121166 (p2, c1, k60).
+1709823792: Client paho663239097121166 disconnected.
+1709823792: New connection from 192.168.127.1:19420 on port 1883.
+1709823792: New client connected from 192.168.127.1:19417 as paho663239194446916 (p2, c1, k60).
+1709823792: Client paho663239194446916 disconnected.
+1709823792: New client connected from 192.168.127.1:19418 as paho663239230386458 (p2, c1, k60).
+1709823792: New connection from 192.168.127.1:19421 on port 1883.
+1709823792: Client paho663239230386458 disconnected.
+1709823792: New client connected from 192.168.127.1:19419 as paho663239364590666 (p2, c1, k60).
+1709823792: Client paho663239364590666 disconnected.
+1709823792: New connection from 192.168.127.1:19422 on port 1883.
+1709823792: New client connected from 192.168.127.1:19420 as paho663239465187541 (p2, c1, k60).
+1709823792: Client paho663239465187541 disconnected.
+1709823792: New connection from 192.168.127.1:19423 on port 1883.
+1709823792: New client connected from 192.168.127.1:19421 as paho663239559940791 (p2, c1, k60).
+1709823793: Client paho663239559940791 disconnected.
+1709823793: New connection from 192.168.127.1:19424 on port 1883.
+1709823793: New connection from 192.168.127.1:19425 on port 1883.
+1709823793: New client connected from 192.168.127.1:19422 as paho663239724780125 (p2, c1, k60).
+1709823793: Client paho663239724780125 disconnected.
+1709823793: New connection from 192.168.127.1:19426 on port 1883.
+1709823793: New client connected from 192.168.127.1:19423 as paho663239825228041 (p2, c1, k60).
+1709823793: Client paho663239825228041 disconnected.
+1709823793: New connection from 192.168.127.1:19427 on port 1883.
+1709823793: New client connected from 192.168.127.1:19424 as paho663239925010875 (p2, c1, k60).
+1709823793: Client paho663239925010875 disconnected.
+1709823793: New client connected from 192.168.127.1:19425 as paho663239966432916 (p2, c1, k60).
+1709823793: New connection from 192.168.127.1:19428 on port 1883.
+1709823793: Client paho663239966432916 disconnected.
+1709823793: New connection from 192.168.127.1:19429 on port 1883.
+1709823793: New client connected from 192.168.127.1:19426 as paho663240116589708 (p2, c1, k60).
+1709823793: Client paho663240116589708 disconnected.
+1709823793: New connection from 192.168.127.1:19430 on port 1883.
+1709823793: New client connected from 192.168.127.1:19427 as paho663240185180500 (p2, c1, k60).
+1709823793: Client paho663240185180500 disconnected.
+1709823793: New connection from 192.168.127.1:19431 on port 1883.
+1709823793: New client connected from 192.168.127.1:19428 as paho663240283983750 (p2, c1, k60).
+1709823793: New client connected from 192.168.127.1:19429 as paho663240327061375 (p2, c1, k60).
+1709823793: Client paho663240283983750 disconnected.
+1709823793: Client paho663240327061375 disconnected.
+1709823793: New connection from 192.168.127.1:19432 on port 1883.
+1709823793: New client connected from 192.168.127.1:19430 as paho663240482818791 (p2, c1, k60).
+1709823793: Client paho663240482818791 disconnected.
+1709823793: New connection from 192.168.127.1:19433 on port 1883.
+1709823793: New client connected from 192.168.127.1:19431 as paho663240539100750 (p2, c1, k60).
+1709823794: Client paho663240539100750 disconnected.
+1709823794: New connection from 192.168.127.1:19434 on port 1883.
+1709823794: New connection from 192.168.127.1:19435 on port 1883.
+1709823794: New client connected from 192.168.127.1:19432 as paho663240716917750 (p2, c1, k60).
+1709823794: Client paho663240716917750 disconnected.
+1709823794: New connection from 192.168.127.1:19436 on port 1883.
+1709823794: New client connected from 192.168.127.1:19433 as paho663240815462458 (p2, c1, k60).
+1709823794: Client paho663240815462458 disconnected.
+1709823794: New connection from 192.168.127.1:19437 on port 1883.
+1709823794: New client connected from 192.168.127.1:19434 as paho663240913464083 (p2, c1, k60).
+1709823794: Client paho663240913464083 disconnected.
+1709823794: New client connected from 192.168.127.1:19435 as paho663240948251916 (p2, c1, k60).
+1709823794: Client paho663240948251916 disconnected.
+1709823794: New connection from 192.168.127.1:19438 on port 1883.
+1709823794: New connection from 192.168.127.1:19439 on port 1883.
+1709823794: New client connected from 192.168.127.1:19436 as paho663241077476708 (p2, c1, k60).
+1709823794: Client paho663241077476708 disconnected.
+1709823794: New connection from 192.168.127.1:19440 on port 1883.
+1709823794: New client connected from 192.168.127.1:19437 as paho663241210944333 (p2, c1, k60).
+1709823794: Client paho663241210944333 disconnected.
+1709823794: New connection from 192.168.127.1:19441 on port 1883.
+1709823794: New client connected from 192.168.127.1:19438 as paho663241274019666 (p2, c1, k60).
+1709823794: Client paho663241274019666 disconnected.
+1709823794: New client connected from 192.168.127.1:19439 as paho663241307125750 (p2, c1, k60).
+1709823794: Client paho663241307125750 disconnected.
+1709823794: New connection from 192.168.127.1:19442 on port 1883.
+1709823794: New client connected from 192.168.127.1:19440 as paho663241406884458 (p2, c1, k60).
+1709823794: Client paho663241406884458 disconnected.
+1709823794: New connection from 192.168.127.1:19443 on port 1883.
+1709823795: New client connected from 192.168.127.1:19441 as paho663241577205583 (p2, c1, k60).
+1709823795: Client paho663241577205583 disconnected.
+1709823795: New connection from 192.168.127.1:19444 on port 1883.
+1709823795: New connection from 192.168.127.1:19445 on port 1883.
+1709823795: New client connected from 192.168.127.1:19442 as paho663241682076666 (p2, c1, k60).
+1709823795: Client paho663241682076666 disconnected.
+1709823795: New connection from 192.168.127.1:19446 on port 1883.
+1709823795: New client connected from 192.168.127.1:19443 as paho663241779264958 (p2, c1, k60).
+1709823795: Client paho663241779264958 disconnected.
+1709823795: New connection from 192.168.127.1:19447 on port 1883.
+1709823795: New client connected from 192.168.127.1:19444 as paho663241948481541 (p2, c1, k60).
+1709823795: New client connected from 192.168.127.1:19445 as paho663241970905416 (p2, c1, k60).
+1709823795: Client paho663241948481541 disconnected.
+1709823795: Client paho663241970905416 disconnected.
+1709823795: New connection from 192.168.127.1:19448 on port 1883.
+1709823795: New client connected from 192.168.127.1:19446 as paho663242037978041 (p2, c1, k60).
+1709823795: Client paho663242037978041 disconnected.
+1709823795: New connection from 192.168.127.1:19449 on port 1883.
+1709823795: New connection from 192.168.127.1:19450 on port 1883.
+1709823795: New client connected from 192.168.127.1:19447 as paho663242134540916 (p2, c1, k60).
+1709823795: Client paho663242134540916 disconnected.
+1709823795: New connection from 192.168.127.1:19451 on port 1883.
+1709823795: New client connected from 192.168.127.1:19448 as paho663242333171166 (p2, c1, k60).
+1709823795: Client paho663242333171166 disconnected.
+1709823795: New client connected from 192.168.127.1:19449 as paho663242370043958 (p2, c1, k60).
+1709823795: New client connected from 192.168.127.1:19450 as paho663242399509250 (p2, c1, k60).
+1709823795: Client paho663242370043958 disconnected.
+1709823795: Client paho663242399509250 disconnected.
+1709823795: New connection from 192.168.127.1:19452 on port 1883.
+1709823795: New connection from 192.168.127.1:19453 on port 1883.
+1709823795: New client connected from 192.168.127.1:19451 as paho663242496825083 (p2, c1, k60).
+1709823795: Client paho663242496825083 disconnected.
+1709823795: New connection from 192.168.127.1:19454 on port 1883.
+1709823796: New connection from 192.168.127.1:19455 on port 1883.
+1709823796: New client connected from 192.168.127.1:19452 as paho663242728398500 (p2, c1, k60).
+1709823796: New client connected from 192.168.127.1:19453 as paho663242768249375 (p2, c1, k60).
+1709823796: Client paho663242728398500 disconnected.
+1709823796: New connection from 192.168.127.1:19456 on port 1883.
+1709823796: Client paho663242768249375 disconnected.
+1709823796: New connection from 192.168.127.1:19457 on port 1883.
+1709823796: New client connected from 192.168.127.1:19454 as paho663242870448083 (p2, c1, k60).
+1709823796: Client paho663242870448083 disconnected.
+1709823796: New connection from 192.168.127.1:19458 on port 1883.
+1709823796: New client connected from 192.168.127.1:19455 as paho663242970464166 (p2, c1, k60).
+1709823796: Client paho663242970464166 disconnected.
+1709823796: New connection from 192.168.127.1:19459 on port 1883.
+1709823796: New client connected from 192.168.127.1:19456 as paho663243098110208 (p2, c1, k60).
+1709823796: Client paho663243098110208 disconnected.
+1709823796: New client connected from 192.168.127.1:19457 as paho663243128434166 (p2, c1, k60).
+1709823796: Client paho663243128434166 disconnected.
+1709823796: New connection from 192.168.127.1:19460 on port 1883.
+1709823796: New connection from 192.168.127.1:19461 on port 1883.
+1709823796: New client connected from 192.168.127.1:19458 as paho663243235171375 (p2, c1, k60).
+1709823796: Client paho663243235171375 disconnected.
+1709823796: New client connected from 192.168.127.1:19459 as paho663243320088500 (p2, c1, k60).
+1709823796: Client paho663243320088500 disconnected.
+1709823796: New connection from 192.168.127.1:19462 on port 1883.
+1709823796: New client connected from 192.168.127.1:19460 as paho663243458542708 (p2, c1, k60).
+1709823796: Client paho663243458542708 disconnected.
+1709823796: New client connected from 192.168.127.1:19461 as paho663243488246708 (p2, c1, k60).
+1709823796: New connection from 192.168.127.1:19463 on port 1883.
+1709823796: Client paho663243488246708 disconnected.
+1709823796: New connection from 192.168.127.1:19464 on port 1883.
+1709823797: New connection from 192.168.127.1:19465 on port 1883.
+1709823797: New client connected from 192.168.127.1:19462 as paho663243650569833 (p2, c1, k60).
+1709823797: Client paho663243650569833 disconnected.
+1709823797: New connection from 192.168.127.1:19466 on port 1883.
+1709823797: New connection from 192.168.127.1:19467 on port 1883.
+1709823797: New client connected from 192.168.127.1:19467 as auto-5B91CEFD-7DEF-B7E7-511D-F445F12E9288 (p5, c1, k60).
+1709823797: New client connected from 192.168.127.1:19463 as paho663243816957083 (p2, c1, k60).
+1709823797: Client paho663243816957083 disconnected.
+1709823797: New client connected from 192.168.127.1:19464 as paho663243848624875 (p2, c1, k60).
+1709823797: New connection from 192.168.127.1:19468 on port 1883.
+1709823797: Client paho663243848624875 disconnected.
+1709823797: New connection from 192.168.127.1:19469 on port 1883.
+1709823797: New client connected from 192.168.127.1:19465 as paho663243963459750 (p2, c1, k60).
+1709823797: Client paho663243963459750 disconnected.
+1709823797: New client connected from 192.168.127.1:19466 as paho663244023699250 (p2, c1, k60).
+1709823797: New connection from 192.168.127.1:19470 on port 1883.
+1709823797: Client paho663244023699250 disconnected.
+1709823797: New connection from 192.168.127.1:19471 on port 1883.
+1709823797: New client connected from 192.168.127.1:19468 as paho663244189263291 (p2, c1, k60).
+1709823797: Client paho663244189263291 disconnected.
+1709823797: New client connected from 192.168.127.1:19469 as paho663244212477125 (p2, c1, k60).
+1709823797: New connection from 192.168.127.1:19472 on port 1883.
+1709823797: Client paho663244212477125 disconnected.
+1709823797: New client connected from 192.168.127.1:19470 as paho663244345379458 (p2, c1, k60).
+1709823797: Client paho663244345379458 disconnected.
+1709823797: New client connected from 192.168.127.1:19471 as paho663244379382291 (p2, c1, k60).
+1709823797: New connection from 192.168.127.1:19473 on port 1883.
+1709823797: Client paho663244379382291 disconnected.
+1709823797: New connection from 192.168.127.1:19474 on port 1883.
+1709823797: New client connected from 192.168.127.1:19472 as paho663244545546583 (p2, c1, k60).
+1709823797: Client paho663244545546583 disconnected.
+1709823798: New connection from 192.168.127.1:19475 on port 1883.
+1709823798: New connection from 192.168.127.1:19476 on port 1883.
+1709823798: New client connected from 192.168.127.1:19473 as paho663244708447291 (p2, c1, k60).
+1709823798: Client paho663244708447291 disconnected.
+1709823798: New client connected from 192.168.127.1:19474 as paho663244742443833 (p2, c1, k60).
+1709823798: Client paho663244742443833 disconnected.
+1709823798: New connection from 192.168.127.1:19477 on port 1883.
+1709823798: New connection from 192.168.127.1:19478 on port 1883.
+1709823798: New client connected from 192.168.127.1:19475 as paho663244908287541 (p2, c1, k60).
+1709823798: Client paho663244908287541 disconnected.
+1709823798: New client connected from 192.168.127.1:19476 as paho663244941777083 (p2, c1, k60).
+1709823798: New connection from 192.168.127.1:19479 on port 1883.
+1709823798: Client paho663244941777083 disconnected.
+1709823798: New connection from 192.168.127.1:19480 on port 1883.
+1709823798: New client connected from 192.168.127.1:19477 as paho663245074261416 (p2, c1, k60).
+1709823798: Client paho663245074261416 disconnected.
+1709823798: New client connected from 192.168.127.1:19478 as paho663245103719708 (p2, c1, k60).
+1709823798: Client paho663245103719708 disconnected.
+1709823798: New connection from 192.168.127.1:19481 on port 1883.
+1709823798: New connection from 192.168.127.1:19482 on port 1883.
+1709823798: New client connected from 192.168.127.1:19479 as paho663245268483250 (p2, c1, k60).
+1709823798: Client paho663245268483250 disconnected.
+1709823798: New client connected from 192.168.127.1:19480 as paho663245303596958 (p2, c1, k60).
+1709823798: Client paho663245303596958 disconnected.
+1709823798: New connection from 192.168.127.1:19483 on port 1883.
+1709823798: New client connected from 192.168.127.1:19481 as paho663245433257041 (p2, c1, k60).
+1709823798: Client paho663245433257041 disconnected.
+1709823798: New client connected from 192.168.127.1:19482 as paho663245466847416 (p2, c1, k60).
+1709823798: Client paho663245466847416 disconnected.
+1709823798: New connection from 192.168.127.1:19484 on port 1883.
+1709823798: New connection from 192.168.127.1:19485 on port 1883.
+1709823799: New connection from 192.168.127.1:19486 on port 1883.
+1709823799: New client connected from 192.168.127.1:19483 as paho663245663979916 (p2, c1, k60).
+1709823799: Client paho663245663979916 disconnected.
+1709823799: New connection from 192.168.127.1:19487 on port 1883.
+1709823799: New client connected from 192.168.127.1:19484 as paho663245796433458 (p2, c1, k60).
+1709823799: New client connected from 192.168.127.1:19485 as paho663245826859125 (p2, c1, k60).
+1709823799: Client paho663245796433458 disconnected.
+1709823799: Client paho663245826859125 disconnected.
+1709823799: New connection from 192.168.127.1:19488 on port 1883.
+1709823799: New connection from 192.168.127.1:19489 on port 1883.
+1709823799: New client connected from 192.168.127.1:19486 as paho663245966472125 (p2, c1, k60).
+1709823799: Client paho663245966472125 disconnected.
+1709823799: New client connected from 192.168.127.1:19487 as paho663246027854375 (p2, c1, k60).
+1709823799: New connection from 192.168.127.1:19490 on port 1883.
+1709823799: Client paho663246027854375 disconnected.
+1709823799: New connection from 192.168.127.1:19491 on port 1883.
+1709823799: Client auto-5B91CEFD-7DEF-B7E7-511D-F445F12E9288 disconnected.
+1709823799: New client connected from 192.168.127.1:19488 as paho663246161190041 (p2, c1, k60).
+1709823799: Client paho663246161190041 disconnected.
+1709823799: New client connected from 192.168.127.1:19489 as paho663246191466125 (p2, c1, k60).
+1709823799: Client paho663246191466125 disconnected.
+1709823799: New connection from 192.168.127.1:19492 on port 1883.
+1709823799: New client connected from 192.168.127.1:19490 as paho663246341689208 (p2, c1, k60).
+1709823799: Client paho663246341689208 disconnected.
+1709823799: New connection from 192.168.127.1:19493 on port 1883.
+1709823799: New client connected from 192.168.127.1:19491 as paho663246389876083 (p2, c1, k60).
+1709823799: Client paho663246389876083 disconnected.
+1709823799: New connection from 192.168.127.1:19494 on port 1883.
+1709823799: New client connected from 192.168.127.1:19492 as paho663246523326666 (p2, c1, k60).
+1709823799: Client paho663246523326666 disconnected.
+1709823800: New connection from 192.168.127.1:19495 on port 1883.
+1709823800: New connection from 192.168.127.1:19496 on port 1883.
+1709823800: New client connected from 192.168.127.1:19493 as paho663246689912250 (p2, c1, k60).
+1709823800: New client connected from 192.168.127.1:19494 as paho663246720945375 (p2, c1, k60).
+1709823800: Client paho663246689912250 disconnected.
+1709823800: New connection from 192.168.127.1:19497 on port 1883.
+1709823800: Client paho663246720945375 disconnected.
+1709823800: New connection from 192.168.127.1:19498 on port 1883.
+1709823800: New client connected from 192.168.127.1:19495 as paho663246890816125 (p2, c1, k60).
+1709823800: Client paho663246890816125 disconnected.
+1709823800: New connection from 192.168.127.1:19499 on port 1883.
+1709823800: New client connected from 192.168.127.1:19496 as paho663246966448166 (p2, c1, k60).
+1709823800: Client paho663246966448166 disconnected.
+1709823800: New connection from 192.168.127.1:19500 on port 1883.
+1709823800: New client connected from 192.168.127.1:19497 as paho663247049909833 (p2, c1, k60).
+1709823800: Client paho663247049909833 disconnected.
+1709823800: New client connected from 192.168.127.1:19498 as paho663247083420583 (p2, c1, k60).
+1709823800: New connection from 192.168.127.1:19501 on port 1883.
+1709823800: Client paho663247083420583 disconnected.
+1709823800: New connection from 192.168.127.1:19502 on port 1883.
+1709823800: New client connected from 192.168.127.1:19499 as paho663247248284500 (p2, c1, k60).
+1709823800: Client paho663247248284500 disconnected.
+1709823800: New client connected from 192.168.127.1:19500 as paho663247315379416 (p2, c1, k60).
+1709823800: Client paho663247315379416 disconnected.
+1709823800: New connection from 192.168.127.1:19503 on port 1883.
+1709823800: New client connected from 192.168.127.1:19501 as paho663247421606125 (p2, c1, k60).
+1709823800: Client paho663247421606125 disconnected.
+1709823800: New connection from 192.168.127.1:19504 on port 1883.
+1709823800: New client connected from 192.168.127.1:19502 as paho663247478232166 (p2, c1, k60).
+1709823800: Client paho663247478232166 disconnected.
+1709823800: New connection from 192.168.127.1:19505 on port 1883.
+1709823801: New connection from 192.168.127.1:19506 on port 1883.
+1709823801: New client connected from 192.168.127.1:19503 as paho663247678166625 (p2, c1, k60).
+1709823801: Client paho663247678166625 disconnected.
+1709823801: New connection from 192.168.127.1:19507 on port 1883.
+1709823801: New client connected from 192.168.127.1:19504 as paho663247775508833 (p2, c1, k60).
+1709823801: Client paho663247775508833 disconnected.
+1709823801: New client connected from 192.168.127.1:19505 as paho663247813814083 (p2, c1, k60).
+1709823801: Client paho663247813814083 disconnected.
+1709823801: New connection from 192.168.127.1:19508 on port 1883.
+1709823801: New connection from 192.168.127.1:19509 on port 1883.
+1709823801: New client connected from 192.168.127.1:19506 as paho663247944038916 (p2, c1, k60).
+1709823801: Client paho663247944038916 disconnected.
+1709823801: New connection from 192.168.127.1:19510 on port 1883.
+1709823801: New client connected from 192.168.127.1:19507 as paho663248047868708 (p2, c1, k60).
+1709823801: Client paho663248047868708 disconnected.
+1709823801: New connection from 192.168.127.1:19511 on port 1883.
+1709823801: New client connected from 192.168.127.1:19508 as paho663248173009208 (p2, c1, k60).
+1709823801: Client paho663248173009208 disconnected.
+1709823801: New client connected from 192.168.127.1:19509 as paho663248208579125 (p2, c1, k60).
+1709823801: New connection from 192.168.127.1:19512 on port 1883.
+1709823801: Client paho663248208579125 disconnected.
+1709823801: New client connected from 192.168.127.1:19510 as paho663248344132708 (p2, c1, k60).
+1709823801: Client paho663248344132708 disconnected.
+1709823801: New connection from 192.168.127.1:19513 on port 1883.
+1709823801: New client connected from 192.168.127.1:19511 as paho663248406681333 (p2, c1, k60).
+1709823801: Client paho663248406681333 disconnected.
+1709823801: New connection from 192.168.127.1:19514 on port 1883.
+1709823801: New client connected from 192.168.127.1:19512 as paho663248537056083 (p2, c1, k60).
+1709823801: Client paho663248537056083 disconnected.
+1709823802: New connection from 192.168.127.1:19515 on port 1883.
+1709823802: New connection from 192.168.127.1:19516 on port 1883.
+1709823802: New client connected from 192.168.127.1:19513 as paho663248702075583 (p2, c1, k60).
+1709823802: Client paho663248702075583 disconnected.
+1709823802: New connection from 192.168.127.1:19517 on port 1883.
+1709823802: New client connected from 192.168.127.1:19514 as paho663248778652125 (p2, c1, k60).
+1709823802: Client paho663248778652125 disconnected.
+1709823802: New connection from 192.168.127.1:19518 on port 1883.
+1709823802: New client connected from 192.168.127.1:19515 as paho663248910824791 (p2, c1, k60).
+1709823802: New client connected from 192.168.127.1:19516 as paho663248940643666 (p2, c1, k60).
+1709823802: Client paho663248910824791 disconnected.
+1709823802: Client paho663248940643666 disconnected.
+1709823802: New connection from 192.168.127.1:19519 on port 1883.
+1709823802: New connection from 192.168.127.1:19520 on port 1883.
+1709823802: New client connected from 192.168.127.1:19517 as paho663249095215708 (p2, c1, k60).
+1709823802: Client paho663249095215708 disconnected.
+1709823802: New client connected from 192.168.127.1:19518 as paho663249141061083 (p2, c1, k60).
+1709823802: New connection from 192.168.127.1:19521 on port 1883.
+1709823802: Client paho663249141061083 disconnected.
+1709823802: New connection from 192.168.127.1:19522 on port 1883.
+1709823802: New client connected from 192.168.127.1:19519 as paho663249294428000 (p2, c1, k60).
+1709823802: Client paho663249294428000 disconnected.
+1709823802: New client connected from 192.168.127.1:19520 as paho663249324066666 (p2, c1, k60).
+1709823802: Client paho663249324066666 disconnected.
+1709823802: New connection from 192.168.127.1:19523 on port 1883.
+1709823802: New client connected from 192.168.127.1:19521 as paho663249459145833 (p2, c1, k60).
+1709823802: Client paho663249459145833 disconnected.
+1709823802: New client connected from 192.168.127.1:19522 as paho663249491171791 (p2, c1, k60).
+1709823802: New connection from 192.168.127.1:19524 on port 1883.
+1709823802: Client paho663249491171791 disconnected.
+1709823802: New connection from 192.168.127.1:19525 on port 1883.
+1709823803: New connection from 192.168.127.1:19526 on port 1883.
+1709823803: New client connected from 192.168.127.1:19523 as paho663249691322458 (p2, c1, k60).
+1709823803: Client paho663249691322458 disconnected.
+1709823803: New connection from 192.168.127.1:19527 on port 1883.
+1709823803: New client connected from 192.168.127.1:19524 as paho663249821726125 (p2, c1, k60).
+1709823803: Client paho663249821726125 disconnected.
+1709823803: New client connected from 192.168.127.1:19525 as paho663249853543125 (p2, c1, k60).
+1709823803: Client paho663249853543125 disconnected.
+1709823803: New connection from 192.168.127.1:19528 on port 1883.
+1709823803: New connection from 192.168.127.1:19529 on port 1883.
+1709823803: New connection from 192.168.127.1:19530 on port 1883.
+1709823803: Client <unknown> closed its connection.
+1709823803: Client <unknown> closed its connection.
+1709823803: Client <unknown> closed its connection.
+1709823803: Client <unknown> closed its connection.
+1709823803: Client <unknown> closed its connection.
+1709823852: New connection from 192.168.127.1:19531 on port 1883.
+1709823852: New client connected from 192.168.127.1:19531 as auto-AF796A3A-5317-3DD1-F81C-D972A20555F8 (p5, c1, k60).
+1709823865: New connection from 192.168.127.1:19532 on port 1883.
+1709823866: New connection from 192.168.127.1:19533 on port 1883.
+1709823866: New client connected from 192.168.127.1:19532 as paho663312740571166 (p2, c1, k60).
+1709823866: Client paho663312740571166 disconnected.
+1709823866: New connection from 192.168.127.1:19534 on port 1883.
+1709823866: New client connected from 192.168.127.1:19533 as paho663312942257583 (p2, c1, k60).
+1709823866: Client paho663312942257583 disconnected.
+1709823866: New connection from 192.168.127.1:19535 on port 1883.
+1709823866: New client connected from 192.168.127.1:19534 as paho663313174192708 (p2, c1, k60).
+1709823866: Client paho663313174192708 disconnected.
+1709823866: New connection from 192.168.127.1:19536 on port 1883.
+1709823866: New client connected from 192.168.127.1:19535 as paho663313304628833 (p2, c1, k60).
+1709823866: Client paho663313304628833 disconnected.
+1709823866: New connection from 192.168.127.1:19537 on port 1883.
+1709823866: New client connected from 192.168.127.1:19536 as paho663313534684208 (p2, c1, k60).
+1709823866: Client paho663313534684208 disconnected.
+1709823867: New connection from 192.168.127.1:19538 on port 1883.
+1709823867: New connection from 192.168.127.1:19539 on port 1883.
+1709823867: New client connected from 192.168.127.1:19537 as paho663313668263625 (p2, c1, k60).
+1709823867: Client paho663313668263625 disconnected.
+1709823867: New connection from 192.168.127.1:19540 on port 1883.
+1709823867: New client connected from 192.168.127.1:19538 as paho663313901097791 (p2, c1, k60).
+1709823867: Client paho663313901097791 disconnected.
+1709823867: New connection from 192.168.127.1:19541 on port 1883.
+1709823867: New client connected from 192.168.127.1:19539 as paho663313965862208 (p2, c1, k60).
+1709823867: Client paho663313965862208 disconnected.
+1709823867: New connection from 192.168.127.1:19542 on port 1883.
+1709823867: New client connected from 192.168.127.1:19540 as paho663314032182500 (p2, c1, k60).
+1709823867: Client paho663314032182500 disconnected.
+1709823867: New connection from 192.168.127.1:19543 on port 1883.
+1709823867: New client connected from 192.168.127.1:19541 as paho663314263558333 (p2, c1, k60).
+1709823867: New client connected from 192.168.127.1:19542 as paho663314329490958 (p2, c1, k60).
+1709823867: Client paho663314263558333 disconnected.
+1709823867: Client paho663314329490958 disconnected.
+1709823867: New connection from 192.168.127.1:19544 on port 1883.
+1709823867: New connection from 192.168.127.1:19545 on port 1883.
+1709823867: New client connected from 192.168.127.1:19543 as paho663314393206708 (p2, c1, k60).
+1709823867: Client paho663314393206708 disconnected.
+1709823867: New connection from 192.168.127.1:19546 on port 1883.
+1709823868: New connection from 192.168.127.1:19547 on port 1883.
+1709823868: New client connected from 192.168.127.1:19544 as paho663314658430500 (p2, c1, k60).
+1709823868: Client paho663314658430500 disconnected.
+1709823868: New connection from 192.168.127.1:19548 on port 1883.
+1709823868: New client connected from 192.168.127.1:19545 as paho663314695000625 (p2, c1, k60).
+1709823868: Client paho663314695000625 disconnected.
+1709823868: New connection from 192.168.127.1:19549 on port 1883.
+1709823868: New client connected from 192.168.127.1:19546 as paho663314757424041 (p2, c1, k60).
+1709823868: Client paho663314757424041 disconnected.
+1709823868: New connection from 192.168.127.1:19550 on port 1883.
+1709823868: New client connected from 192.168.127.1:19547 as paho663314955710791 (p2, c1, k60).
+1709823868: Client paho663314955710791 disconnected.
+1709823868: New client connected from 192.168.127.1:19548 as paho663314990711458 (p2, c1, k60).
+1709823868: Client paho663314990711458 disconnected.
+1709823868: New connection from 192.168.127.1:19551 on port 1883.
+1709823868: New client connected from 192.168.127.1:19549 as paho663315055116500 (p2, c1, k60).
+1709823868: Client paho663315055116500 disconnected.
+1709823868: New connection from 192.168.127.1:19552 on port 1883.
+1709823868: New client connected from 192.168.127.1:19550 as paho663315119500708 (p2, c1, k60).
+1709823868: Client paho663315119500708 disconnected.
+1709823868: New connection from 192.168.127.1:19553 on port 1883.
+1709823868: New client connected from 192.168.127.1:19551 as paho663315321820166 (p2, c1, k60).
+1709823868: Client paho663315321820166 disconnected.
+1709823868: New connection from 192.168.127.1:19554 on port 1883.
+1709823868: New client connected from 192.168.127.1:19552 as paho663315416626791 (p2, c1, k60).
+1709823868: Client paho663315416626791 disconnected.
+1709823868: New client connected from 192.168.127.1:19553 as paho663315450822458 (p2, c1, k60).
+1709823868: New connection from 192.168.127.1:19555 on port 1883.
+1709823868: Client paho663315450822458 disconnected.
+1709823868: New connection from 192.168.127.1:19556 on port 1883.
+1709823869: New connection from 192.168.127.1:19557 on port 1883.
+1709823869: New client connected from 192.168.127.1:19554 as paho663315692797333 (p2, c1, k60).
+1709823869: Client paho663315692797333 disconnected.
+1709823869: New connection from 192.168.127.1:19558 on port 1883.
+1709823869: New client connected from 192.168.127.1:19555 as paho663315780650625 (p2, c1, k60).
+1709823869: Client paho663315780650625 disconnected.
+1709823869: New client connected from 192.168.127.1:19556 as paho663315811578583 (p2, c1, k60).
+1709823869: Client paho663315811578583 disconnected.
+1709823869: New connection from 192.168.127.1:19559 on port 1883.
+1709823869: New connection from 192.168.127.1:19560 on port 1883.
+1709823869: New client connected from 192.168.127.1:19557 as paho663315945706416 (p2, c1, k60).
+1709823869: Client paho663315945706416 disconnected.
+1709823869: New connection from 192.168.127.1:19561 on port 1883.
+1709823869: New client connected from 192.168.127.1:19558 as paho663316079050833 (p2, c1, k60).
+1709823869: Client paho663316079050833 disconnected.
+1709823869: New connection from 192.168.127.1:19562 on port 1883.
+1709823869: New client connected from 192.168.127.1:19559 as paho663316149858416 (p2, c1, k60).
+1709823869: Client paho663316149858416 disconnected.
+1709823869: New client connected from 192.168.127.1:19560 as paho663316174496458 (p2, c1, k60).
+1709823869: Client paho663316174496458 disconnected.
+1709823869: New connection from 192.168.127.1:19563 on port 1883.
+1709823869: New client connected from 192.168.127.1:19561 as paho663316306756166 (p2, c1, k60).
+1709823869: Client paho663316306756166 disconnected.
+1709823869: New connection from 192.168.127.1:19564 on port 1883.
+1709823869: New client connected from 192.168.127.1:19562 as paho663316405644166 (p2, c1, k60).
+1709823869: Client paho663316405644166 disconnected.
+1709823869: New connection from 192.168.127.1:19565 on port 1883.
+1709823869: New client connected from 192.168.127.1:19563 as paho663316506126916 (p2, c1, k60).
+1709823869: Client paho663316506126916 disconnected.
+1709823869: New connection from 192.168.127.1:19566 on port 1883.
+1709823870: New connection from 192.168.127.1:19567 on port 1883.
+1709823870: New client connected from 192.168.127.1:19564 as paho663316671798958 (p2, c1, k60).
+1709823870: Client paho663316671798958 disconnected.
+1709823870: New connection from 192.168.127.1:19568 on port 1883.
+1709823870: New client connected from 192.168.127.1:19565 as paho663316735388083 (p2, c1, k60).
+1709823870: Client paho663316735388083 disconnected.
+1709823870: New connection from 192.168.127.1:19569 on port 1883.
+1709823870: New client connected from 192.168.127.1:19566 as paho663316868872750 (p2, c1, k60).
+1709823870: Client paho663316868872750 disconnected.
+1709823870: New connection from 192.168.127.1:19570 on port 1883.
+1709823870: New client connected from 192.168.127.1:19567 as paho663316939087666 (p2, c1, k60).
+1709823870: Client paho663316939087666 disconnected.
+1709823870: New connection from 192.168.127.1:19571 on port 1883.
+1709823870: New client connected from 192.168.127.1:19568 as paho663317002897125 (p2, c1, k60).
+1709823870: Client paho663317002897125 disconnected.
+1709823870: New connection from 192.168.127.1:19572 on port 1883.
+1709823870: New client connected from 192.168.127.1:19569 as paho663317068722875 (p2, c1, k60).
+1709823870: Client paho663317068722875 disconnected.
+1709823870: New connection from 192.168.127.1:19573 on port 1883.
+1709823870: New client connected from 192.168.127.1:19570 as paho663317233056833 (p2, c1, k60).
+1709823870: Client paho663317233056833 disconnected.
+1709823870: New client connected from 192.168.127.1:19571 as paho663317271393625 (p2, c1, k60).
+1709823870: Client paho663317271393625 disconnected.
+1709823870: New connection from 192.168.127.1:19574 on port 1883.
+1709823870: New client connected from 192.168.127.1:19572 as paho663317362930625 (p2, c1, k60).
+1709823870: Client paho663317362930625 disconnected.
+1709823870: New connection from 192.168.127.1:19575 on port 1883.
+1709823870: New client connected from 192.168.127.1:19573 as paho663317428477750 (p2, c1, k60).
+1709823870: Client paho663317428477750 disconnected.
+1709823870: New connection from 192.168.127.1:19576 on port 1883.
+1709823871: New client connected from 192.168.127.1:19574 as paho663317629602541 (p2, c1, k60).
+1709823871: Client paho663317629602541 disconnected.
+1709823871: New connection from 192.168.127.1:19577 on port 1883.
+1709823871: New connection from 192.168.127.1:19578 on port 1883.
+1709823871: New client connected from 192.168.127.1:19575 as paho663317726035708 (p2, c1, k60).
+1709823871: Client paho663317726035708 disconnected.
+1709823871: New connection from 192.168.127.1:19579 on port 1883.
+1709823871: New client connected from 192.168.127.1:19576 as paho663317758984708 (p2, c1, k60).
+1709823871: Client paho663317758984708 disconnected.
+1709823871: New connection from 192.168.127.1:19580 on port 1883.
+1709823871: New client connected from 192.168.127.1:19577 as paho663317958444583 (p2, c1, k60).
+1709823871: Client paho663317958444583 disconnected.
+1709823871: New client connected from 192.168.127.1:19578 as paho663317991364291 (p2, c1, k60).
+1709823871: New connection from 192.168.127.1:19581 on port 1883.
+1709823871: Client paho663317991364291 disconnected.
+1709823871: New connection from 192.168.127.1:19582 on port 1883.
+1709823871: New client connected from 192.168.127.1:19579 as paho663318060246791 (p2, c1, k60).
+1709823871: Client paho663318060246791 disconnected.
+1709823871: New connection from 192.168.127.1:19583 on port 1883.
+1709823871: New client connected from 192.168.127.1:19580 as paho663318122398333 (p2, c1, k60).
+1709823871: Client paho663318122398333 disconnected.
+1709823871: New client connected from 192.168.127.1:19581 as paho663318321525750 (p2, c1, k60).
+1709823871: Client paho663318321525750 disconnected.
+1709823871: New client connected from 192.168.127.1:19582 as paho663318353862083 (p2, c1, k60).
+1709823871: New connection from 192.168.127.1:19584 on port 1883.
+1709823871: Client paho663318353862083 disconnected.
+1709823871: New connection from 192.168.127.1:19585 on port 1883.
+1709823871: New client connected from 192.168.127.1:19583 as paho663318420984166 (p2, c1, k60).
+1709823871: Client paho663318420984166 disconnected.
+1709823871: New connection from 192.168.127.1:19586 on port 1883.
+1709823872: New connection from 192.168.127.1:19587 on port 1883.
+1709823872: New client connected from 192.168.127.1:19584 as paho663318687946666 (p2, c1, k60).
+1709823872: New client connected from 192.168.127.1:19585 as paho663318717159625 (p2, c1, k60).
+1709823872: Client paho663318687946666 disconnected.
+1709823872: Client paho663318717159625 disconnected.
+1709823872: New connection from 192.168.127.1:19588 on port 1883.
+1709823872: New connection from 192.168.127.1:19589 on port 1883.
+1709823872: New client connected from 192.168.127.1:19586 as paho663318782515166 (p2, c1, k60).
+1709823872: Client paho663318782515166 disconnected.
+1709823872: New connection from 192.168.127.1:19590 on port 1883.
+1709823872: New client connected from 192.168.127.1:19587 as paho663318960732208 (p2, c1, k60).
+1709823872: Client paho663318960732208 disconnected.
+1709823872: New connection from 192.168.127.1:19591 on port 1883.
+1709823872: New client connected from 192.168.127.1:19588 as paho663319047308125 (p2, c1, k60).
+1709823872: Client paho663319047308125 disconnected.
+1709823872: New client connected from 192.168.127.1:19589 as paho663319079445250 (p2, c1, k60).
+1709823872: Client paho663319079445250 disconnected.
+1709823872: New connection from 192.168.127.1:19592 on port 1883.
+1709823872: New client connected from 192.168.127.1:19590 as paho663319112803250 (p2, c1, k60).
+1709823872: Client paho663319112803250 disconnected.
+1709823872: New connection from 192.168.127.1:19593 on port 1883.
+1709823872: New client connected from 192.168.127.1:19591 as paho663319312832500 (p2, c1, k60).
+1709823872: Client paho663319312832500 disconnected.
+1709823872: New connection from 192.168.127.1:19594 on port 1883.
+1709823872: New client connected from 192.168.127.1:19592 as paho663319408562208 (p2, c1, k60).
+1709823872: Client paho663319408562208 disconnected.
+1709823872: New client connected from 192.168.127.1:19593 as paho663319445493750 (p2, c1, k60).
+1709823872: Client paho663319445493750 disconnected.
+1709823872: New connection from 192.168.127.1:19595 on port 1883.
+1709823872: New connection from 192.168.127.1:19596 on port 1883.
+1709823873: Client <unknown> closed its connection.
+1709823873: Client <unknown> closed its connection.
+1709823873: Client <unknown> closed its connection.
+1709824124: Client auto-AF796A3A-5317-3DD1-F81C-D972A20555F8 disconnected.
+1709824381: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709824381: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709824381: Error: Permission denied.
+1709824505: New connection from 192.168.127.1:19597 on port 1883.
+1709824505: New client connected from 192.168.127.1:19597 as auto-2F6E4189-8545-1E01-8272-C189D1B10042 (p5, c1, k60).
+1709824524: Client auto-2F6E4189-8545-1E01-8272-C189D1B10042 disconnected.
+1709824532: New connection from 192.168.127.1:19598 on port 1883.
+1709824532: New client connected from 192.168.127.1:19598 as auto-91F7176D-ACDD-8E6B-7DEE-17F7F9369E82 (p5, c1, k60).
+1709824556: New connection from 192.168.127.1:19599 on port 1883.
+1709824556: New client connected from 192.168.127.1:19599 as paho664003010367416 (p2, c1, k60).
+1709824556: Client paho664003010367416 disconnected.
+1709824557: Client auto-91F7176D-ACDD-8E6B-7DEE-17F7F9369E82 disconnected.
+1709824566: New connection from 192.168.127.1:19600 on port 1883.
+1709824566: New client connected from 192.168.127.1:19600 as paho664012971780625 (p2, c1, k60).
+1709824566: Client paho664012971780625 disconnected.
+1709824576: New connection from 192.168.127.1:19601 on port 1883.
+1709824576: New client connected from 192.168.127.1:19601 as paho664022958659416 (p2, c1, k60).
+1709824576: Client paho664022958659416 disconnected.
