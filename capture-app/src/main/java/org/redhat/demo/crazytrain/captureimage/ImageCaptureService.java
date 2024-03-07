@@ -1,74 +1,34 @@
 package org.redhat.demo.crazytrain.captureimage;
 
-import jakarta.inject.Singleton;
-import jakarta.ws.rs.Path;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.Observes;
 
-import java.nio.file.FileSystems;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.jboss.logging.Logger;
-
-import org.opencv.core.Core;
-import org.opencv.core.Mat;
 import org.opencv.videoio.VideoCapture;
-import org.opencv.imgcodecs.Imgcodecs;
+import org.redhat.demo.crazytrain.mqtt.MqttPublisher;
 
-// Using Singleton here to make sure there won't be two instances of the OpenCV capture process running
-@Singleton
+import io.quarkus.runtime.StartupEvent;
+
+@ApplicationScoped
 public class ImageCaptureService {
-
     private static final Logger LOGGER = Logger.getLogger(ImageCaptureService.class);
-    private VideoCapture camera;
+    private final VideoCapture camera = new VideoCapture(0); // Use default camera
+    private final String tmpFolder = "/tmp/crazy-train-images";
+    @ConfigProperty(name = "capture.dropbox.token")
+    private  String dtoken;
 
-    @ConfigProperty(name = "capture.videoDeviceIndex")
-    int videoDeviceIndex;
+    private final ScheduledExecutorService executor = Executors.newScheduledThreadPool(10);
 
-    @ConfigProperty(name = "java.io.tmpdir")
-    String tmpFolder;
-
-    public ImageCaptureService() {
-    }
-
-    static {
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-    }
-
-    public void captureImage() {
-        try {
-            // Create the OpenCV camera
-            if (camera == null) {
-                LOGGER.infof("Opening camera at index %d", videoDeviceIndex);
-                camera = new VideoCapture(this.videoDeviceIndex);
-            }
-    
-            // If somehow something goes wrong, reload the OpenCV camera
-            if (!camera.isOpened()) {
-                camera.release();
-                camera.open(this.videoDeviceIndex);
-            }
-
-            // Last check before running a capture
-            if(camera.isOpened() == false) {
-                LOGGER.error("Error: Camera not opened");
-                return;
-            }
-
-            // Read an image
-            Mat image = new Mat();
-            camera.read(image);
-
-            // Save the image to a local file
-            // Get the current timestamp
-            long timestamp = System.currentTimeMillis();
-
-            // Convert the timestamp to a string and append the file extension
-            String filename = FileSystems.getDefault().getPath(tmpFolder, String.format("%d.jpg", timestamp)).toString();
-            if (!Imgcodecs.imwrite(filename, image)) {
-                LOGGER.error("Failed to save image");
-                return;
-            }
-        } catch (Exception e) {
-            LOGGER.error("Image capture and upload process failed: " + e.getMessage());
+    void onStart(@Observes StartupEvent ev) {
+        // Put your startup logic here
+        for (int i = 0; i < 10; i++) {
+           // MqttPublisher mqttPublisher = new MqttPublisher("tcp://localhost:1883", "train-image");
+            executor.scheduleAtFixedRate(new ImageCaptureTask(i, camera, 0,tmpFolder), 0, 1, TimeUnit.SECONDS);
         }
-    }
+    }  
 }
