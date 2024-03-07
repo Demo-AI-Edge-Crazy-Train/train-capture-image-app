@@ -1,12 +1,13 @@
 package org.redhat.demo.crazytrain.mqtt;
 
+import java.net.URI;
+
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 import org.jboss.logging.Logger;
-import org.redhat.demo.crazytrain.dropbox.DropboxUploader;
 
 public class MqttPublisher {
     private static final Logger LOGGER = Logger.getLogger(MqttPublisher.class);
@@ -22,12 +23,11 @@ public class MqttPublisher {
     public void publish(String content) throws MqttException {
         String clientId = MqttClient.generateClientId();
         try {
-     
+        LOGGER.infof("Publishing message to broker: %s", broker);
         MqttClient client = new MqttClient(broker, clientId, new MemoryPersistence());
 
         MqttConnectOptions connOpts = new MqttConnectOptions();
         connOpts.setCleanSession(true);
-
         client.connect(connOpts);
         LOGGER.infof("Connected to broker: %s", broker);
         MqttMessage message = new MqttMessage(content.getBytes());

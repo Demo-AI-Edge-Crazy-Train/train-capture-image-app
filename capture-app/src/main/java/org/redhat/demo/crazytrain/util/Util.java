@@ -40,43 +40,31 @@ public class Util {
 
 
 
-    private MqttClient client;
     @Inject
     private ObjectMapper mapper = new ObjectMapper();
-    
-     
 
-     void publishToMqtt(byte[] imageBytes, String topic, String id) {
-                    // Convert the resized image to a byte array
 
-        // Compress the byte array
-        String compressedImage = compressMessage(imageBytes);
-     
-        ObjectNode node = mapper.createObjectNode().put("id", id).put("image", compressedImage);
+    public String matToJson(Mat image, long id) {            
+        byte[] imageBytes = matToByteArray(image);
+        String jsonMessage = null;
+        ObjectNode node = mapper.createObjectNode().put("id", id).put("image", imageBytes);
          try {
-             String jsonMessage = mapper.writeValueAsString(node);
-             LOGGER.infof("json message received from captured image before publish to the topic %s ", jsonMessage);
-             LOGGER.infof(" size of the message %s",jsonMessage.getBytes().length);
-             MqttMessage message = new MqttMessage(jsonMessage.getBytes());
-             message.setQos(1);
-              client.publish(topic, message);
-             Files.write(Paths.get("output.json"), jsonMessage.getBytes());
+             jsonMessage = mapper.writeValueAsString(node);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
             // Add additional error handling here if needed
-        } catch (MqttException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             e.printStackTrace();    
         }
+        return jsonMessage;
     }
-     byte[] matToByteArray(Mat image) {
+    public  byte[] matToByteArray(Mat image) {
         byte[] data = new byte[(int) (image.total() * image.channels())];
         image.get(0, 0, data);
         return data;
     }
 
-     String compressMessage(byte[] originalMessage) {
+    public  String compressMessage(byte[] originalMessage) {
             try (ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
                 GZIPOutputStream gzipOutputStream = new GZIPOutputStream(byteArrayOutputStream)) {
                 gzipOutputStream.write(originalMessage);
