@@ -13,6 +13,18 @@ services:
         - ./podman-compose/broker/mosquitto/log:/mosquitto/log
         - ./podman-compose/broker/mosquitto/config:/mosquitto/config
         - ./podman-compose/broker/mosquitto/data:/mosquitto/data
+  intelligent-train-app:
+    platform: linux/arm64/v8
+    image: https://quay.io/repository/demo-ai-edge-crazy-train/intelligent-train:latest
+    volumes:
+      - /tmp:/tmp
+    environment:
+      - MQTT_BROKER=localhost
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=train-image
+      - MQTT_PUB_TOPIC=results
+    depends_on:
+      - mosquitto
  
   train-capture-image-app:
     platform: linux/arm64/v8
@@ -30,3 +42,4 @@ services:
       - /tmp/crazy-images:/tmp/crazy-images
     depends_on:
       - mosquitto
+      - intelligent-train-app

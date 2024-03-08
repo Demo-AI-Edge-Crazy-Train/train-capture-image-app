@@ -84,11 +84,6 @@ public class ImageCaptureService {
         }
     }
 
-    public byte[] matToByteArray(Mat mat) {
-        int size = (int) (mat.total() * mat.elemSize());
-        byte[] bytes = new byte[size];
-        mat.get(0, 0, bytes);
-        return bytes;
-    }
+ 
     
 }
