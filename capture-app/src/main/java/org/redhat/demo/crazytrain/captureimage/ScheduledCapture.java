@@ -33,11 +33,15 @@ public class ScheduledCapture {
     @ConfigProperty(name = "capture.tmpFolder") 
     String tmpFolder;
 
-    @ConfigProperty(name = "capture.broker")
+    @ConfigProperty(name = "capture.brokerMqtt")
     String broker;
 
     @ConfigProperty(name = "capture.topic")
     String topic;
+
+    @ConfigProperty(name = "capture.nbImgSec")
+    int nbImgSec;
+
 
     private static final Logger LOGGER = Logger.getLogger(ScheduledCapture.class);
     Util util = null;
@@ -52,9 +56,9 @@ public class ScheduledCapture {
             util = new Util();
     }
     
-    @Scheduled(every = "1s")
+    @Scheduled(every = "10s")
     void captureAndSaveImage() {
-       for(int i = 0; i < 10; i++) {
+       for(int i = 0; i < nbImgSec; i++) {
            // LOGGER.infof("iteration %s", i);
             Mat image = imageCaptureService.captureImage(this.camera);
             long timestamp = System.currentTimeMillis();

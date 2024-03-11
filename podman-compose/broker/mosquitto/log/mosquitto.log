@@ -2787,3 +2787,582 @@
 1709884923: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1709884923: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
 1709884923: Error: Permission denied.
+1709885723: Client auto-33C4CD8F-FFA5-C1AD-37B5-D80911E1C88E disconnected.
+1709885919: mosquitto version 2.0.18 terminating
+1709885919: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709885919: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1709885919: Error: Permission denied.
+1710135171: mosquitto version 2.0.18 starting
+1710135171: Config loaded from /mosquitto/config/mosquitto.conf.
+1710135171: Opening ipv4 listen socket on port 1883.
+1710135171: mosquitto version 2.0.18 running
+1710135206: mosquitto version 2.0.18 terminating
+1710135206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710135206: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710135206: Error: Permission denied.
+1710135379: mosquitto version 2.0.18 starting
+1710135379: Config loaded from /mosquitto/config/mosquitto.conf.
+1710135379: Opening ipv4 listen socket on port 1883.
+1710135379: mosquitto version 2.0.18 running
+1710135759: New connection from 192.168.127.1:40612 on port 1883.
+1710135759: New client connected from 192.168.127.1:40612 as camel-paho747158399075583 (p2, c1, k60).
+1710135773: New connection from 192.168.127.1:40614 on port 1883.
+1710135773: New connection from 192.168.127.1:40613 on port 1883.
+1710135773: New client connected from 192.168.127.1:40614 as paho747172867885958 (p2, c1, k60).
+1710135773: New client connected from 192.168.127.1:40613 as paho747172852247666 (p2, c1, k60).
+1710135774: Client paho747172867885958 disconnected.
+1710135774: Client paho747172852247666 disconnected.
+1710135774: New connection from 192.168.127.1:40615 on port 1883.
+1710135774: New connection from 192.168.127.1:40616 on port 1883.
+1710135774: New connection from 192.168.127.1:40617 on port 1883.
+1710135774: New client connected from 192.168.127.1:40615 as paho747173257303791 (p2, c1, k60).
+1710135774: Client paho747173257303791 disconnected.
+1710135774: New connection from 192.168.127.1:40619 on port 1883.
+1710135774: New client connected from 192.168.127.1:40616 as paho747173293667708 (p2, c1, k60).
+1710135774: Client paho747173293667708 disconnected.
+1710135774: New client connected from 192.168.127.1:40617 as paho747173322803750 (p2, c1, k60).
+1710135774: New connection from 192.168.127.1:40620 on port 1883.
+1710135774: Client paho747173322803750 disconnected.
+1710135774: New connection from 192.168.127.1:40621 on port 1883.
+1710135774: New client connected from 192.168.127.1:40619 as paho747173591314958 (p2, c1, k60).
+1710135774: Client paho747173591314958 disconnected.
+1710135774: New connection from 192.168.127.1:40622 on port 1883.
+1710135774: New client connected from 192.168.127.1:40620 as paho747173655346583 (p2, c1, k60).
+1710135774: Client paho747173655346583 disconnected.
+1710135774: New client connected from 192.168.127.1:40621 as paho747173686473583 (p2, c1, k60).
+1710135774: New connection from 192.168.127.1:40623 on port 1883.
+1710135774: Client paho747173686473583 disconnected.
+1710135774: New connection from 192.168.127.1:40624 on port 1883.
+1710135775: New client connected from 192.168.127.1:40622 as paho747173951146833 (p2, c1, k60).
+1710135775: Client paho747173951146833 disconnected.
+1710135775: New connection from 192.168.127.1:40625 on port 1883.
+1710135775: New client connected from 192.168.127.1:40623 as paho747174015606541 (p2, c1, k60).
+1710135775: Client paho747174015606541 disconnected.
+1710135775: New client connected from 192.168.127.1:40624 as paho747174053167125 (p2, c1, k60).
+1710135775: New connection from 192.168.127.1:40626 on port 1883.
+1710135775: Client paho747174053167125 disconnected.
+1710135775: New connection from 192.168.127.1:40627 on port 1883.
+1710135775: New client connected from 192.168.127.1:40625 as paho747174313223333 (p2, c1, k60).
+1710135775: Client paho747174313223333 disconnected.
+1710135775: New connection from 192.168.127.1:40628 on port 1883.
+1710135775: New client connected from 192.168.127.1:40626 as paho747174372685416 (p2, c1, k60).
+1710135775: Client paho747174372685416 disconnected.
+1710135775: New client connected from 192.168.127.1:40627 as paho747174405080000 (p2, c1, k60).
+1710135775: Client paho747174405080000 disconnected.
+1710135775: New connection from 192.168.127.1:40629 on port 1883.
+1710135775: New connection from 192.168.127.1:40630 on port 1883.
+1710135775: New client connected from 192.168.127.1:40628 as paho747174665699125 (p2, c1, k60).
+1710135775: Client paho747174665699125 disconnected.
+1710135775: New connection from 192.168.127.1:40631 on port 1883.
+1710135775: New client connected from 192.168.127.1:40629 as paho747174736109541 (p2, c1, k60).
+1710135775: Client paho747174736109541 disconnected.
+1710135775: New client connected from 192.168.127.1:40630 as paho747174766430625 (p2, c1, k60).
+1710135775: Client paho747174766430625 disconnected.
+1710135775: New connection from 192.168.127.1:40632 on port 1883.
+1710135775: New connection from 192.168.127.1:40633 on port 1883.
+1710135776: New connection from 192.168.127.1:40634 on port 1883.
+1710135776: New client connected from 192.168.127.1:40631 as paho747175029449625 (p2, c1, k60).
+1710135776: Client paho747175029449625 disconnected.
+1710135776: New connection from 192.168.127.1:40635 on port 1883.
+1710135776: New client connected from 192.168.127.1:40632 as paho747175100812708 (p2, c1, k60).
+1710135776: Client paho747175100812708 disconnected.
+1710135776: New client connected from 192.168.127.1:40633 as paho747175129631791 (p2, c1, k60).
+1710135776: Client paho747175129631791 disconnected.
+1710135776: New client connected from 192.168.127.1:40634 as paho747175263155000 (p2, c1, k60).
+1710135776: Client paho747175263155000 disconnected.
+1710135776: New connection from 192.168.127.1:40636 on port 1883.
+1710135776: New client connected from 192.168.127.1:40635 as paho747175371130250 (p2, c1, k60).
+1710135776: Client paho747175371130250 disconnected.
+1710135776: New connection from 192.168.127.1:40637 on port 1883.
+1710135776: New client connected from 192.168.127.1:40636 as paho747175608023208 (p2, c1, k60).
+1710135776: Client paho747175608023208 disconnected.
+1710135776: New connection from 192.168.127.1:40638 on port 1883.
+1710135776: New client connected from 192.168.127.1:40637 as paho747175704345000 (p2, c1, k60).
+1710135776: Client paho747175704345000 disconnected.
+1710135776: New connection from 192.168.127.1:40639 on port 1883.
+1710135777: New connection from 192.168.127.1:40640 on port 1883.
+1710135777: New client connected from 192.168.127.1:40638 as paho747175965857000 (p2, c1, k60).
+1710135777: Client paho747175965857000 disconnected.
+1710135777: New connection from 192.168.127.1:40641 on port 1883.
+1710135777: New client connected from 192.168.127.1:40639 as paho747176068730000 (p2, c1, k60).
+1710135777: Client paho747176068730000 disconnected.
+1710135777: New connection from 192.168.127.1:40642 on port 1883.
+1710135777: New client connected from 192.168.127.1:40640 as paho747176264403083 (p2, c1, k60).
+1710135777: Client paho747176264403083 disconnected.
+1710135777: New connection from 192.168.127.1:40643 on port 1883.
+1710135777: New client connected from 192.168.127.1:40641 as paho747176331727083 (p2, c1, k60).
+1710135777: Client paho747176331727083 disconnected.
+1710135777: New connection from 192.168.127.1:40644 on port 1883.
+1710135777: New client connected from 192.168.127.1:40642 as paho747176408568666 (p2, c1, k60).
+1710135777: Client paho747176408568666 disconnected.
+1710135777: New client connected from 192.168.127.1:40643 as paho747176630959666 (p2, c1, k60).
+1710135777: Client paho747176630959666 disconnected.
+1710135777: New connection from 192.168.127.1:40645 on port 1883.
+1710135777: New client connected from 192.168.127.1:40644 as paho747176663413250 (p2, c1, k60).
+1710135777: Client paho747176663413250 disconnected.
+1710135777: New connection from 192.168.127.1:40646 on port 1883.
+1710135778: Client <unknown> closed its connection.
+1710135778: Client <unknown> closed its connection.
+1710136158: New connection from 192.168.127.1:40648 on port 1883.
+1710136158: New client connected from 192.168.127.1:40648 as auto-25AE553B-FA3B-2E1A-8E87-EEA6420127F7 (p5, c1, k60).
+1710136174: Client camel-paho747158399075583 disconnected.
+1710136442: New connection from 192.168.127.1:40649 on port 1883.
+1710136443: New client connected from 192.168.127.1:40649 as camel-paho747841902627458 (p2, c1, k60).
+1710136564: New connection from 192.168.127.1:40650 on port 1883.
+1710136565: New client connected from 192.168.127.1:40650 as paho747964155831833 (p2, c1, k60).
+1710136565: Client paho747964155831833 disconnected.
+1710136565: New connection from 192.168.127.1:40651 on port 1883.
+1710136565: New client connected from 192.168.127.1:40651 as paho747964574202000 (p2, c1, k60).
+1710136565: Client paho747964574202000 disconnected.
+1710136565: New connection from 192.168.127.1:40653 on port 1883.
+1710136566: New client connected from 192.168.127.1:40653 as paho747964924427958 (p2, c1, k60).
+1710136566: Client paho747964924427958 disconnected.
+1710136566: New connection from 192.168.127.1:40654 on port 1883.
+1710136566: New client connected from 192.168.127.1:40654 as paho747965287832375 (p2, c1, k60).
+1710136566: Client paho747965287832375 disconnected.
+1710136566: New connection from 192.168.127.1:40655 on port 1883.
+1710136566: New client connected from 192.168.127.1:40655 as paho747965654668416 (p2, c1, k60).
+1710136566: Client paho747965654668416 disconnected.
+1710136566: New connection from 192.168.127.1:40656 on port 1883.
+1710136567: New client connected from 192.168.127.1:40656 as paho747966015916750 (p2, c1, k60).
+1710136567: Client paho747966015916750 disconnected.
+1710136567: New connection from 192.168.127.1:40657 on port 1883.
+1710136567: New client connected from 192.168.127.1:40657 as paho747966357305708 (p2, c1, k60).
+1710136567: Client paho747966357305708 disconnected.
+1710136573: New connection from 192.168.127.1:40658 on port 1883.
+1710136573: New client connected from 192.168.127.1:40658 as paho747972311031291 (p2, c1, k60).
+1710136573: Client paho747972311031291 disconnected.
+1710136573: New connection from 192.168.127.1:40659 on port 1883.
+1710136573: New client connected from 192.168.127.1:40659 as paho747972663718416 (p2, c1, k60).
+1710136573: Client paho747972663718416 disconnected.
+1710136573: New connection from 192.168.127.1:40660 on port 1883.
+1710136574: New client connected from 192.168.127.1:40660 as paho747973009352875 (p2, c1, k60).
+1710136574: Client paho747973009352875 disconnected.
+1710136574: New connection from 192.168.127.1:40661 on port 1883.
+1710136574: New client connected from 192.168.127.1:40661 as paho747973363439041 (p2, c1, k60).
+1710136574: Client paho747973363439041 disconnected.
+1710136574: New connection from 192.168.127.1:40662 on port 1883.
+1710136574: New client connected from 192.168.127.1:40662 as paho747973731041041 (p2, c1, k60).
+1710136574: Client paho747973731041041 disconnected.
+1710136574: New connection from 192.168.127.1:40663 on port 1883.
+1710136575: New client connected from 192.168.127.1:40663 as paho747974096486000 (p2, c1, k60).
+1710136575: Client paho747974096486000 disconnected.
+1710136575: New connection from 192.168.127.1:40664 on port 1883.
+1710136575: New client connected from 192.168.127.1:40664 as paho747974457118791 (p2, c1, k60).
+1710136575: Client paho747974457118791 disconnected.
+1710136575: New connection from 192.168.127.1:40665 on port 1883.
+1710136575: New client connected from 192.168.127.1:40665 as paho747974820453375 (p2, c1, k60).
+1710136575: Client paho747974820453375 disconnected.
+1710136575: New connection from 192.168.127.1:40666 on port 1883.
+1710136576: New client connected from 192.168.127.1:40666 as paho747975156522875 (p2, c1, k60).
+1710136576: Client paho747975156522875 disconnected.
+1710136576: New connection from 192.168.127.1:40667 on port 1883.
+1710136576: New client connected from 192.168.127.1:40667 as paho747975508309125 (p2, c1, k60).
+1710136576: Client paho747975508309125 disconnected.
+1710136583: New connection from 192.168.127.1:40668 on port 1883.
+1710136583: New client connected from 192.168.127.1:40668 as paho747982317528333 (p2, c1, k60).
+1710136583: Client paho747982317528333 disconnected.
+1710136583: New connection from 192.168.127.1:40669 on port 1883.
+1710136583: New client connected from 192.168.127.1:40669 as paho747982679658500 (p2, c1, k60).
+1710136583: Client paho747982679658500 disconnected.
+1710136583: New connection from 192.168.127.1:40670 on port 1883.
+1710136584: New client connected from 192.168.127.1:40670 as paho747983027932666 (p2, c1, k60).
+1710136584: Client paho747983027932666 disconnected.
+1710136584: New connection from 192.168.127.1:40671 on port 1883.
+1710136584: New client connected from 192.168.127.1:40671 as paho747983397651000 (p2, c1, k60).
+1710136584: Client paho747983397651000 disconnected.
+1710136584: New connection from 192.168.127.1:40672 on port 1883.
+1710136584: New client connected from 192.168.127.1:40672 as paho747983766073791 (p2, c1, k60).
+1710136584: Client paho747983766073791 disconnected.
+1710136584: New connection from 192.168.127.1:40673 on port 1883.
+1710136585: New client connected from 192.168.127.1:40673 as paho747984135694208 (p2, c1, k60).
+1710136585: Client paho747984135694208 disconnected.
+1710136585: New connection from 192.168.127.1:40674 on port 1883.
+1710136585: New client connected from 192.168.127.1:40674 as paho747984474939750 (p2, c1, k60).
+1710136585: Client paho747984474939750 disconnected.
+1710136585: New connection from 192.168.127.1:40675 on port 1883.
+1710136585: New client connected from 192.168.127.1:40675 as paho747984830318708 (p2, c1, k60).
+1710136585: Client paho747984830318708 disconnected.
+1710136585: New connection from 192.168.127.1:40676 on port 1883.
+1710136586: New client connected from 192.168.127.1:40676 as paho747985195862291 (p2, c1, k60).
+1710136586: Client paho747985195862291 disconnected.
+1710136586: New connection from 192.168.127.1:40677 on port 1883.
+1710136586: New client connected from 192.168.127.1:40677 as paho747985536873791 (p2, c1, k60).
+1710136586: Client paho747985536873791 disconnected.
+1710137179: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710137179: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710137179: Error: Permission denied.
+1710138156: Client camel-paho747841902627458 disconnected.
+1710138165: New connection from 192.168.127.1:40679 on port 1883.
+1710138165: New client connected from 192.168.127.1:40679 as camel-paho749564344339458 (p2, c1, k60).
+1710138178: New connection from 192.168.127.1:40680 on port 1883.
+1710138178: New client connected from 192.168.127.1:40680 as paho749577577188041 (p2, c1, k60).
+1710138178: Client paho749577577188041 disconnected.
+1710138178: New connection from 192.168.127.1:40681 on port 1883.
+1710138179: New client connected from 192.168.127.1:40681 as paho749577985459958 (p2, c1, k60).
+1710138179: Client paho749577985459958 disconnected.
+1710138179: New connection from 192.168.127.1:40683 on port 1883.
+1710138179: New client connected from 192.168.127.1:40683 as paho749578317994125 (p2, c1, k60).
+1710138179: Client paho749578317994125 disconnected.
+1710138179: New connection from 192.168.127.1:40684 on port 1883.
+1710138179: New client connected from 192.168.127.1:40684 as paho749578682893083 (p2, c1, k60).
+1710138179: Client paho749578682893083 disconnected.
+1710138179: New connection from 192.168.127.1:40685 on port 1883.
+1710138180: New client connected from 192.168.127.1:40685 as paho749579047865458 (p2, c1, k60).
+1710138180: Client paho749579047865458 disconnected.
+1710138180: New connection from 192.168.127.1:40686 on port 1883.
+1710138180: New client connected from 192.168.127.1:40686 as paho749579398843125 (p2, c1, k60).
+1710138180: Client paho749579398843125 disconnected.
+1710138180: New connection from 192.168.127.1:40687 on port 1883.
+1710138180: New client connected from 192.168.127.1:40687 as paho749579745149291 (p2, c1, k60).
+1710138180: Client paho749579745149291 disconnected.
+1710138187: New connection from 192.168.127.1:40688 on port 1883.
+1710138187: New client connected from 192.168.127.1:40688 as paho749586311829625 (p2, c1, k60).
+1710138187: Client paho749586311829625 disconnected.
+1710138187: New connection from 192.168.127.1:40689 on port 1883.
+1710138188: Client <unknown> closed its connection.
+1710138357: mosquitto version 2.0.18 terminating
+1710138357: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710138357: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710138357: Error: Permission denied.
+1710138423: mosquitto version 2.0.18 starting
+1710138423: Config loaded from /mosquitto/config/mosquitto.conf.
+1710138423: Opening ipv4 listen socket on port 1883.
+1710138423: mosquitto version 2.0.18 running
+1710138443: New connection from 192.168.127.1:40692 on port 1883.
+1710138443: New client connected from 192.168.127.1:40692 as camel-paho749842282476791 (p2, c1, k60).
+1710138459: New connection from 192.168.127.1:40696 on port 1883.
+1710138459: New client connected from 192.168.127.1:40696 as paho749858195274416 (p2, c1, k60).
+1710138459: Client paho749858195274416 disconnected.
+1710138459: New connection from 192.168.127.1:40697 on port 1883.
+1710138459: New client connected from 192.168.127.1:40697 as paho749858579915458 (p2, c1, k60).
+1710138459: Client paho749858579915458 disconnected.
+1710138459: New connection from 192.168.127.1:40699 on port 1883.
+1710138460: New client connected from 192.168.127.1:40699 as paho749858936730875 (p2, c1, k60).
+1710138460: Client paho749858936730875 disconnected.
+1710138460: New connection from 192.168.127.1:40700 on port 1883.
+1710138460: New client connected from 192.168.127.1:40700 as paho749859300486875 (p2, c1, k60).
+1710138460: Client paho749859300486875 disconnected.
+1710138460: New connection from 192.168.127.1:40701 on port 1883.
+1710138460: New client connected from 192.168.127.1:40701 as paho749859664234916 (p2, c1, k60).
+1710138460: Client paho749859664234916 disconnected.
+1710138460: New connection from 192.168.127.1:40702 on port 1883.
+1710138461: New client connected from 192.168.127.1:40702 as paho749860035081333 (p2, c1, k60).
+1710138461: Client paho749860035081333 disconnected.
+1710138467: New connection from 192.168.127.1:40703 on port 1883.
+1710138467: New client connected from 192.168.127.1:40703 as paho749866314422000 (p2, c1, k60).
+1710138467: Client paho749866314422000 disconnected.
+1710138467: New connection from 192.168.127.1:40704 on port 1883.
+1710138467: New client connected from 192.168.127.1:40704 as paho749866673332833 (p2, c1, k60).
+1710138467: Client paho749866673332833 disconnected.
+1710138467: New connection from 192.168.127.1:40705 on port 1883.
+1710138468: New client connected from 192.168.127.1:40705 as paho749867038954375 (p2, c1, k60).
+1710138468: Client paho749867038954375 disconnected.
+1710138468: New connection from 192.168.127.1:40706 on port 1883.
+1710138468: New client connected from 192.168.127.1:40706 as paho749867375481875 (p2, c1, k60).
+1710138468: Client paho749867375481875 disconnected.
+1710138468: New connection from 192.168.127.1:40707 on port 1883.
+1710138468: New client connected from 192.168.127.1:40707 as paho749867711120083 (p2, c1, k60).
+1710138468: Client paho749867711120083 disconnected.
+1710138468: New connection from 192.168.127.1:40708 on port 1883.
+1710138469: New client connected from 192.168.127.1:40708 as paho749868070857166 (p2, c1, k60).
+1710138469: Client paho749868070857166 disconnected.
+1710138469: New connection from 192.168.127.1:40709 on port 1883.
+1710138469: New client connected from 192.168.127.1:40709 as paho749868433882958 (p2, c1, k60).
+1710138469: Client paho749868433882958 disconnected.
+1710138469: New connection from 192.168.127.1:40710 on port 1883.
+1710138469: New client connected from 192.168.127.1:40710 as paho749868782823708 (p2, c1, k60).
+1710138469: Client paho749868782823708 disconnected.
+1710138469: New connection from 192.168.127.1:40711 on port 1883.
+1710138470: New client connected from 192.168.127.1:40711 as paho749869140107083 (p2, c1, k60).
+1710138470: Client paho749869140107083 disconnected.
+1710138470: New connection from 192.168.127.1:40712 on port 1883.
+1710138470: New client connected from 192.168.127.1:40712 as paho749869504879500 (p2, c1, k60).
+1710138470: Client paho749869504879500 disconnected.
+1710138544: mosquitto version 2.0.18 terminating
+1710138544: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710138544: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710138544: Error: Permission denied.
+1710138585: mosquitto version 2.0.18 starting
+1710138585: Config loaded from /mosquitto/config/mosquitto.conf.
+1710138585: Opening ipv4 listen socket on port 1883.
+1710138585: mosquitto version 2.0.18 running
+1710138625: mosquitto version 2.0.18 terminating
+1710138625: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710138625: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710138625: Error: Permission denied.
+1710138809: mosquitto version 2.0.18 starting
+1710138809: Config loaded from /mosquitto/config/mosquitto.conf.
+1710138809: Opening ipv4 listen socket on port 1883.
+1710138809: mosquitto version 2.0.18 running
+1710139281: mosquitto version 2.0.18 terminating
+1710139281: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710139281: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710139281: Error: Permission denied.
+1710139303: mosquitto version 2.0.18 starting
+1710139303: Config loaded from /mosquitto/config/mosquitto.conf.
+1710139303: Opening ipv4 listen socket on port 1883.
+1710139303: mosquitto version 2.0.18 running
+1710140821: mosquitto version 2.0.18 terminating
+1710140821: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710140821: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710140821: Error: Permission denied.
+1710140881: mosquitto version 2.0.18 starting
+1710140881: Config loaded from /mosquitto/config/mosquitto.conf.
+1710140881: Opening ipv4 listen socket on port 1883.
+1710140881: mosquitto version 2.0.18 running
+1710140937: mosquitto version 2.0.18 terminating
+1710140937: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710140937: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710140937: Error: Permission denied.
+1710140966: mosquitto version 2.0.18 starting
+1710140966: Config loaded from /mosquitto/config/mosquitto.conf.
+1710140966: Opening ipv4 listen socket on port 1883.
+1710140966: mosquitto version 2.0.18 running
+1710141007: New connection from 192.168.127.1:40729 on port 1883.
+1710141007: New client connected from 192.168.127.1:40729 as auto-88BB323E-2DBC-5B7B-F274-ED8970DD6D1F (p5, c1, k60).
+1710141026: New connection from 192.168.127.1:40733 on port 1883.
+1710141027: New client connected from 192.168.127.1:40733 as camel-paho752426121119625 (p2, c1, k60).
+1710141038: New connection from 192.168.127.1:40734 on port 1883.
+1710141039: New client connected from 192.168.127.1:40734 as paho752437952247666 (p2, c1, k60).
+1710141039: Client paho752437952247666 disconnected.
+1710141039: New connection from 192.168.127.1:40735 on port 1883.
+1710141039: New client connected from 192.168.127.1:40735 as paho752438363285041 (p2, c1, k60).
+1710141039: Client paho752438363285041 disconnected.
+1710141039: New connection from 192.168.127.1:40737 on port 1883.
+1710141039: New client connected from 192.168.127.1:40737 as paho752438721721416 (p2, c1, k60).
+1710141039: Client paho752438721721416 disconnected.
+1710141039: New connection from 192.168.127.1:40738 on port 1883.
+1710141040: New client connected from 192.168.127.1:40738 as paho752439085840416 (p2, c1, k60).
+1710141040: Client paho752439085840416 disconnected.
+1710141040: New connection from 192.168.127.1:40739 on port 1883.
+1710141040: New client connected from 192.168.127.1:40739 as paho752439467848291 (p2, c1, k60).
+1710141040: Client paho752439467848291 disconnected.
+1710141040: New connection from 192.168.127.1:40740 on port 1883.
+1710141040: New client connected from 192.168.127.1:40740 as paho752439828152125 (p2, c1, k60).
+1710141040: Client paho752439828152125 disconnected.
+1710141040: New connection from 192.168.127.1:40741 on port 1883.
+1710141041: New client connected from 192.168.127.1:40741 as paho752440184569083 (p2, c1, k60).
+1710141041: Client paho752440184569083 disconnected.
+1710141062: mosquitto version 2.0.18 terminating
+1710141062: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710141062: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710141062: Error: Permission denied.
+1710141105: mosquitto version 2.0.18 starting
+1710141105: Config loaded from /mosquitto/config/mosquitto.conf.
+1710141105: Opening ipv4 listen socket on port 1883.
+1710141105: mosquitto version 2.0.18 running
+1710141161: New connection from 192.168.127.1:40753 on port 1883.
+1710141161: New client connected from 192.168.127.1:40753 as camel-paho752560346827541 (p2, c1, k60).
+1710141172: New connection from 192.168.127.1:40754 on port 1883.
+1710141172: New client connected from 192.168.127.1:40754 as paho752571561707791 (p2, c1, k60).
+1710141172: Client paho752571561707791 disconnected.
+1710141172: New connection from 192.168.127.1:40755 on port 1883.
+1710141173: New client connected from 192.168.127.1:40755 as paho752571947219333 (p2, c1, k60).
+1710141173: Client paho752571947219333 disconnected.
+1710141173: New connection from 192.168.127.1:40757 on port 1883.
+1710141173: New client connected from 192.168.127.1:40757 as paho752572301849583 (p2, c1, k60).
+1710141173: Client paho752572301849583 disconnected.
+1710141173: New connection from 192.168.127.1:40758 on port 1883.
+1710141173: New client connected from 192.168.127.1:40758 as paho752572640819166 (p2, c1, k60).
+1710141173: Client paho752572640819166 disconnected.
+1710141173: New connection from 192.168.127.1:40759 on port 1883.
+1710141174: New client connected from 192.168.127.1:40759 as paho752573009065291 (p2, c1, k60).
+1710141174: Client paho752573009065291 disconnected.
+1710141174: New connection from 192.168.127.1:40760 on port 1883.
+1710141174: New client connected from 192.168.127.1:40760 as paho752573347540458 (p2, c1, k60).
+1710141174: Client paho752573347540458 disconnected.
+1710141174: New connection from 192.168.127.1:40761 on port 1883.
+1710141174: New client connected from 192.168.127.1:40761 as paho752573706630750 (p2, c1, k60).
+1710141174: Client paho752573706630750 disconnected.
+1710142284: Client camel-paho752560346827541 disconnected.
+1710142471: mosquitto version 2.0.18 terminating
+1710142471: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710142471: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710142471: Error: Permission denied.
+1710142534: mosquitto version 2.0.18 starting
+1710142534: Config loaded from /mosquitto/config/mosquitto.conf.
+1710142534: Opening ipv4 listen socket on port 1883.
+1710142534: mosquitto version 2.0.18 running
+1710142588: New connection from 192.168.127.1:40773 on port 1883.
+1710142588: New client connected from 192.168.127.1:40773 as camel-paho753987705689416 (p2, c1, k60).
+1710142807: New connection from 192.168.127.1:40774 on port 1883.
+1710142807: New client connected from 192.168.127.1:40774 as auto-FAE31EF5-F310-55EB-6D15-C1356F8833BF (p5, c1, k60).
+1710142817: New connection from 192.168.127.1:40775 on port 1883.
+1710142817: New client connected from 192.168.127.1:40775 as paho754216404169708 (p2, c1, k60).
+1710142817: Client paho754216404169708 disconnected.
+1710142817: New connection from 192.168.127.1:40776 on port 1883.
+1710142817: New client connected from 192.168.127.1:40776 as paho754216810381750 (p2, c1, k60).
+1710142817: Client paho754216810381750 disconnected.
+1710142817: New connection from 192.168.127.1:40778 on port 1883.
+1710142818: New client connected from 192.168.127.1:40778 as paho754217169620166 (p2, c1, k60).
+1710142818: Client paho754217169620166 disconnected.
+1710142818: New connection from 192.168.127.1:40779 on port 1883.
+1710142818: New client connected from 192.168.127.1:40779 as paho754217524249583 (p2, c1, k60).
+1710142818: Client paho754217524249583 disconnected.
+1710142818: New connection from 192.168.127.1:40780 on port 1883.
+1710142818: New client connected from 192.168.127.1:40780 as paho754217890957875 (p2, c1, k60).
+1710142819: Client paho754217890957875 disconnected.
+1710142819: New connection from 192.168.127.1:40781 on port 1883.
+1710142819: New client connected from 192.168.127.1:40781 as paho754218249998583 (p2, c1, k60).
+1710142819: Client paho754218249998583 disconnected.
+1710142819: New connection from 192.168.127.1:40782 on port 1883.
+1710142819: New client connected from 192.168.127.1:40782 as paho754218604371916 (p2, c1, k60).
+1710142819: Client paho754218604371916 disconnected.
+1710143034: Client camel-paho753987705689416 disconnected.
+1710143182: New connection from 192.168.127.1:40783 on port 1883.
+1710143183: New client connected from 192.168.127.1:40783 as camel-paho754582142619833 (p2, c1, k60).
+1710143193: New connection from 192.168.127.1:40784 on port 1883.
+1710143193: New client connected from 192.168.127.1:40784 as paho754592205753666 (p2, c1, k60).
+1710143193: Client paho754592205753666 disconnected.
+1710143193: New connection from 192.168.127.1:40785 on port 1883.
+1710143193: New client connected from 192.168.127.1:40785 as paho754592611210958 (p2, c1, k60).
+1710143193: Client paho754592611210958 disconnected.
+1710143193: New connection from 192.168.127.1:40787 on port 1883.
+1710143194: New client connected from 192.168.127.1:40787 as paho754592955180166 (p2, c1, k60).
+1710143194: Client paho754592955180166 disconnected.
+1710143194: New connection from 192.168.127.1:40788 on port 1883.
+1710143194: New client connected from 192.168.127.1:40788 as paho754593312273583 (p2, c1, k60).
+1710143194: Client paho754593312273583 disconnected.
+1710143194: New connection from 192.168.127.1:40789 on port 1883.
+1710143194: New client connected from 192.168.127.1:40789 as paho754593693225750 (p2, c1, k60).
+1710143194: Client paho754593693225750 disconnected.
+1710143194: New connection from 192.168.127.1:40790 on port 1883.
+1710143195: New client connected from 192.168.127.1:40790 as paho754594048537750 (p2, c1, k60).
+1710143195: Client paho754594048537750 disconnected.
+1710143583: Client camel-paho754582142619833 disconnected.
+1710143584: New connection from 192.168.127.1:40792 on port 1883.
+1710143584: New client connected from 192.168.127.1:40792 as camel-paho754983470825416 (p2, c1, k60).
+1710143596: New connection from 192.168.127.1:40793 on port 1883.
+1710143596: New client connected from 192.168.127.1:40793 as paho754995550130416 (p2, c1, k60).
+1710143596: Client paho754995550130416 disconnected.
+1710143596: New connection from 192.168.127.1:40794 on port 1883.
+1710143597: New client connected from 192.168.127.1:40794 as paho754995962352041 (p2, c1, k60).
+1710143597: Client paho754995962352041 disconnected.
+1710143597: New connection from 192.168.127.1:40797 on port 1883.
+1710143597: New client connected from 192.168.127.1:40797 as paho754996341729166 (p2, c1, k60).
+1710143597: Client paho754996341729166 disconnected.
+1710143597: New connection from 192.168.127.1:40798 on port 1883.
+1710143597: New client connected from 192.168.127.1:40798 as paho754996699569416 (p2, c1, k60).
+1710143597: Client paho754996699569416 disconnected.
+1710143597: New connection from 192.168.127.1:40799 on port 1883.
+1710143598: New client connected from 192.168.127.1:40799 as paho754997055153875 (p2, c1, k60).
+1710143598: Client paho754997055153875 disconnected.
+1710143598: New connection from 192.168.127.1:40800 on port 1883.
+1710143598: New client connected from 192.168.127.1:40800 as paho754997424181916 (p2, c1, k60).
+1710143598: Client paho754997424181916 disconnected.
+1710143598: New connection from 192.168.127.1:40801 on port 1883.
+1710143598: New client connected from 192.168.127.1:40801 as paho754997757427541 (p2, c1, k60).
+1710143598: Client paho754997757427541 disconnected.
+1710143605: New connection from 192.168.127.1:40802 on port 1883.
+1710143605: New client connected from 192.168.127.1:40802 as paho755004262824666 (p2, c1, k60).
+1710143605: Client paho755004262824666 disconnected.
+1710143605: New connection from 192.168.127.1:40803 on port 1883.
+1710143605: New client connected from 192.168.127.1:40803 as paho755004612880541 (p2, c1, k60).
+1710143605: Client paho755004612880541 disconnected.
+1710143605: New connection from 192.168.127.1:40804 on port 1883.
+1710143606: New client connected from 192.168.127.1:40804 as paho755004971751583 (p2, c1, k60).
+1710143606: Client paho755004971751583 disconnected.
+1710143606: New connection from 192.168.127.1:40805 on port 1883.
+1710143606: New client connected from 192.168.127.1:40805 as paho755005331572041 (p2, c1, k60).
+1710143606: Client paho755005331572041 disconnected.
+1710143606: New connection from 192.168.127.1:40806 on port 1883.
+1710143606: New client connected from 192.168.127.1:40806 as paho755005698697708 (p2, c1, k60).
+1710143606: Client paho755005698697708 disconnected.
+1710143606: New connection from 192.168.127.1:40807 on port 1883.
+1710143607: New client connected from 192.168.127.1:40807 as paho755006074288333 (p2, c1, k60).
+1710143607: Client paho755006074288333 disconnected.
+1710143607: New connection from 192.168.127.1:40808 on port 1883.
+1710143607: New client connected from 192.168.127.1:40808 as paho755006429412083 (p2, c1, k60).
+1710143607: Client paho755006429412083 disconnected.
+1710143607: New connection from 192.168.127.1:40809 on port 1883.
+1710143607: New client connected from 192.168.127.1:40809 as paho755006766482875 (p2, c1, k60).
+1710143607: Client paho755006766482875 disconnected.
+1710143607: New connection from 192.168.127.1:40810 on port 1883.
+1710143608: New client connected from 192.168.127.1:40810 as paho755007122148375 (p2, c1, k60).
+1710143608: Client paho755007122148375 disconnected.
+1710143608: New connection from 192.168.127.1:40811 on port 1883.
+1710143608: New client connected from 192.168.127.1:40811 as paho755007462410458 (p2, c1, k60).
+1710143608: Client paho755007462410458 disconnected.
+1710143760: Client camel-paho754983470825416 disconnected.
+1710143760: New connection from 192.168.127.1:40812 on port 1883.
+1710143760: New client connected from 192.168.127.1:40812 as camel-paho755159716188166 (p2, c1, k60).
+1710143792: Client camel-paho755159716188166 disconnected.
+1710143792: New connection from 192.168.127.1:40813 on port 1883.
+1710143792: New client connected from 192.168.127.1:40813 as camel-paho755191746686958 (p2, c1, k60).
+1710143870: Client camel-paho755191746686958 disconnected.
+1710144336: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710144336: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710144336: Error: Permission denied.
+1710145272: New connection from 192.168.127.1:40814 on port 1883.
+1710145272: New client connected from 192.168.127.1:40814 as consumer (p2, c1, k30).
+1710145285: New connection from 192.168.127.1:40815 on port 1883.
+1710145286: New client connected from 192.168.127.1:40815 as paho756685039384458 (p2, c1, k60).
+1710145286: Client paho756685039384458 disconnected.
+1710145286: Client consumer disconnected.
+1710145286: New connection from 192.168.127.1:40816 on port 1883.
+1710145286: New client connected from 192.168.127.1:40816 as paho756685448985666 (p2, c1, k60).
+1710145286: Client paho756685448985666 disconnected.
+1710145286: New connection from 192.168.127.1:40817 on port 1883.
+1710145286: New client connected from 192.168.127.1:40817 as paho756685813183375 (p2, c1, k60).
+1710145286: Client paho756685813183375 disconnected.
+1710145286: New connection from 192.168.127.1:40818 on port 1883.
+1710145287: New connection from 192.168.127.1:40819 on port 1883.
+1710145287: New client connected from 192.168.127.1:40819 as consumer (p2, c1, k30).
+1710145287: New client connected from 192.168.127.1:40818 as paho756686174426750 (p2, c1, k60).
+1710145287: Client paho756686174426750 disconnected.
+1710145287: Client consumer disconnected.
+1710145287: New connection from 192.168.127.1:40820 on port 1883.
+1710145287: New client connected from 192.168.127.1:40820 as paho756686527292250 (p2, c1, k60).
+1710145287: Client paho756686527292250 disconnected.
+1710145287: New connection from 192.168.127.1:40821 on port 1883.
+1710145287: New client connected from 192.168.127.1:40821 as paho756686880116833 (p2, c1, k60).
+1710145288: Client paho756686880116833 disconnected.
+1710145288: New connection from 192.168.127.1:40822 on port 1883.
+1710145288: New client connected from 192.168.127.1:40822 as consumer (p2, c1, k30).
+1710145294: New connection from 192.168.127.1:40823 on port 1883.
+1710145294: New client connected from 192.168.127.1:40823 as paho756693321090666 (p2, c1, k60).
+1710145294: Client paho756693321090666 disconnected.
+1710145294: Client consumer disconnected.
+1710145294: New connection from 192.168.127.1:40824 on port 1883.
+1710145294: New client connected from 192.168.127.1:40824 as paho756693672338000 (p2, c1, k60).
+1710145294: Client paho756693672338000 disconnected.
+1710145294: New connection from 192.168.127.1:40825 on port 1883.
+1710145295: New client connected from 192.168.127.1:40825 as paho756694038842333 (p2, c1, k60).
+1710145295: Client paho756694038842333 disconnected.
+1710145295: New connection from 192.168.127.1:40826 on port 1883.
+1710145295: New connection from 192.168.127.1:40827 on port 1883.
+1710145295: New client connected from 192.168.127.1:40827 as consumer (p2, c1, k30).
+1710145295: New client connected from 192.168.127.1:40826 as paho756694400096625 (p2, c1, k60).
+1710145295: Client paho756694400096625 disconnected.
+1710145295: Client consumer disconnected.
+1710145295: New connection from 192.168.127.1:40828 on port 1883.
+1710145295: New client connected from 192.168.127.1:40828 as paho756694775636500 (p2, c1, k60).
+1710145295: Client paho756694775636500 disconnected.
+1710145295: New connection from 192.168.127.1:40829 on port 1883.
+1710145296: New client connected from 192.168.127.1:40829 as paho756695119087625 (p2, c1, k60).
+1710145296: Client paho756695119087625 disconnected.
+1710145296: New connection from 192.168.127.1:40830 on port 1883.
+1710145296: New connection from 192.168.127.1:40831 on port 1883.
+1710145296: New client connected from 192.168.127.1:40831 as consumer (p2, c1, k30).
+1710145296: New client connected from 192.168.127.1:40830 as paho756695475267166 (p2, c1, k60).
+1710145296: Client paho756695475267166 disconnected.
+1710145296: Client consumer disconnected: Broken pipe.
+1710145296: New connection from 192.168.127.1:40832 on port 1883.
+1710145296: New client connected from 192.168.127.1:40832 as paho756695831149000 (p2, c1, k60).
+1710145296: Client paho756695831149000 disconnected.
+1710145296: New connection from 192.168.127.1:40833 on port 1883.
+1710145297: New client connected from 192.168.127.1:40833 as paho756696198899333 (p2, c1, k60).
+1710145297: Client paho756696198899333 disconnected.
+1710145297: New connection from 192.168.127.1:40834 on port 1883.
+1710145297: New connection from 192.168.127.1:40835 on port 1883.
+1710145297: New client connected from 192.168.127.1:40835 as consumer (p2, c1, k30).
+1710145297: New client connected from 192.168.127.1:40834 as paho756696557071000 (p2, c1, k60).
+1710145297: Client paho756696557071000 disconnected.
+1710145297: Client consumer disconnected.
+1710145298: New connection from 192.168.127.1:40836 on port 1883.
+1710145298: New client connected from 192.168.127.1:40836 as consumer (p2, c1, k30).
+1710146062: Client consumer disconnected.
+1710146137: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710146137: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710146137: Error: Permission denied.
