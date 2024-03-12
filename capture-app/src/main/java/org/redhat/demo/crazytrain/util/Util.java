@@ -27,15 +27,20 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.util.zip.GZIPOutputStream;
 
+/**
+ * Util is a utility class that provides methods to convert images to JSON, compress messages, and upload files to Dropbox.
+ */
 
 public class Util {
 
     private static final Logger LOGGER = Logger.getLogger(Util.class);
     private static final Object lock = new Object();
-
+    // ObjectMapper is used to convert the image to JSON
     @Inject
     private ObjectMapper mapper = new ObjectMapper();
 
+
+    // Write the image to a file
     public void writeFile(String data, String filename){
         try {
               BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
@@ -45,13 +50,14 @@ public class Util {
             throw new RuntimeException("Failed to write file", e);
         }
     }
+    // Convert the image to JSON
     public String matToJson(Mat image, long id) {            
         byte[] imageBytes = matToByteArray(image);
         String jsonMessage = null;
         ObjectNode node = mapper.createObjectNode().put("id", id).put("image", imageBytes);
          try {
              jsonMessage = mapper.writeValueAsString(node);
-            writeFile(jsonMessage, "test.json");
+            //writeFile(jsonMessage, "test.json");
         } catch (JsonProcessingException e) {
             e.printStackTrace();
             // Add additional error handling here if needed
@@ -60,12 +66,13 @@ public class Util {
         }
         return jsonMessage;
     }
+    // Convert the image to a byte array
     public  byte[] matToByteArray(Mat image) {
         byte[] data = new byte[(int) (image.total() * image.channels())];
         image.get(0, 0, data);
         return data;
     }
-
+    // Compress the message
     public  String compressMessage(byte[] originalMessage) {
             try (ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
                 GZIPOutputStream gzipOutputStream = new GZIPOutputStream(byteArrayOutputStream)) {
@@ -75,8 +82,10 @@ public class Util {
             } catch (IOException e) {
                 throw new RuntimeException("Failed to compress message", e);
             }
-        }
-     public static void uploadToDropbox(String filepath, String token) {
+    }
+    // Upload the image to Dropbox
+    public static void uploadToDropbox(String filepath, String token) {
+        // Synchronize the method to avoid concurrent access
         synchronized (lock) {
             LOGGER.info("Uploading image to Dropbox with token "+token);
             try (InputStream in = new FileInputStream(filepath)) {
