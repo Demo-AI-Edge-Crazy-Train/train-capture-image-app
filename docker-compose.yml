@@ -101,21 +101,21 @@ services:
   #   depends_on:
   #     - mosquitto
  
-  train-capture-image-app:
-    platform: linux/arm64/v8
-    image: quay.io/nmasse_itix/capture-image-arm64:latest
-    ports:
-      - 8080:8080
-    environment: 
-      - VIDEO_DEVICE_INDEX=0
-      - TMP_FOLDER=/tmp
-      - INTERVAL=100
-      - NB_IMAGE_SEC=10
-      - BROKER=tcp://localhost:1883
-      - TOPIC=train-image
-    volumes:
-      - /dev:/dev
-      - /tmp/crazy-images:/tmp/crazy-images
-    depends_on:
-      - mosquitto
-      - intelligent-train-app
+  # train-capture-image-app:
+  #   platform: linux/arm64/v8
+  #   image: quay.io/nmasse_itix/capture-image-arm64:latest
+  #   ports:
+  #     - 8080:8080
+  #   environment: 
+  #     - VIDEO_DEVICE_INDEX=0
+  #     - TMP_FOLDER=/tmp
+  #     - INTERVAL=100
+  #     - NB_IMAGE_SEC=10
+  #     - BROKER_MQTT=tcp://localhost:1883
+  #     - TOPIC=train-image
+  #   volumes:
+  #     - /dev:/dev
+  #     - /tmp/crazy-images:/tmp/crazy-images
+  #   depends_on:
+  #     - mosquitto
+  #     - intelligent-train-app

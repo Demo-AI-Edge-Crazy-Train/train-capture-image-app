@@ -1,9 +1,11 @@
 package org.redhat.demo.crazytrain.consumer;
 
 
+import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.StringReader;
@@ -23,9 +25,10 @@ import jakarta.enterprise.context.ApplicationScoped;
 
 
 import org.jboss.logging.Logger;
-import jakarta.json.Json;
-import jakarta.json.JsonObject;
-import jakarta.json.JsonReader;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.databind.JsonNode;
 
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
@@ -38,33 +41,24 @@ import org.opencv.imgcodecs.Imgcodecs;
 public class MqttConsumer {
     private static final Logger LOGGER = Logger.getLogger(MqttConsumer.class);
     
-     private JsonObject lastMessage;
 
      @Incoming("image")
      public void consume(String jsonMessage) {
          // Parse the JSON message
-         JsonReader jsonReader = null;
-         JsonObject jsonObject = null;
          try {
-            jsonReader = Json.createReader(new StringReader(jsonMessage));
-            jsonObject = jsonReader.readObject();
-            jsonReader.close();
-         } catch (Exception e) {
-             LOGGER.error("Error parsing JSON message", e);
-         }
-            // Get the id and base64 image string from the JSON
-            String id = jsonObject.getString("id");
-            String compressedImage = jsonObject.getString("image");
-            LOGGER.info("Received image with id: " + id);
-    
-            // Decode the base64 image string to a byte array
-            byte[] imageBytes = decompressMessage(compressedImage);
-
-        // Convert the decompressed data to an OpenCV Mat object
-             Mat image = Imgcodecs.imdecode(new MatOfByte(imageBytes), Imgcodecs.IMREAD_UNCHANGED);
-             String filename = "output.png";
-             if (!Imgcodecs.imwrite(filename, image)) {
-                 System.out.println("Failed to save image");
+                ObjectMapper mapper = new ObjectMapper();
+                JsonNode jsonNode = mapper.readTree(jsonMessage);
+                long id = jsonNode.get("id").asLong();
+                byte[] imageBytes  = jsonNode.get("image").binaryValue();
+                Mat image = new Mat(480, 640, CvType.CV_8UC3);
+                image.put(0, 0, imageBytes);
+        
+                String filename = "output.png";
+                if (!Imgcodecs.imwrite(filename, image)) {
+                    LOGGER.error("Failed to save image");
+                }
+        } catch (Exception e) {
+            LOGGER.error("Error parsing JSON message", e);
              }
      }
         private byte[] decompressMessage(String compressedMessage) {
@@ -80,6 +74,25 @@ public class MqttConsumer {
             return byteArrayOutputStream.toByteArray();
         } catch (IOException e) {
             throw new RuntimeException("Failed to decompress message", e);
+        }
+    }
+
+    public void writeFile(byte[] data, String filename){
+        try {
+            OutputStream out = new FileOutputStream(filename);
+            out.write(data);
+            out.close();
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to write file", e);
+        }
+    }
+    public void writeFile(String data, String filename){
+        try {
+              BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+              writer.write(data);
+              writer.close();
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to write file", e);
         }
     }
 }

@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.redhat.demo.crazytrain</groupId>
-  <artifactId>consumer</artifactId>
+  <artifactId>mqtt-consumer</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <properties>
     <compiler-plugin.version>3.12.1</compiler-plugin.version>
@@ -28,9 +28,13 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
-    <dependency>
+  <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive</artifactId>
+  </dependency>
+  <dependency>
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-jackson</artifactId>
   </dependency>
   <dependency>
     <groupId>io.quarkus</groupId>

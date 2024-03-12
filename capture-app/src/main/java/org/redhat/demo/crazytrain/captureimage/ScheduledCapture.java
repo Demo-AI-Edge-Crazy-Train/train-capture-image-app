@@ -58,7 +58,7 @@ public class ScheduledCapture {
     
     @Scheduled(every = "10s")
     void captureAndSaveImage() {
-       for(int i = 0; i < nbImgSec; i++) {
+       //for(int i = 0; i < nbImgSec; i++) {
            // LOGGER.infof("iteration %s", i);
             Mat image = imageCaptureService.captureImage(this.camera);
             long timestamp = System.currentTimeMillis();
@@ -88,6 +88,6 @@ public class ScheduledCapture {
         //     } catch (InterruptedException e) {
         //         LOGGER.error("Error: Thread interrupted");
         //     }
-        }
+       // }
     }
 }

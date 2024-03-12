@@ -12,24 +12,19 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 
-import org.eclipse.paho.client.mqttv3.MqttClient;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.jboss.logging.Logger;
-import org.eclipse.paho.client.mqttv3.MqttException;
 
 import jakarta.inject.Inject;
 
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+
 import java.util.Base64;
-
-
-
+import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.util.zip.GZIPOutputStream;
 
 
@@ -38,18 +33,25 @@ public class Util {
     private static final Logger LOGGER = Logger.getLogger(Util.class);
     private static final Object lock = new Object();
 
-
-
     @Inject
     private ObjectMapper mapper = new ObjectMapper();
 
-
+    public void writeFile(String data, String filename){
+        try {
+              BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+              writer.write(data);
+              writer.close();
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to write file", e);
+        }
+    }
     public String matToJson(Mat image, long id) {            
         byte[] imageBytes = matToByteArray(image);
         String jsonMessage = null;
         ObjectNode node = mapper.createObjectNode().put("id", id).put("image", imageBytes);
          try {
              jsonMessage = mapper.writeValueAsString(node);
+            writeFile(jsonMessage, "test.json");
         } catch (JsonProcessingException e) {
             e.printStackTrace();
             // Add additional error handling here if needed
