@@ -5,6 +5,8 @@ import com.dropbox.core.v2.DbxClientV2;
 import com.dropbox.core.v2.files.WriteMode;
 
 import org.opencv.core.Mat;
+import org.opencv.core.MatOfByte;
+import org.opencv.imgcodecs.Imgcodecs;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -50,11 +52,20 @@ public class Util {
             throw new RuntimeException("Failed to write file", e);
         }
     }
+
+    private static byte[] convertToJPEG(Mat frame) {
+        MatOfByte matOfByte = new MatOfByte();
+        Imgcodecs.imencode(".jpg", frame, matOfByte);
+        return matOfByte.toArray();
+    }
+
     // Convert the image to JSON
-    public String matToJson(Mat image, long id) {            
-        byte[] imageBytes = matToByteArray(image);
+    public String matToJson(Mat image, long id) {    
+        byte[] imageData = convertToJPEG(image);        
+        //byte[] imageBytes = matToByteArray(image);
         String jsonMessage = null;
-        String base64String = Base64.getEncoder().encodeToString(imageBytes);
+        String base64String = Base64.getEncoder().encodeToString(imageData);
+        // writeFile(base64String, "base64.txt");
         LOGGER.info("Image converted to base64 string"+base64String);
         ObjectNode node = mapper.createObjectNode().put("id", id).put("image", base64String);
          try {
