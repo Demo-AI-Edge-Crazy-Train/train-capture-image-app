@@ -48,12 +48,15 @@ public class ScheduledCapture {
     @ConfigProperty(name = "capture.saveImage")
     boolean saveImage;
 
+    @ConfigProperty(name = "capture.videoDeviceIndex")
+    int videoDeviceIndex;
+
 
     private static final Logger LOGGER = Logger.getLogger(ScheduledCapture.class);
     Util util = null;
     // Start the camera when the application starts and set the resolution
     void onStart(@Observes StartupEvent ev) {
-            camera = new VideoCapture(0); 
+            camera = new VideoCapture(videoDeviceIndex); 
             camera.set(Videoio.CAP_PROP_FRAME_WIDTH, 640); // Max resolution for Logitech C505
             camera.set(Videoio.CAP_PROP_FRAME_HEIGHT, 480); // Max resolution for Logitech C505
             camera.set(Videoio.CAP_PROP_AUTOFOCUS, 0); // Try to disable autofocus
