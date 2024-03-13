@@ -63,7 +63,7 @@ public class ScheduledCapture {
     }
     
     // Capture and save a defined number of images every second
-    @Scheduled(every = "1s")
+    @Scheduled(every = "10s")
     void captureAndSaveImage() {
         // Capture and save a defined number of images every second
        for(int i = 0; i < nbImgSec; i++) {

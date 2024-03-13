@@ -54,7 +54,9 @@ public class Util {
     public String matToJson(Mat image, long id) {            
         byte[] imageBytes = matToByteArray(image);
         String jsonMessage = null;
-        ObjectNode node = mapper.createObjectNode().put("id", id).put("image", imageBytes);
+        String base64String = Base64.getEncoder().encodeToString(imageBytes);
+        LOGGER.info("Image converted to base64 string"+base64String);
+        ObjectNode node = mapper.createObjectNode().put("id", id).put("image", base64String);
          try {
              jsonMessage = mapper.writeValueAsString(node);
             //writeFile(jsonMessage, "test.json");
