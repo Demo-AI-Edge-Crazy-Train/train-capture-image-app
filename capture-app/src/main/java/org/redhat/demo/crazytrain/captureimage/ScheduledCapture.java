@@ -79,7 +79,7 @@ public class ScheduledCapture {
                 String jsonMessage = util.matToJson(image, timestamp);
                 try {
                     mqttPublisher.publish(jsonMessage);
-                    LOGGER.infof("Message with id %s published to topic: %s", timestamp, topic);
+                    LOGGER.debugf("Message with id %s published to topic: %s", timestamp, topic);
                 } catch (MqttException e) {
                     e.printStackTrace();
                 }
@@ -89,7 +89,7 @@ public class ScheduledCapture {
                 String filepath = tmpFolder+"/" + timestamp + ".jpg";
                 imageService.saveImageAsync(image, filepath).thenAccept(success -> {
                         if (success) {
-                            LOGGER.infof("Image saved successfully");
+                            LOGGER.debug("Image saved successfully");
                         } else {
                             LOGGER.error("Failed to save image");
                         }

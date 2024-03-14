@@ -55,7 +55,7 @@ public class Util {
         byte[] imageBytes = matToByteArray(image);
         String jsonMessage = null;
         String base64String = Base64.getEncoder().encodeToString(imageBytes);
-        LOGGER.info("Image converted to base64 string"+base64String);
+        LOGGER.debug("Image converted to base64 string"+base64String);
         ObjectNode node = mapper.createObjectNode().put("id", id).put("image", base64String);
          try {
              jsonMessage = mapper.writeValueAsString(node);
@@ -89,7 +89,7 @@ public class Util {
     public static void uploadToDropbox(String filepath, String token) {
         // Synchronize the method to avoid concurrent access
         synchronized (lock) {
-            LOGGER.info("Uploading image to Dropbox with token "+token);
+            LOGGER.debug("Uploading image to Dropbox with token "+token);
             try (InputStream in = new FileInputStream(filepath)) {
                 DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/crazytrain/images").build();
                 DbxClientV2 client = new DbxClientV2(config, token);
@@ -101,7 +101,7 @@ public class Util {
             } catch (com.dropbox.core.DbxException e) {
                 throw new RuntimeException(e);
             }
-            LOGGER.info("Image uploaded to Dropbox");
+            LOGGER.debug("Image uploaded to Dropbox");
         }
     }   
 }

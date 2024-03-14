@@ -5072,3 +5072,312 @@
 1710318024: New connection from 192.168.127.1:54102 on port 1883.
 1710318024: New client connected from 192.168.127.1:54102 as paho11834556059541 (p2, c1, k60).
 1710318024: Client paho11834556059541 disconnected.
+1710318347: Client camel-paho10561700132375 has exceeded timeout, disconnecting.
+1710318359: Client camel-paho11392224864291 has exceeded timeout, disconnecting.
+1710318377: Client auto-CAE2C281-B0F8-ADAA-3578-D233681FB2AE has exceeded timeout, disconnecting.
+1710318909: mosquitto version 2.0.18 terminating
+1710318909: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710318909: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710318909: Error: Permission denied.
+1710319122: mosquitto version 2.0.18 starting
+1710319122: Config loaded from /mosquitto/config/mosquitto.conf.
+1710319122: Opening ipv4 listen socket on port 1883.
+1710319122: mosquitto version 2.0.18 running
+1710319145: New connection from 192.168.127.1:41543 on port 1883.
+1710319145: New client connected from 192.168.127.1:41543 as auto-FB98192E-C66B-2235-49DA-71527E02209A (p2, c1, k120).
+1710319381: New connection from 192.168.127.1:41544 on port 1883.
+1710319381: New connection from 192.168.127.1:41545 on port 1883.
+1710319381: Client <unknown> closed its connection.
+1710319381: Client <unknown> closed its connection.
+1710319410: New connection from 192.168.127.1:41546 on port 1883.
+1710319410: New client connected from 192.168.127.1:41546 as camel-paho13220755804916 (p2, c1, k60).
+1710319492: New connection from 192.168.127.1:41550 on port 1883.
+1710319492: New client connected from 192.168.127.1:41550 as paho13302583346125 (p2, c1, k60).
+1710319492: Client paho13302583346125 disconnected.
+1710319493: New connection from 192.168.127.1:41551 on port 1883.
+1710319493: New client connected from 192.168.127.1:41551 as camel-paho13303368097958 (p2, c1, k60).
+1710319524: Client camel-paho13303368097958 disconnected.
+1710319524: Client camel-paho13220755804916 disconnected.
+1710319525: New connection from 192.168.127.1:41553 on port 1883.
+1710319525: New client connected from 192.168.127.1:41553 as camel-paho13335748792500 (p2, c1, k60).
+1710319530: Client camel-paho13335748792500 disconnected.
+1710319530: New connection from 192.168.127.1:41554 on port 1883.
+1710319531: New client connected from 192.168.127.1:41554 as camel-paho13341216011541 (p2, c1, k60).
+1710319573: New connection from 192.168.127.1:41555 on port 1883.
+1710319573: New client connected from 192.168.127.1:41555 as paho13383568741458 (p2, c1, k60).
+1710319573: Client paho13383568741458 disconnected.
+1710319573: New connection from 192.168.127.1:41556 on port 1883.
+1710319574: New client connected from 192.168.127.1:41556 as camel-paho13384123950208 (p2, c1, k60).
+1710319593: Client camel-paho13384123950208 disconnected.
+1710319593: Client camel-paho13341216011541 disconnected.
+1710319665: New connection from 192.168.127.1:41558 on port 1883.
+1710319666: New client connected from 192.168.127.1:41558 as camel-paho13476154048416 (p2, c1, k60).
+1710319686: New connection from 192.168.127.1:41559 on port 1883.
+1710319686: New client connected from 192.168.127.1:41559 as paho13496590174958 (p2, c1, k60).
+1710319686: Client paho13496590174958 disconnected.
+1710319686: New connection from 192.168.127.1:41560 on port 1883.
+1710319687: New client connected from 192.168.127.1:41560 as camel-paho13497239581666 (p2, c1, k60).
+1710320922: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710320922: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710320922: Error: Permission denied.
+1710322723: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710322723: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710322723: Error: Permission denied.
+1710323203: Client auto-FB98192E-C66B-2235-49DA-71527E02209A closed its connection.
+1710323313: Client camel-paho13497239581666 disconnected.
+1710323313: Client camel-paho13476154048416 disconnected.
+1710323313: New connection from 192.168.127.1:41563 on port 1883.
+1710323313: New client connected from 192.168.127.1:41563 as camel-paho17123788405625 (p2, c1, k60).
+1710323333: Client camel-paho17123788405625 disconnected.
+1710323333: New connection from 192.168.127.1:41564 on port 1883.
+1710323333: New client connected from 192.168.127.1:41564 as camel-paho17143686734583 (p2, c1, k60).
+1710323341: New connection from 192.168.127.1:41565 on port 1883.
+1710323341: New client connected from 192.168.127.1:41565 as auto-942F3142-9BC2-E203-6D1C-867310D6B5EC (p2, c1, k120).
+1710323362: New connection from 192.168.127.1:41566 on port 1883.
+1710323362: New client connected from 192.168.127.1:41566 as paho17172530210500 (p2, c1, k60).
+1710323362: Client paho17172530210500 disconnected.
+1710323362: New connection from 192.168.127.1:41567 on port 1883.
+1710323363: New client connected from 192.168.127.1:41567 as camel-paho17173069915166 (p2, c1, k60).
+1710323385: Client camel-paho17173069915166 disconnected.
+1710323385: Client camel-paho17143686734583 disconnected.
+1710323385: New connection from 192.168.127.1:41569 on port 1883.
+1710323385: New client connected from 192.168.127.1:41569 as camel-paho17195800087458 (p2, c1, k60).
+1710323406: New connection from 192.168.127.1:41570 on port 1883.
+1710323406: New client connected from 192.168.127.1:41570 as paho17216503107083 (p2, c1, k60).
+1710323406: Client paho17216503107083 disconnected.
+1710323406: New connection from 192.168.127.1:41571 on port 1883.
+1710323407: New client connected from 192.168.127.1:41571 as camel-paho17217060579000 (p2, c1, k60).
+1710323455: Client camel-paho17217060579000 disconnected.
+1710323455: Client camel-paho17195800087458 disconnected.
+1710323455: New connection from 192.168.127.1:41573 on port 1883.
+1710323455: New client connected from 192.168.127.1:41573 as camel-paho17265909212166 (p2, c1, k60).
+1710323475: New connection from 192.168.127.1:41574 on port 1883.
+1710323475: New client connected from 192.168.127.1:41574 as paho17285494250041 (p2, c1, k60).
+1710323475: Client paho17285494250041 disconnected.
+1710323475: New connection from 192.168.127.1:41575 on port 1883.
+1710323476: New client connected from 192.168.127.1:41575 as camel-paho17286035981958 (p2, c1, k60).
+1710323485: New connection from 192.168.127.1:41577 on port 1883.
+1710323485: New client connected from 192.168.127.1:41577 as paho17295464356583 (p2, c1, k60).
+1710323485: Client paho17295464356583 disconnected.
+1710323501: Client camel-paho17286035981958 disconnected.
+1710323501: Client camel-paho17265909212166 disconnected.
+1710323501: New connection from 192.168.127.1:41578 on port 1883.
+1710323501: New client connected from 192.168.127.1:41578 as camel-paho17311992837208 (p2, c1, k60).
+1710323623: Client camel-paho17311992837208 disconnected.
+1710323623: New connection from 192.168.127.1:41579 on port 1883.
+1710323624: New client connected from 192.168.127.1:41579 as camel-paho17434208445750 (p2, c1, k60).
+1710323649: New connection from 192.168.127.1:41580 on port 1883.
+1710323650: New client connected from 192.168.127.1:41580 as paho17459927097666 (p2, c1, k60).
+1710323650: Client paho17459927097666 disconnected.
+1710323650: New connection from 192.168.127.1:41581 on port 1883.
+1710323650: New client connected from 192.168.127.1:41581 as camel-paho17460532454250 (p2, c1, k60).
+1710323728: New connection from 192.168.127.1:41587 on port 1883.
+1710323728: New client connected from 192.168.127.1:41587 as paho17538489298750 (p2, c1, k60).
+1710323728: Client paho17538489298750 disconnected.
+1710324006: New connection from 192.168.127.1:41591 on port 1883.
+1710324006: New client connected from 192.168.127.1:41591 as paho17816507833833 (p2, c1, k60).
+1710324006: Client paho17816507833833 disconnected.
+1710324144: New connection from 192.168.127.1:41592 on port 1883.
+1710324144: New client connected from 192.168.127.1:41592 as paho17954525435500 (p2, c1, k60).
+1710324144: Client paho17954525435500 disconnected.
+1710324524: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710324524: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710324524: Error: Permission denied.
+1710325325: New connection from 192.168.127.1:41593 on port 1883.
+1710325325: New client connected from 192.168.127.1:41593 as paho19135740761375 (p2, c1, k60).
+1710325325: Client paho19135740761375 disconnected.
+1710325384: New connection from 192.168.127.1:41594 on port 1883.
+1710325384: New client connected from 192.168.127.1:41594 as paho19194536974208 (p2, c1, k60).
+1710325384: Client paho19194536974208 disconnected.
+1710325492: New connection from 192.168.127.1:41595 on port 1883.
+1710325492: New client connected from 192.168.127.1:41595 as paho19302525143875 (p2, c1, k60).
+1710325492: Client paho19302525143875 disconnected.
+1710325545: New connection from 192.168.127.1:41602 on port 1883.
+1710325545: New client connected from 192.168.127.1:41602 as paho19355514121833 (p2, c1, k60).
+1710325545: Client paho19355514121833 disconnected.
+1710325669: New connection from 192.168.127.1:41603 on port 1883.
+1710325669: New client connected from 192.168.127.1:41603 as paho19479530420000 (p2, c1, k60).
+1710325669: Client paho19479530420000 disconnected.
+1710325850: Client camel-paho17460532454250 disconnected.
+1710325850: Client camel-paho17434208445750 disconnected.
+1710326325: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710326325: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710326325: Error: Permission denied.
+1710326331: New connection from 192.168.127.1:41604 on port 1883.
+1710326331: New client connected from 192.168.127.1:41604 as mqttjs_a7dce022 (p2, c1, k60).
+1710326355: New connection from 192.168.127.1:41605 on port 1883.
+1710326355: New client connected from 192.168.127.1:41605 as paho20165552638375 (p2, c1, k60).
+1710326355: Client paho20165552638375 disconnected.
+1710326423: Client mqttjs_a7dce022 has exceeded timeout, disconnecting.
+1710326537: Client auto-942F3142-9BC2-E203-6D1C-867310D6B5EC has exceeded timeout, disconnecting.
+1710328126: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710328126: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710328126: Error: Permission denied.
+1710329927: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710329927: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710329927: Error: Permission denied.
+1710331728: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710331728: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710331728: Error: Permission denied.
+1710333529: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710333529: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710333529: Error: Permission denied.
+1710335330: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710335330: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710335330: Error: Permission denied.
+1710337131: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710337131: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710337131: Error: Permission denied.
+1710338932: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710338932: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710338932: Error: Permission denied.
+1710340733: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710340733: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710340733: Error: Permission denied.
+1710342179: mosquitto version 2.0.18 terminating
+1710342179: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710342179: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710342179: Error: Permission denied.
+1710401085: mosquitto version 2.0.18 starting
+1710401085: Config loaded from /mosquitto/config/mosquitto.conf.
+1710401085: Opening ipv4 listen socket on port 1883.
+1710401085: mosquitto version 2.0.18 running
+1710401137: New connection from 192.168.127.1:31823 on port 1883.
+1710401138: New client connected from 192.168.127.1:31823 as camel-paho36579152929833 (p2, c1, k60).
+1710401178: New connection from 192.168.127.1:31827 on port 1883.
+1710401178: New client connected from 192.168.127.1:31827 as auto-5DB90248-5133-A41C-6B69-F739A2F50E42 (p2, c1, k60).
+1710401181: Client auto-5DB90248-5133-A41C-6B69-F739A2F50E42 closed its connection.
+1710401198: New connection from 192.168.127.1:31828 on port 1883.
+1710401198: New client connected from 192.168.127.1:31828 as auto-ED46BDB4-F04C-3B56-5162-17594EB8AA10 (p2, c1, k120).
+1710401229: New connection from 192.168.127.1:31829 on port 1883.
+1710401229: New client connected from 192.168.127.1:31829 as paho36670445225500 (p2, c1, k60).
+1710401229: Client paho36670445225500 disconnected.
+1710401229: New connection from 192.168.127.1:31830 on port 1883.
+1710401230: New client connected from 192.168.127.1:31830 as camel-paho36671064993125 (p2, c1, k60).
+1710401289: New connection from 192.168.127.1:31833 on port 1883.
+1710401289: New client connected from 192.168.127.1:31833 as paho36730442035833 (p2, c1, k60).
+1710401289: Client paho36730442035833 disconnected.
+1710401378: New connection from 192.168.127.1:31834 on port 1883.
+1710401378: New client connected from 192.168.127.1:31834 as mqttjs_ac706661 (p2, c1, k60).
+1710401388: New connection from 192.168.127.1:31835 on port 1883.
+1710401388: New client connected from 192.168.127.1:31835 as paho36829457573833 (p2, c1, k60).
+1710401388: Client paho36829457573833 disconnected.
+1710401424: Client mqttjs_ac706661 closed its connection.
+1710401427: New connection from 192.168.127.1:31836 on port 1883.
+1710401427: New client connected from 192.168.127.1:31836 as mqttjs_53213eb7 (p2, c1, k60).
+1710401474: Client mqttjs_53213eb7 closed its connection.
+1710401541: New connection from 192.168.127.1:31837 on port 1883.
+1710401541: New client connected from 192.168.127.1:31837 as mqttjs_d54a0ac0 (p2, c1, k60).
+1710401543: Client mqttjs_d54a0ac0 closed its connection.
+1710401567: New connection from 192.168.127.1:31838 on port 1883.
+1710401567: New client connected from 192.168.127.1:31838 as mqttjs_0d4f476c (p2, c1, k60).
+1710401589: New connection from 192.168.127.1:31839 on port 1883.
+1710401589: New client connected from 192.168.127.1:31839 as paho37030438475958 (p2, c1, k60).
+1710401589: Client paho37030438475958 disconnected.
+1710401684: Client auto-ED46BDB4-F04C-3B56-5162-17594EB8AA10 closed its connection.
+1710401773: Client mqttjs_0d4f476c closed its connection.
+1710402000: New connection from 192.168.127.1:31843 on port 1883.
+1710402000: New client connected from 192.168.127.1:31843 as auto-98EE76E3-6282-8921-B789-D55D30CCB036 (p2, c1, k120).
+1710402026: New connection from 192.168.127.1:31844 on port 1883.
+1710402026: New client connected from 192.168.127.1:31844 as paho37467401240458 (p2, c1, k60).
+1710402026: Client paho37467401240458 disconnected.
+1710402142: New connection from 192.168.127.1:31848 on port 1883.
+1710402142: New client connected from 192.168.127.1:31848 as paho37583391787708 (p2, c1, k60).
+1710402142: Client paho37583391787708 disconnected.
+1710402416: New connection from 192.168.127.1:31849 on port 1883.
+1710402416: New client connected from 192.168.127.1:31849 as paho37857453046875 (p2, c1, k60).
+1710402416: Client paho37857453046875 disconnected.
+1710402437: New connection from 192.168.127.1:31850 on port 1883.
+1710402437: New client connected from 192.168.127.1:31850 as mqttjs_34ae20a0 (p2, c1, k60).
+1710402459: New connection from 192.168.127.1:31851 on port 1883.
+1710402459: New client connected from 192.168.127.1:31851 as paho37900452730875 (p2, c1, k60).
+1710402459: Client paho37900452730875 disconnected.
+1710402801: Client mqttjs_34ae20a0 closed its connection.
+1710402866: New connection from 192.168.127.1:31855 on port 1883.
+1710402866: New client connected from 192.168.127.1:31855 as paho38307455646833 (p2, c1, k60).
+1710402866: Client paho38307455646833 disconnected.
+1710402876: New connection from 192.168.127.1:31856 on port 1883.
+1710402876: New client connected from 192.168.127.1:31856 as paho38317458816166 (p2, c1, k60).
+1710402876: Client paho38317458816166 disconnected.
+1710402885: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710402885: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710402885: Error: Permission denied.
+1710402944: New connection from 192.168.127.1:31857 on port 1883.
+1710402944: New client connected from 192.168.127.1:31857 as paho38385435592041 (p2, c1, k60).
+1710402944: Client paho38385435592041 disconnected.
+1710403035: New connection from 192.168.127.1:31858 on port 1883.
+1710403035: New client connected from 192.168.127.1:31858 as paho38476407694583 (p2, c1, k60).
+1710403035: Client paho38476407694583 disconnected.
+1710403301: New connection from 192.168.127.1:31865 on port 1883.
+1710403301: New client connected from 192.168.127.1:31865 as paho38742460602625 (p2, c1, k60).
+1710403301: Client paho38742460602625 disconnected.
+1710403498: Client camel-paho36671064993125 disconnected.
+1710403498: Client camel-paho36579152929833 disconnected.
+1710403498: New connection from 192.168.127.1:31866 on port 1883.
+1710403499: New client connected from 192.168.127.1:31866 as camel-paho38940143972750 (p2, c1, k60).
+1710403514: Client camel-paho38940143972750 disconnected.
+1710403514: New connection from 192.168.127.1:31867 on port 1883.
+1710403514: New client connected from 192.168.127.1:31867 as camel-paho38955702363166 (p2, c1, k60).
+1710403636: Client camel-paho38955702363166 disconnected.
+1710403636: New connection from 192.168.127.1:31868 on port 1883.
+1710403636: New client connected from 192.168.127.1:31868 as camel-paho39077884906375 (p2, c1, k60).
+1710403642: Client camel-paho39077884906375 disconnected.
+1710403642: New connection from 192.168.127.1:31869 on port 1883.
+1710403642: New client connected from 192.168.127.1:31869 as camel-paho39083838632833 (p2, c1, k60).
+1710403664: New connection from 192.168.127.1:31870 on port 1883.
+1710403664: New client connected from 192.168.127.1:31870 as paho39105326861916 (p2, c1, k60).
+1710403664: Client paho39105326861916 disconnected.
+1710403664: New connection from 192.168.127.1:31871 on port 1883.
+1710403665: New client connected from 192.168.127.1:31871 as camel-paho39105926976208 (p2, c1, k60).
+1710403706: Client camel-paho39105926976208 disconnected.
+1710403706: Client camel-paho39083838632833 disconnected.
+1710403706: New connection from 192.168.127.1:31874 on port 1883.
+1710403707: New client connected from 192.168.127.1:31874 as camel-paho39148057978125 (p2, c1, k60).
+1710404017: Client camel-paho39148057978125 disconnected.
+1710404025: New connection from 192.168.127.1:31875 on port 1883.
+1710404025: New client connected from 192.168.127.1:31875 as camel-paho39466838438166 (p2, c1, k60).
+1710404056: New connection from 192.168.127.1:31879 on port 1883.
+1710404056: New client connected from 192.168.127.1:31879 as paho39497303315541 (p2, c1, k60).
+1710404056: Client paho39497303315541 disconnected.
+1710404056: New connection from 192.168.127.1:31880 on port 1883.
+1710404056: New client connected from 192.168.127.1:31880 as camel-paho39497908883875 (p2, c1, k60).
+1710404686: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710404686: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710404686: Error: Permission denied.
+1710406488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710406488: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710406488: Error: Permission denied.
+1710406643: New connection from 192.168.127.1:31883 on port 1883.
+1710406643: New client connected from 192.168.127.1:31883 as paho42084319185500 (p2, c1, k60).
+1710406643: Client paho42084319185500 disconnected.
+1710406653: New connection from 192.168.127.1:31887 on port 1883.
+1710406653: New client connected from 192.168.127.1:31887 as paho42094301482416 (p2, c1, k60).
+1710406653: Client paho42094301482416 disconnected.
+1710406663: New connection from 192.168.127.1:31888 on port 1883.
+1710406663: New client connected from 192.168.127.1:31888 as paho42104317055708 (p2, c1, k60).
+1710406663: Client paho42104317055708 disconnected.
+1710406673: New connection from 192.168.127.1:31889 on port 1883.
+1710406673: New client connected from 192.168.127.1:31889 as paho42114312647625 (p2, c1, k60).
+1710406673: Client paho42114312647625 disconnected.
+1710406729: New connection from 192.168.127.1:31893 on port 1883.
+1710406729: New client connected from 192.168.127.1:31893 as paho42170336615791 (p2, c1, k60).
+1710406729: Client paho42170336615791 disconnected.
+1710408289: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710408289: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710408289: Error: Permission denied.
+1710410089: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710410089: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710410089: Error: Permission denied.
+1710411891: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710411891: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710411891: Error: Permission denied.
+1710413691: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710413691: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710413691: Error: Permission denied.
+1710414962: Client camel-paho39497908883875 disconnected.
+1710414962: Client camel-paho39466838438166 disconnected.
+1710414976: Client auto-98EE76E3-6282-8921-B789-D55D30CCB036 closed its connection.
+1710414981: mosquitto version 2.0.18 terminating
+1710414981: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1710414981: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1710414981: Error: Permission denied.

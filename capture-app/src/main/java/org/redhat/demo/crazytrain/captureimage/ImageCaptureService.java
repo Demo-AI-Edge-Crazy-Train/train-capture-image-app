@@ -40,7 +40,7 @@ public class ImageCaptureService {
         try {
             // Create the OpenCV camera
             if (camera == null) {
-                LOGGER.infof("Opening camera at index %d", videoDeviceIndex);
+                LOGGER.debugf("Opening camera at index %d", videoDeviceIndex);
                 camera = new VideoCapture(this.videoDeviceIndex);
             }
             // If somehow something goes wrong, reload the OpenCV camera
