@@ -106,20 +106,20 @@ services:
     networks:
       - internal
 
-  # intelligent-train-app:
-  #   platform: linux/arm64/v8
-  #   image: intelligent-train:latest
-  #   volumes:
-  #     - /tmp:/tmp
-  #   environment:
-  #     - MQTT_BROKER=localhost
-  #     - MQTT_PORT=1883
-  #     - MQTT_TOPIC=train-image
-  #     - MQTT_PUB_TOPIC=train-model-result
-  #   depends_on:
-  #     - mosquitto
-  #   networks:
-  #     - internal
+  intelligent-train-app:
+    platform: linux/arm64/v8
+    image: intelligent-train:latest
+    volumes:
+      - /tmp:/tmp
+    environment:
+      - MQTT_BROKER=localhost
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=train-image
+      - MQTT_PUB_TOPIC=train-model-result
+    depends_on:
+      - mosquitto
+    networks:
+      - internal
 
 
  
