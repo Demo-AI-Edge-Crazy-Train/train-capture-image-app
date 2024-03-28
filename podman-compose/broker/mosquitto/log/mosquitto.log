@@ -404,3 +404,12 @@
 1711621668: New connection from 10.89.0.18:47968 on port 1883.
 1711621668: New client connected from 10.89.0.18:47968 as paho117410660926791 (p2, c1, k60).
 1711621668: Client paho117410660926791 disconnected.
+1711623270: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711623270: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711623270: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711625071: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711625071: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711625071: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711632468: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711632468: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711632468: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
