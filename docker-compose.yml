@@ -106,9 +106,29 @@ services:
     networks:
       - internal
 
-  intelligent-train-app:
+  train-capture-image-app:
     platform: linux/arm64/v8
-    image: intelligent-train:latest
+    image: quay.io/mouachan/train-capture-app-arm64:latest
+    ports:
+      - 8080:8080
+    environment: 
+      - VIDEO_DEVICE_INDEX=0
+      - TMP_FOLDER=/tmp
+      - INTERVAL=100
+      - NB_IMAGE_SEC=10
+      - MQTT_BROKER=tcp://localhost:1883
+      - MQTT_TOPIC=train-image
+      - SAVE_IMAGE=false
+    volumes:
+      - /dev:/dev
+      - /tmp/crazy-images:/tmp/crazy-images
+    depends_on:
+      - mosquitto
+    networks:
+      - internal
+  intelligent-train:
+    platform: linux/arm64/v8
+    image: quay.io/mouachan/intelligent-train-arm64:latest
     volumes:
       - /tmp:/tmp
     environment:
@@ -116,28 +136,37 @@ services:
       - MQTT_PORT=1883
       - MQTT_TOPIC=train-image
       - MQTT_PUB_TOPIC=train-model-result
+      - MODEL_PATH =models/model.onnx
     depends_on:
       - mosquitto
     networks:
       - internal
-
-
- 
-  # train-capture-image-app:
-  #   platform: linux/arm64/v8
-  #   image: quay.io/mouachan/capture-image-arm64:latest
-  #   ports:
-  #     - 8080:8080
-  #   environment: 
-  #     - VIDEO_DEVICE_INDEX=0
-  #     - TMP_FOLDER=/tmp
-  #     - INTERVAL=100
-  #     - NB_IMAGE_SEC=10
-  #     - MQTT_BROKER=tcp://localhost:1883
-  #     - MQTT_TOPIC=train-image
-  #     - SAVE_IMAGE=false
-  #   volumes:
-  #     - /dev:/dev
-  #     - /tmp/crazy-images:/tmp/crazy-images
-  #   depends_on:
-  #     - mosquitto
+  train-ceq-app:
+    platform: linux/arm64/v8
+    image: quay.io/mouachan/train-ceq-app-arm64:latest
+    environment:
+      - BROKER_MQTT_URL=tcp://localhost:1883
+      - KAFKA_BOOTSTRAP_SERVERS=localhost:9092
+      - BROKER_KAFKA_URL=tcp://localhost:9092
+      - MQTT_SRC_TOPIC_NAME=train-model-result
+      - MQTT_DEST_TOPIC_NAM=train-command
+      - KAFKA_TOPIC_NAME=train-monitoring
+    depends_on:
+      - mosquitto
+      - kafka
+    networks:
+      - internal
+  train-monitoring-app:
+    platform: linux/arm64/v8
+    image: quay.io/mouachan/train-monitoring-app-arm64:latest
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=localhost:9092
+      - KAFKA_TOPIC_NAME=train-monitoring
+      - SAVE_IMAGE=false
+      - TMP_FOLDER:/tmp/crazy-train-images
+    depends_on:
+      - mosquitto
+      - kafka
+    networks:
+      - internal
+  
