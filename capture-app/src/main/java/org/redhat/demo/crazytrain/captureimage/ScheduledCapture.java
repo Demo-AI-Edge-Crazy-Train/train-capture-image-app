@@ -3,7 +3,8 @@ package org.redhat.demo.crazytrain.captureimage;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
-
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.eclipse.paho.client.mqttv3.MqttException;
@@ -23,8 +24,11 @@ import io.quarkus.scheduler.Scheduled;
  */
 
 @ApplicationScoped
+@Path("/capture")
 public class ScheduledCapture {
     private  VideoCapture camera; 
+    private boolean captureEnabled = false;
+
     @Inject
     ImageCaptureService imageCaptureService;
     @Inject
@@ -68,6 +72,10 @@ public class ScheduledCapture {
     // Capture and save a defined number of images every second
     @Scheduled(every = "10s")
     void captureAndSaveImage() {
+        if(!captureEnabled) {
+            LOGGER.debug("Capture is disabled");
+            return;
+        }
         // Capture and save a defined number of images every second
        for(int i = 0; i < nbImgSec; i++) {
             // Capture the image
@@ -77,6 +85,7 @@ public class ScheduledCapture {
             MqttPublisher mqttPublisher = new MqttPublisher(broker.trim(), topic.trim());
             if(util != null) {
                 String jsonMessage = util.matToJson(image, timestamp);
+                LOGGER.debugf("JSON Message with id %s", jsonMessage);
                 try {
                     mqttPublisher.publish(jsonMessage);
                     LOGGER.debugf("Message with id %s published to topic: %s", timestamp, topic);
@@ -102,5 +111,18 @@ public class ScheduledCapture {
                 LOGGER.error("Error: Thread interrupted");
             }
        }
+    }
+    @GET
+    @Path("/start")
+    public void startCapture() {
+        LOGGER.info("Capture started");
+        captureEnabled = true;
+    }
+
+    @GET
+    @Path("/stop")
+    public void stopCapture() {
+        captureEnabled = false;
+        LOGGER.info("Capture stopped");
     }
 }

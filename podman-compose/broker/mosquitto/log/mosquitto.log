@@ -263,3 +263,144 @@
 1711538999: New client connected from 10.89.0.9:41608 as paho92864248510250 (p2, c1, k60).
 1711538999: Client paho92864248510250 disconnected.
 1711539171: Client auto-96CF2634-2463-1CDD-3F10-B6A2A33B373E closed its connection.
+1711540004: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711540004: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711540004: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711543985: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711543985: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711543985: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711545786: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711545786: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711545786: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711547587: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711547587: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711547587: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711549388: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711549388: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711549388: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711551189: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711551189: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711551189: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711552990: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711552990: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711552990: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711554791: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711554791: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711554791: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711556592: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711556592: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711556592: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711614335: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711614335: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711614335: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711614404: Client camel-paho86146759086208 disconnected.
+1711614404: Client camel-paho85942944179833 disconnected.
+1711614409: mosquitto version 2.0.18 terminating
+1711614409: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711614409: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711614409: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711619543: mosquitto version 2.0.18 starting
+1711619543: Config loaded from /mosquitto/config/mosquitto.conf.
+1711619543: Opening ipv4 listen socket on port 1883.
+1711619543: mosquitto version 2.0.18 running
+1711619585: mosquitto version 2.0.18 terminating
+1711619585: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711619585: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711619585: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711619669: mosquitto version 2.0.18 starting
+1711619669: Config loaded from /mosquitto/config/mosquitto.conf.
+1711619669: Opening ipv4 listen socket on port 1883.
+1711619669: mosquitto version 2.0.18 running
+1711621321: New connection from 10.89.0.18:38004 on port 1883.
+1711621321: New client connected from 10.89.0.18:38004 as paho117063429112125 (p2, c1, k60).
+1711621321: Client paho117063429112125 disconnected.
+1711621322: New connection from 10.89.0.18:38006 on port 1883.
+1711621322: New client connected from 10.89.0.18:38006 as paho117064172192375 (p2, c1, k60).
+1711621322: Client paho117064172192375 disconnected.
+1711621322: New connection from 10.89.0.18:38012 on port 1883.
+1711621322: New client connected from 10.89.0.18:38012 as paho117064823562791 (p2, c1, k60).
+1711621323: Client paho117064823562791 disconnected.
+1711621323: New connection from 10.89.0.18:38028 on port 1883.
+1711621323: New client connected from 10.89.0.18:38028 as paho117065487340208 (p2, c1, k60).
+1711621323: Client paho117065487340208 disconnected.
+1711621323: New connection from 10.89.0.18:38040 on port 1883.
+1711621324: New client connected from 10.89.0.18:38040 as paho117066142429041 (p2, c1, k60).
+1711621324: Client paho117066142429041 disconnected.
+1711621324: New connection from 10.89.0.18:38056 on port 1883.
+1711621324: New client connected from 10.89.0.18:38056 as paho117066810826666 (p2, c1, k60).
+1711621325: Client paho117066810826666 disconnected.
+1711621325: New connection from 10.89.0.18:38066 on port 1883.
+1711621325: New client connected from 10.89.0.18:38066 as paho117067443179458 (p2, c1, k60).
+1711621325: Client paho117067443179458 disconnected.
+1711621325: New connection from 10.89.0.18:38072 on port 1883.
+1711621326: New client connected from 10.89.0.18:38072 as paho117068113216625 (p2, c1, k60).
+1711621326: Client paho117068113216625 disconnected.
+1711621326: New connection from 10.89.0.18:38074 on port 1883.
+1711621326: New client connected from 10.89.0.18:38074 as paho117068802653458 (p2, c1, k60).
+1711621326: Client paho117068802653458 disconnected.
+1711621327: New connection from 10.89.0.18:38080 on port 1883.
+1711621327: New client connected from 10.89.0.18:38080 as paho117069432159458 (p2, c1, k60).
+1711621327: Client paho117069432159458 disconnected.
+1711621408: New connection from 10.89.0.18:35462 on port 1883.
+1711621408: New client connected from 10.89.0.18:35462 as paho117150426876041 (p2, c1, k60).
+1711621408: Client paho117150426876041 disconnected.
+1711621409: New connection from 10.89.0.18:35466 on port 1883.
+1711621409: New client connected from 10.89.0.18:35466 as paho117151212908041 (p2, c1, k60).
+1711621409: Client paho117151212908041 disconnected.
+1711621409: New connection from 10.89.0.18:35472 on port 1883.
+1711621410: New client connected from 10.89.0.18:35472 as paho117151868968958 (p2, c1, k60).
+1711621410: Client paho117151868968958 disconnected.
+1711621410: New connection from 10.89.0.18:35488 on port 1883.
+1711621410: New client connected from 10.89.0.18:35488 as paho117152530988916 (p2, c1, k60).
+1711621410: Client paho117152530988916 disconnected.
+1711621411: New connection from 10.89.0.18:43460 on port 1883.
+1711621411: New client connected from 10.89.0.18:43460 as paho117153185152041 (p2, c1, k60).
+1711621411: Client paho117153185152041 disconnected.
+1711621411: New connection from 10.89.0.18:43472 on port 1883.
+1711621412: New client connected from 10.89.0.18:43472 as paho117153852970083 (p2, c1, k60).
+1711621412: Client paho117153852970083 disconnected.
+1711621412: New connection from 10.89.0.18:43476 on port 1883.
+1711621412: New client connected from 10.89.0.18:43476 as paho117154544494125 (p2, c1, k60).
+1711621412: Client paho117154544494125 disconnected.
+1711621413: New connection from 10.89.0.18:43488 on port 1883.
+1711621413: New client connected from 10.89.0.18:43488 as paho117155225061250 (p2, c1, k60).
+1711621413: Client paho117155225061250 disconnected.
+1711621413: New connection from 10.89.0.18:43492 on port 1883.
+1711621414: New client connected from 10.89.0.18:43492 as paho117155898136750 (p2, c1, k60).
+1711621414: Client paho117155898136750 disconnected.
+1711621414: New connection from 10.89.0.18:43498 on port 1883.
+1711621414: New client connected from 10.89.0.18:43498 as paho117156564950125 (p2, c1, k60).
+1711621414: Client paho117156564950125 disconnected.
+1711621469: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1711621469: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1711621469: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1711621664: New connection from 10.89.0.18:47870 on port 1883.
+1711621664: New client connected from 10.89.0.18:47870 as paho117406207788583 (p2, c1, k60).
+1711621664: Client paho117406207788583 disconnected.
+1711621664: New connection from 10.89.0.18:47886 on port 1883.
+1711621664: New client connected from 10.89.0.18:47886 as paho117406733809750 (p2, c1, k60).
+1711621664: Client paho117406733809750 disconnected.
+1711621665: New connection from 10.89.0.18:47900 on port 1883.
+1711621665: New client connected from 10.89.0.18:47900 as paho117407189252291 (p2, c1, k60).
+1711621665: Client paho117407189252291 disconnected.
+1711621665: New connection from 10.89.0.18:47906 on port 1883.
+1711621665: New client connected from 10.89.0.18:47906 as paho117407683707708 (p2, c1, k60).
+1711621665: Client paho117407683707708 disconnected.
+1711621666: New connection from 10.89.0.18:47914 on port 1883.
+1711621666: New client connected from 10.89.0.18:47914 as paho117408168809583 (p2, c1, k60).
+1711621666: Client paho117408168809583 disconnected.
+1711621666: New connection from 10.89.0.18:47926 on port 1883.
+1711621666: New client connected from 10.89.0.18:47926 as paho117408681913625 (p2, c1, k60).
+1711621666: Client paho117408681913625 disconnected.
+1711621667: New connection from 10.89.0.18:47930 on port 1883.
+1711621667: New client connected from 10.89.0.18:47930 as paho117409174709708 (p2, c1, k60).
+1711621667: Client paho117409174709708 disconnected.
+1711621667: New connection from 10.89.0.18:47942 on port 1883.
+1711621667: New client connected from 10.89.0.18:47942 as paho117409703095041 (p2, c1, k60).
+1711621667: Client paho117409703095041 disconnected.
+1711621668: New connection from 10.89.0.18:47958 on port 1883.
+1711621668: New client connected from 10.89.0.18:47958 as paho117410177265916 (p2, c1, k60).
+1711621668: Client paho117410177265916 disconnected.
+1711621668: New connection from 10.89.0.18:47968 on port 1883.
+1711621668: New client connected from 10.89.0.18:47968 as paho117410660926791 (p2, c1, k60).
+1711621668: Client paho117410660926791 disconnected.
