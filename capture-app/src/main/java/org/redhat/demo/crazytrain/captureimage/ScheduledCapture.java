@@ -58,6 +58,8 @@ public class ScheduledCapture {
     @ConfigProperty(name = "capture.videoDeviceIndex")
     int videoDeviceIndex;
 
+    MqttPublisher mqttPublisher = null;
+
     private Long timerId;
 
 
@@ -74,7 +76,10 @@ public class ScheduledCapture {
             //camera.set(Videoio.CAP_PROP_FOCUS, 255); // Try to disable autofocus
             camera.set(Videoio.CAP_PROP_EXPOSURE, 15); // Try to set exposure
             util = new Util();
+            mqttPublisher = new MqttPublisher(broker.trim(), topic.trim());
+
     }
+
     @Inject
     Vertx vertx;
 
@@ -96,22 +101,22 @@ public class ScheduledCapture {
             LOGGER.infof("Time to capture image: %d ms", (end - start) / 1000000);
             // Publish the image to the MQTT broker
             long timestamp = System.currentTimeMillis();
-            MqttPublisher mqttPublisher = new MqttPublisher(broker.trim(), topic.trim());
             if(util != null) {
-                long start3 = System.nanoTime();
+                long start2 = System.nanoTime();
                 String jsonMessage = util.matToJson(image, timestamp);
                 long end2 = System.nanoTime();
-                LOGGER.infof("Time to convert image to json: %d ms", (end2 - start3) / 1000000);
+                LOGGER.infof("Time to convert image to json: %d ms", (end2 - start2) / 1000000);
                 LOGGER.debugf("JSON Message with id %s", jsonMessage);
                 try {
+                    long start3 = System.nanoTime();
                     mqttPublisher.publish(jsonMessage);
+                    long end3 = System.nanoTime();
+                    LOGGER.infof("Time to publish image: %d ms", (end3 - start3) / 1000000);
                     LOGGER.debugf("Message with id %s published to topic: %s", timestamp, topic);
                 } catch (MqttException e) {
                     e.printStackTrace();
                 }
             }
-            long end3 = System.nanoTime();
-            LOGGER.infof("Time to publish image: %d ms", (end3 - end) / 1000000);
             // Save the image to the file system (asynchronously)
             if(saveImage){
                 String filepath = tmpFolder+"/" + timestamp + ".jpg";
@@ -135,6 +140,7 @@ public class ScheduledCapture {
     @Path("/start")
     public Response startCapture() {
         LOGGER.info("Capture started");
+        mqttPublisher.connect();
         //captureEnabled = true;
         if (timerId != null) {
             return Response.status(Response.Status.BAD_REQUEST).entity("Capture is already running").build();
@@ -155,6 +161,7 @@ public class ScheduledCapture {
         vertx.cancelTimer(timerId);
         timerId = null;
         imageCaptureService.releaseCamera(this.camera);
+        mqttPublisher.disconnect();
         return Response.ok("Capture stopped").build();
     }
 }
