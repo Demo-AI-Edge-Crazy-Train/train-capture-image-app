@@ -49,8 +49,8 @@ public class ScheduledCapture {
     @ConfigProperty(name = "capture.topic")
     String topic;
     // nbImgSec is the number of images captured every second
-    @ConfigProperty(name = "capture.nbImgSec")
-    int nbImgSec;
+    @ConfigProperty(name = "capture.periodicCapture")
+    int periodicCapture;
 
     @ConfigProperty(name = "capture.saveImage")
     boolean saveImage;
@@ -87,7 +87,7 @@ public class ScheduledCapture {
     // Capture and save a defined number of images every second
     //@Scheduled(every = "PT0.1S")
     void captureAndSaveImage() {
-        LOGGER.infof("The Thread name is %s" + Thread.currentThread().getName());
+        LOGGER.debugf("The Thread name is %s" + Thread.currentThread().getName());
         // if(!captureEnabled) {
         //     LOGGER.debug("Capture is disabled");
         //     return;
@@ -98,20 +98,20 @@ public class ScheduledCapture {
             long start = System.nanoTime();
             Mat image = imageCaptureService.captureImage(this.camera);
             long end = System.nanoTime();
-            LOGGER.infof("Time to capture image: %d ms", (end - start) / 1000000);
+            LOGGER.debugf("Time to capture image: %d ms", (end - start) / 1000000);
             // Publish the image to the MQTT broker
             long timestamp = System.currentTimeMillis();
             if(util != null) {
                 long start2 = System.nanoTime();
                 String jsonMessage = util.matToJson(image, timestamp);
                 long end2 = System.nanoTime();
-                LOGGER.infof("Time to convert image to json: %d ms", (end2 - start2) / 1000000);
+                LOGGER.debugf("Time to convert image to json: %d ms", (end2 - start2) / 1000000);
                 LOGGER.debugf("JSON Message with id %s", jsonMessage);
                 try {
                     long start3 = System.nanoTime();
                     mqttPublisher.publish(jsonMessage);
                     long end3 = System.nanoTime();
-                    LOGGER.infof("Time to publish image: %d ms", (end3 - start3) / 1000000);
+                    LOGGER.debugf("Time to publish image: %d ms", (end3 - start3) / 1000000);
                     LOGGER.debugf("Message with id %s published to topic: %s", timestamp, topic);
                 } catch (MqttException e) {
                     e.printStackTrace();
@@ -146,7 +146,7 @@ public class ScheduledCapture {
             return Response.status(Response.Status.BAD_REQUEST).entity("Capture is already running").build();
         }
 
-        timerId = vertx.setPeriodic(10, id -> captureAndSaveImage());
+        timerId = vertx.setPeriodic(periodicCapture, id -> captureAndSaveImage());
         return Response.ok("Capture started").build();
     }
 

@@ -58,8 +58,8 @@ public class Util {
     public String matToJson(Mat image, long id) {            
         //byte[] imageBytes = matToByteArray(image);
         // Resize the image to 480x640
-       // Mat resizedImage = new Mat();
-        //Imgproc.resize(image, resizedImage, new Size(640, 480));
+      //  Mat resizedImage = new Mat();
+       // Imgproc.resize(image, resizedImage, new Size(640, 480));
 
         // Encode the image into a WebP format
         MatOfByte matOfByte = new MatOfByte();
