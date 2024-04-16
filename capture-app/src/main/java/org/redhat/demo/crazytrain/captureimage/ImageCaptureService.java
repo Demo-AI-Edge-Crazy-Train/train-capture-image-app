@@ -28,13 +28,13 @@ public class ImageCaptureService {
     public ImageCaptureService() {
     }
 
-    static {
-        // Load the native OpenCV library
-        if(!System.getProperty("os.name").contains("Mac")){ // This is a workaround for the issue with OpenCV on Mac
-            // Load the native OpenCV library
-            System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        }
-    }
+    // static {
+    //     // Load the native OpenCV library
+    //     if(!System.getProperty("os.name").contains("Mac")){ // This is a workaround for the issue with OpenCV on Mac
+    //         // Load the native OpenCV library
+    //         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+    //     }
+    // }
 
     public Mat captureImage(VideoCapture camera) {
         try {

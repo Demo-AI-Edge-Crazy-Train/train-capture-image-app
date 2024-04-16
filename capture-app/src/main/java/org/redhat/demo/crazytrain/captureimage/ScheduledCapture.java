@@ -74,6 +74,7 @@ public class ScheduledCapture {
             MqttPublisher mqttPublisher = new MqttPublisher(broker.trim(), topic.trim());
             if(util != null) {
                 String jsonMessage = util.matToJson(image, timestamp);
+                LOGGER.error(jsonMessage);
                 try {
                     mqttPublisher.publish(jsonMessage);
                     LOGGER.infof("Message with id %s published to topic: %s", timestamp, topic);
