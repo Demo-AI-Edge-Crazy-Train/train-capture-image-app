@@ -67,6 +67,10 @@ public class ImageCaptureService {
         }
     }
 
- 
+    public void releaseCamera(VideoCapture camera) {
+        if (camera != null) {
+            camera.release();
+        }
+    }
     
 }

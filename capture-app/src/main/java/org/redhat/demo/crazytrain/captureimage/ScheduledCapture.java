@@ -5,6 +5,8 @@ import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.core.Response.ResponseBuilder;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.eclipse.paho.client.mqttv3.MqttException;
@@ -17,6 +19,7 @@ import org.redhat.demo.crazytrain.util.Util;
 
 import io.quarkus.runtime.StartupEvent;
 import io.quarkus.scheduler.Scheduled;
+import io.vertx.mutiny.core.Vertx;
 
 
 /**
@@ -55,36 +58,50 @@ public class ScheduledCapture {
     @ConfigProperty(name = "capture.videoDeviceIndex")
     int videoDeviceIndex;
 
+    private Long timerId;
+
+
 
     private static final Logger LOGGER = Logger.getLogger(ScheduledCapture.class);
     Util util = null;
     // Start the camera when the application starts and set the resolution
     void onStart(@Observes StartupEvent ev) {
+        Logger.getLogger(ScheduledCapture.class).info("The application is starting...");
             camera = new VideoCapture(videoDeviceIndex); 
             camera.set(Videoio.CAP_PROP_FRAME_WIDTH, 640); // Max resolution for Logitech C505
             camera.set(Videoio.CAP_PROP_FRAME_HEIGHT, 480); // Max resolution for Logitech C505
-            camera.set(Videoio.CAP_PROP_AUTOFOCUS, 0); // Try to disable autofocus
-            camera.set(Videoio.CAP_PROP_FOCUS, 255); // Try to disable autofocus
+            //camera.set(Videoio.CAP_PROP_AUTOFOCUS, 0); // Try to disable autofocus
+            //camera.set(Videoio.CAP_PROP_FOCUS, 255); // Try to disable autofocus
             camera.set(Videoio.CAP_PROP_EXPOSURE, 15); // Try to set exposure
             util = new Util();
     }
-    
+    @Inject
+    Vertx vertx;
+
+
     // Capture and save a defined number of images every second
-    @Scheduled(every = "10s")
+    //@Scheduled(every = "PT0.1S")
     void captureAndSaveImage() {
-        if(!captureEnabled) {
-            LOGGER.debug("Capture is disabled");
-            return;
-        }
+        LOGGER.infof("The Thread name is %s" + Thread.currentThread().getName());
+        // if(!captureEnabled) {
+        //     LOGGER.debug("Capture is disabled");
+        //     return;
+        // }
         // Capture and save a defined number of images every second
-       for(int i = 0; i < nbImgSec; i++) {
+       //for(int i = 0; i < nbImgSec; i++) {
             // Capture the image
+            long start = System.nanoTime();
             Mat image = imageCaptureService.captureImage(this.camera);
+            long end = System.nanoTime();
+            LOGGER.infof("Time to capture image: %d ms", (end - start) / 1000000);
             // Publish the image to the MQTT broker
             long timestamp = System.currentTimeMillis();
             MqttPublisher mqttPublisher = new MqttPublisher(broker.trim(), topic.trim());
             if(util != null) {
+                long start3 = System.nanoTime();
                 String jsonMessage = util.matToJson(image, timestamp);
+                long end2 = System.nanoTime();
+                LOGGER.infof("Time to convert image to json: %d ms", (end2 - start3) / 1000000);
                 LOGGER.debugf("JSON Message with id %s", jsonMessage);
                 try {
                     mqttPublisher.publish(jsonMessage);
@@ -93,6 +110,8 @@ public class ScheduledCapture {
                     e.printStackTrace();
                 }
             }
+            long end3 = System.nanoTime();
+            LOGGER.infof("Time to publish image: %d ms", (end3 - end) / 1000000);
             // Save the image to the file system (asynchronously)
             if(saveImage){
                 String filepath = tmpFolder+"/" + timestamp + ".jpg";
@@ -103,26 +122,39 @@ public class ScheduledCapture {
                             LOGGER.error("Failed to save image");
                         }
                     });
-            }
-            try {
-                // Sleep for the defined interval
-                Thread.sleep(interval);
-            } catch (InterruptedException e) {
-                LOGGER.error("Error: Thread interrupted");
-            }
+            //}
+            // try {
+            //     // Sleep for the defined interval
+            //     Thread.sleep(interval);
+            // } catch (InterruptedException e) {
+            //     LOGGER.error("Error: Thread interrupted");
+            // }
        }
     }
     @GET
     @Path("/start")
-    public void startCapture() {
+    public Response startCapture() {
         LOGGER.info("Capture started");
-        captureEnabled = true;
+        //captureEnabled = true;
+        if (timerId != null) {
+            return Response.status(Response.Status.BAD_REQUEST).entity("Capture is already running").build();
+        }
+
+        timerId = vertx.setPeriodic(10, id -> captureAndSaveImage());
+        return Response.ok("Capture started").build();
     }
 
     @GET
     @Path("/stop")
-    public void stopCapture() {
-        captureEnabled = false;
+    public Response stopCapture() {
+       // captureEnabled = false;
         LOGGER.info("Capture stopped");
+        if (timerId == null) {
+            return Response.status(Response.Status.BAD_REQUEST).entity("Capture is not running").build();
+        }
+        vertx.cancelTimer(timerId);
+        timerId = null;
+        imageCaptureService.releaseCamera(this.camera);
+        return Response.ok("Capture stopped").build();
     }
 }
