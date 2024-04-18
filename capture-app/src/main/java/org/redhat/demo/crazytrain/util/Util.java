@@ -7,9 +7,7 @@ import com.dropbox.core.v2.files.WriteMode;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
 import org.opencv.core.MatOfInt;
-import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
-import org.opencv.imgproc.Imgproc;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -43,7 +41,6 @@ public class Util {
     @Inject
     private ObjectMapper mapper = new ObjectMapper();
 
-
     // Write the image to a file
     public void writeFile(String data, String filename){
         try {
@@ -56,18 +53,13 @@ public class Util {
     }
     // Convert the image to JSON
     public String matToJson(Mat image, long id) {            
-        //byte[] imageBytes = matToByteArray(image);
-        // Resize the image to 480x640
-      //  Mat resizedImage = new Mat();
-       // Imgproc.resize(image, resizedImage, new Size(640, 480));
-
         // Encode the image into a WebP format
         MatOfByte matOfByte = new MatOfByte();
         Imgcodecs.imencode(".webp", image, matOfByte, new MatOfInt(Imgcodecs.IMWRITE_WEBP_QUALITY, 80));
         byte[] imageBytes = matOfByte.toArray();
         String jsonMessage = null;
         String base64String = Base64.getEncoder().encodeToString(imageBytes);
-        LOGGER.info("Legnth image converted to base64   "+base64String.length());
+        LOGGER.debug("Legnth image converted to base64   "+base64String.length());
         ObjectNode node = mapper.createObjectNode().put("id", id).put("image", base64String);
          try {
              jsonMessage = mapper.writeValueAsString(node);

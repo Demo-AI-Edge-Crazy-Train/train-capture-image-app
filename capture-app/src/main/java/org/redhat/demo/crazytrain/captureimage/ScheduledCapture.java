@@ -4,6 +4,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
+import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.core.Response.ResponseBuilder;
@@ -30,12 +31,15 @@ import io.vertx.mutiny.core.Vertx;
 @Path("/capture")
 public class ScheduledCapture {
     private  VideoCapture camera; 
-    private boolean captureEnabled = false;
 
     @Inject
     ImageCaptureService imageCaptureService;
+
     @Inject
     ImageService imageService;
+
+    @Inject
+    Vertx vertx;
     // interval in milliseconds
     @ConfigProperty(name = "capture.interval")
     int interval;
@@ -62,6 +66,9 @@ public class ScheduledCapture {
 
     private Long timerId;
 
+    private volatile boolean stopRequested = false;
+
+
 
 
     private static final Logger LOGGER = Logger.getLogger(ScheduledCapture.class);
@@ -80,20 +87,12 @@ public class ScheduledCapture {
 
     }
 
-    @Inject
-    Vertx vertx;
+
 
 
     // Capture and save a defined number of images every second
-    //@Scheduled(every = "PT0.1S")
     void captureAndSaveImage() {
         LOGGER.debugf("The Thread name is %s" + Thread.currentThread().getName());
-        // if(!captureEnabled) {
-        //     LOGGER.debug("Capture is disabled");
-        //     return;
-        // }
-        // Capture and save a defined number of images every second
-       //for(int i = 0; i < nbImgSec; i++) {
             // Capture the image
             long start = System.nanoTime();
             Mat image = imageCaptureService.captureImage(this.camera);
@@ -110,6 +109,16 @@ public class ScheduledCapture {
                 try {
                     long start3 = System.nanoTime();
                     mqttPublisher.publish(jsonMessage);
+                       // Check if stop has been requested
+                    if (stopRequested) {
+                        // Stop capture and release camera
+                        vertx.cancelTimer(timerId);
+                        timerId = null;
+                        imageCaptureService.releaseCamera(this.camera);
+                        mqttPublisher.disconnect();
+                        LOGGER.info("Capture stopped");
+                        return;
+                    }
                     long end3 = System.nanoTime();
                     LOGGER.debugf("Time to publish image: %d ms", (end3 - start3) / 1000000);
                     LOGGER.debugf("Message with id %s published to topic: %s", timestamp, topic);
@@ -127,41 +136,37 @@ public class ScheduledCapture {
                             LOGGER.error("Failed to save image");
                         }
                     });
-            //}
-            // try {
-            //     // Sleep for the defined interval
-            //     Thread.sleep(interval);
-            // } catch (InterruptedException e) {
-            //     LOGGER.error("Error: Thread interrupted");
-            // }
-       }
+            }
     }
-    @GET
+    @POST
     @Path("/start")
-    public Response startCapture() {
+    public Response start() {
         LOGGER.info("Capture started");
+        stopRequested = false;
         mqttPublisher.connect();
         //captureEnabled = true;
         if (timerId != null) {
             return Response.status(Response.Status.BAD_REQUEST).entity("Capture is already running").build();
         }
-
         timerId = vertx.setPeriodic(periodicCapture, id -> captureAndSaveImage());
         return Response.ok("Capture started").build();
     }
 
-    @GET
+    @POST
     @Path("/stop")
-    public Response stopCapture() {
-       // captureEnabled = false;
-        LOGGER.info("Capture stopped");
-        if (timerId == null) {
-            return Response.status(Response.Status.BAD_REQUEST).entity("Capture is not running").build();
-        }
-        vertx.cancelTimer(timerId);
-        timerId = null;
-        imageCaptureService.releaseCamera(this.camera);
-        mqttPublisher.disconnect();
-        return Response.ok("Capture stopped").build();
+    public Response stop() {
+        stopRequested = true;
+        LOGGER.debug("Stop requested");
+        return Response.ok("Stop requested").build();       
+        // if (timerId == null) {
+        //     return Response.status(Response.Status.BAD_REQUEST).entity("Capture is not running").build();
+        // }else if(timerId != null){
+        //     vertx.cancelTimer(timerId);
+        //     timerId = null;
+        // }
+        // imageCaptureService.releaseCamera(this.camera);
+        // LOGGER.info("Camera released");
+        // mqttPublisher.disconnect();
+        // LOGGER.info("MQTT disconnected");
     }
 }

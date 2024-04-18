@@ -70,6 +70,9 @@ public class ImageCaptureService {
     public void releaseCamera(VideoCapture camera) {
         if (camera != null) {
             camera.release();
+
+        }else{
+            LOGGER.error("Error: Camera is null");
         }
     }
     
