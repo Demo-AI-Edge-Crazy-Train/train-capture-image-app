@@ -6,6 +6,7 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.jboss.logging.Logger;
 
 import org.opencv.core.Mat;
+import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.videoio.VideoCapture;
 
 /**
@@ -66,7 +67,13 @@ public class ImageCaptureService {
             return null;
         }
     }
-
+    public Mat readImage(String imagePath) {
+            Mat mat = Imgcodecs.imread(imagePath);
+            if (mat.empty()) {
+                throw new IllegalArgumentException("Image not found at " + imagePath);
+            }
+            return mat;
+    }
     public void releaseCamera(VideoCapture camera) {
         if (camera != null) {
             camera.release();
