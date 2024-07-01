@@ -30,8 +30,7 @@ services:
       LOG_DIR: /tmp/logs
     networks:
       - internal
-
-
+      
   kafka:
     container_name: kafka
     image: quay.io/strimzi/kafka:latest-kafka-3.4.0
@@ -53,45 +52,6 @@ services:
       - zookeeper
     networks:
       - internal
-  registry:
-    container_name: registry
-    image: quay.io/apicurio/apicurio-registry-mem:2.4.2.Final
-    depends_on:
-      - zookeeper
-      - kafka
-    ports:
-      - "8081:8080"
-    environment:
-      QUARKUS_PROFILE: prod
-      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
-      APPLICATION_ID: registry_id
-      APPLICATION_SERVER: localhost:9000
-    networks:
-      - internal
-      
-  bridge:
-    container_name: bridge
-    image: quay.io/strimzi/kafka-bridge:latest
-    command: [
-      "sh", "-c",
-      "/opt/strimzi/bin/docker/kafka_bridge_run.sh"
-    ]
-    depends_on:
-      - zookeeper
-      - kafka
-    ports:
-      - "8082:8080"
-    environment:
-      KAFKA_BRIDGE_BOOTSTRAP_SERVERS: kafka:29092
-      KAFKA_BRIDGE_ID: bridge1
-      KAFKA_BRIDGE_HTTP_ENABLED: "true"
-      KAFKA_BRIDGE_HTTP_HOST: "0.0.0.0"
-      KAFKA_BRIDGE_HTTP_PORT: "8080"
-    volumes:
-      - ./log4j.properties:/opt/strimzi/custom-config/log4j.properties
-    networks:
-      - internal
-
   kafdrop:
     image: obsidiandynamics/kafdrop
     restart: "no"
@@ -105,68 +65,3 @@ services:
         condition: service_started  
     networks:
       - internal
-
-  train-capture-image-app:
-    platform: linux/arm64/v8
-    image: quay.io/mouachan/train-capture-app-arm64:latest
-    ports:
-      - 8080:8080
-    environment: 
-      - VIDEO_DEVICE_INDEX=0
-      - TMP_FOLDER=/tmp
-      - INTERVAL=100
-      - NB_IMAGE_SEC=10
-      - MQTT_BROKER=tcp://localhost:1883
-      - MQTT_TOPIC=train-image
-      - SAVE_IMAGE=false
-    volumes:
-      - /dev:/dev
-      - /tmp/crazy-images:/tmp/crazy-images
-    depends_on:
-      - mosquitto
-    networks:
-      - internal
-  intelligent-train:
-    platform: linux/arm64/v8
-    image: quay.io/mouachan/intelligent-train-arm64:latest
-    volumes:
-      - /tmp:/tmp
-    environment:
-      - MQTT_BROKER=localhost
-      - MQTT_PORT=1883
-      - MQTT_TOPIC=train-image
-      - MQTT_PUB_TOPIC=train-model-result
-      - MODEL_PATH =models/model.onnx
-    depends_on:
-      - mosquitto
-    networks:
-      - internal
-  train-ceq-app:
-    platform: linux/arm64/v8
-    image: quay.io/mouachan/train-ceq-app-arm64:latest
-    environment:
-      - BROKER_MQTT_URL=tcp://localhost:1883
-      - KAFKA_BOOTSTRAP_SERVERS=localhost:9092
-      - BROKER_KAFKA_URL=tcp://localhost:9092
-      - MQTT_SRC_TOPIC_NAME=train-model-result
-      - MQTT_DEST_TOPIC_NAM=train-command
-      - KAFKA_TOPIC_NAME=train-monitoring
-    depends_on:
-      - mosquitto
-      - kafka
-    networks:
-      - internal
-  train-monitoring-app:
-    platform: linux/arm64/v8
-    image: quay.io/mouachan/train-monitoring-app-arm64:latest
-    environment:
-      - KAFKA_BOOTSTRAP_SERVERS=localhost:9092
-      - KAFKA_TOPIC_NAME=train-monitoring
-      - SAVE_IMAGE=false
-      - TMP_FOLDER:/tmp/crazy-train-images
-    depends_on:
-      - mosquitto
-      - kafka
-    networks:
-      - internal
-  
