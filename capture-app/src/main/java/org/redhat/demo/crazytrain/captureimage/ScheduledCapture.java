@@ -105,7 +105,7 @@ public class ScheduledCapture {
 
     }
 
-    void readVideo(String videoPath) {
+    void readVideo(String videoPath) {        
         VideoCapture capture = new VideoCapture(videoPath);
         if (!capture.isOpened()) {
             throw new IllegalArgumentException("Video file not found at " + videoPath);
