@@ -41,3 +41,7 @@ nb-configuration.xml
 # Mosquitto files
 mosquitto.db
 mosquitto.log
+
+#mqtt local test
+mqtt.yml
+mqtt-consumer/
